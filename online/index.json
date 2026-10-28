@@ -11,26 +11,26 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS4",
     "branch": "main",
-    "generated_at": "2026-10-28T14:38:57.234Z",
-    "state_revision": 3,
-    "workflow_revision": 7,
-    "state_sha256": "fa3234d30a15f2f4d8a9184609db1bbf82ef5f5c56e1750caa290c76decbde96",
-    "workflow_sha256": "60950324b2aef0c8f6bd3180521d5e4430ea495d79c30e134ea0c36d4d007fa2",
+    "generated_at": "2026-10-28T15:01:41+00:00",
+    "state_revision": 4,
+    "workflow_revision": 9,
+    "state_sha256": "4d00f72fee99e189acf13dde9e050828a67fe2171b06e05909136ae2c0738627",
+    "workflow_sha256": "9cb79fb2a9a3c3ff951ce951c19605b5e88d61f5383c9a727fd4bb94a547f7f2",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
   "progress": {
     "target_chapters": 100,
-    "adopted_chapters": 0,
+    "adopted_chapters": 1,
     "target_han": 900000,
-    "actual_han": 0,
+    "actual_han": 9873,
     "completed": false,
     "needs_revalidation": [],
     "reviewed_until": 0,
     "window_review_due": false,
     "unresolved_reviews": [],
     "serial_mode": true,
-    "frozen_chapters": 0,
+    "frozen_chapters": 1,
     "published_chapters": 0,
     "publication_status": "只统计真实回执；无回执不等于未发布",
     "open_incidents": 0,
@@ -38,34 +38,28 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "PLANNING",
-    "label": "长篇规划",
-    "chapter": 1,
-    "detail": "作者已确认塔读T02；约90万汉字全书设定、10阶段路线及前5章详细大纲已完成并登记，当前未写正式正文。",
-    "next_action": "等待作者另行明确授权开始第1章；届时先按V4.3检查写作任务书、证据约束及发布前检查。",
-    "updated_at": "2026-10-28T14:35:23+00:00"
+    "phase": "WAITING_NEXT",
+    "label": "等待下一章",
+    "chapter": 2,
+    "detail": "第1章《验尸房里有人叫我的名字》已采用并冻结；实测9873汉字。已完成任务书、限信息近似审读、8项发布前检查与事实记录，平台尚无真实发布回执。",
+    "next_action": "等待下一次创作授权；第二章先核验杜千衡死因、北仓行踪与官符案号，并保持首章原文只读。",
+    "updated_at": "2026-10-28T15:01:40+00:00"
   },
-  "chapters": [],
-  "topics": [
+  "chapters": [
     {
-      "id": "T01",
-      "title": "《我给废土修路，修到了神明的坟前》",
-      "genre": "男频·末世基建／规则悬疑",
-      "target_reader": "偏好求生、团队成长、设定解谜的读者",
-      "pitch": "废土上每条公路都会在夜里消失；道路勘测员陆灯得到一台只能修复“曾有人走过的路”的测绘仪，为救被困车队第一次施工，却接通了一座早已被抹去的城市。",
-      "protagonist_conflict": "陆灯想救回失踪的妹妹和保住流民车队；垄断交通的关隘联盟要拆掉他修的免费道路，而测绘仪每次使用都会抹掉他亲历的一段记忆。",
-      "opening_hook": "第一章：一辆载着活人的公交车出现在没有公路的盐碱地上，车票却写着妹妹明天的死亡时间。",
-      "reader_promise": "每段新路带来新生存资源、交易秩序和谜题，也逼迫主角为集体付出可见代价。",
-      "long_form_engine": "90万字靠路线网络、车队自治、孤城争夺、道路控制权、地理异常成因与妹妹线索层层升级，路并非无限施工万能解。",
-      "stage_variation": "荒地救车→重建补给线→城市联盟博弈→道路拥有者的战争→揭开地表重置机制→选择保留交通还是终止异常；每阶段目标从生存转为制度与伦理。",
-      "midpoint_crisis": "到中点陆灯发现恢复道路会让某些村庄从现世抹去，救人和建设不再同向。",
-      "ending_direction": "揭露公路是旧文明为迁移幸存者搭建的安全网，主角用公开的道路治理机制替代一人献祭。",
-      "risk": "规则太抽象会影响快感；必须让每一条路直接改变物资、人物和危险，不能全书只堆地图。",
-      "source_ids": [
-        "S03",
-        "S04"
-      ]
-    },
+      "number": 1,
+      "title": "验尸房里有人叫我的名字",
+      "stage": "S01",
+      "han_count": 9873,
+      "text_path": "book/chapters/CH001_dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae.txt",
+      "sha256": "dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae",
+      "needs_revalidation": false,
+      "frozen": true,
+      "publication_status": "unreported",
+      "published_at": null
+    }
+  ],
+  "topics": [
     {
       "id": "T02",
       "title": "《朝廷让我验妖尸，我验出了自己的死期》",
@@ -84,429 +78,17 @@
         "S03",
         "S04"
       ]
-    },
-    {
-      "id": "T03",
-      "title": "《我开了一家异界灾害保险公司》",
-      "genre": "男频·都市脑洞／异界灾害／经营",
-      "target_reader": "偏好都市奇遇、经营博弈和反套路爽点的读者",
-      "pitch": "理赔员周既白接到一笔不存在的保单：明天凌晨，整条商业街会被异界风暴卷走；他能提前看见事故账本，却只有赔付成功，才有资格打开下一页。",
-      "protagonist_conflict": "周既白想保护母亲留下的小保险行和被遗忘的受灾者；异界商会、财团和事故制造者争抢赔付权，虚假理赔会让账本加倍收债。",
-      "opening_hook": "第一章：无人投保的便利店向他索赔“一整天的阳光”，事故时间还在明天。",
-      "reader_promise": "每个奇异事故都是可解的现实难题，主角用调查、谈判、协作和可验证代价赢下赔付。",
-      "long_form_engine": "90万字由单店事故→整街赔付→城市承保→跨域合规→灾变溯源→建立透明公共风险体系推进；能力是情报，不是无限金钱。",
-      "stage_variation": "赔付救单店→吸纳专业团队→暴露骗保产业链→行业整顿→跨城事故→跨界互保谈判。",
-      "midpoint_crisis": "他发现保险公司最早的保单，本身就是引来灾害的契约。",
-      "ending_direction": "将事故控制权从少数资本转为公众互保，失去预知后仍能靠共同规则维护城市。",
-      "risk": "要把保险合同解释化繁为简，及时兑现生存冲突，避免行业说明书；不复刻现有上报官方题材。",
-      "source_ids": [
-        "S03",
-        "S04"
-      ]
-    },
-    {
-      "id": "T04",
-      "title": "《边关县令：我把流民城建成天下第一关》",
-      "genre": "男频·历史架空／军政经营／群像",
-      "target_reader": "喜欢种田基建、战术与政治成长的读者",
-      "pitch": "年轻县令赴任当天，发现县印竟盖在一座没有粮、没有兵、没有县民的废城上；三千流民却被要求七天内交齐边税，他先当众烧了税簿。",
-      "protagonist_conflict": "他要救活城中百姓并守住边关；督粮官以死线催税、豪商囤粮、草原诸部试探，而救济策略会不断遇到公平与守城的现实冲突。",
-      "opening_hook": "第一章：颁官文书上写着“任满三日，若城亡，县令先斩”。",
-      "reader_promise": "建设的每一步都有投入、收益与副作用，不靠无限仓库，靠人心、工艺、制度和战术把废城养活。",
-      "long_form_engine": "90万字以保粮→修渠→立市→训练民兵→区域联盟→边贸外交→王朝制度改革为因果主线，变强同时扩大政治代价。",
-      "stage_variation": "救灾问责→恢复生产→商路争夺→守城战争→诸部联盟→中央博弈→边境新秩序。",
-      "midpoint_crisis": "第一次大捷后，朝廷将全城人口列为叛逆，守城反成抗旨。",
-      "ending_direction": "以边镇和谈、税制与地方自治重塑边疆，不以无限扩张称王结尾。",
-      "risk": "经济、粮食和军事细节必须闭环，避免现代知识万能；架空世界仍要自洽。",
-      "source_ids": [
-        "S04",
-        "S07"
-      ]
-    },
-    {
-      "id": "T05",
-      "title": "《被夺家产后，我在荒年开了一座流动城》",
-      "genre": "女频·古言经营／灾年群像／女性成长",
-      "target_reader": "喜欢古代生存经营、坚韧女主与慢热感情的读者",
-      "pitch": "父亲死后，继亲夺走苏见禾家的水车行，她只继承十二辆坏车和一张被烧掉半角的旧河图；大旱当夜，她把流民车队组装成一座会迁徙的集市。",
-      "protagonist_conflict": "她要救母亲、保住工匠伙伴和找回父亲留下的河图秘密；盘踞水源的地方势力、灾荒和同行商团逼她在利润与救济之间作选择。",
-      "opening_hook": "第一章：族人宣布没收她家水车时，城外百姓正排队等她修最后一口井。",
-      "reader_promise": "每一阶段看见扎实的经营成果、女性协作与对不公规则的胜利，情感线与事业互相推拉。",
-      "long_form_engine": "90万字靠旱灾迁徙、修水系统、流动市集、各州治水竞争、盐粮运输、合作社制度、父辈旧案推进。",
-      "stage_variation": "被迫出走→救第一村→经营流动集市→跨州分水争议→治灾联盟→旧案与上游水源真相→建立可持续水网。",
-      "midpoint_crisis": "新修的河渠会淹没队友故乡，她不得不面对自己成为决策者后的代价。",
-      "ending_direction": "破除水源私占，让女主与伙伴成立自治水务行会；感情收束为彼此平等的长期伙伴。",
-      "risk": "前期必须有情绪冲突，不可沉迷流水账式经营；治水技术需考据并安排真实成本。",
-      "source_ids": [
-        "S05",
-        "S06"
-      ]
-    },
-    {
-      "id": "T06",
-      "title": "《五岁小掌柜，替全村把欠条卖给了皇帝》",
-      "genre": "女频·古言萌宝／家庭经营／轻喜",
-      "target_reader": "喜欢萌宝团宠、家庭逆袭和聪明孩子办大事的读者",
-      "pitch": "五岁的阿枣听得懂纸上的“欠债声”，发现全村欠条背后竟藏着一份朝廷冒名账；她拿着一串糖葫芦去县衙讨账，却让落魄外祖父被重新请上公堂。",
-      "protagonist_conflict": "阿枣想让被冤枉的外祖父重新开书铺并让娘亲过安稳日子；权贵篡账、亲戚逐利，孩子的直觉必须经过成年伙伴取证才能成立。",
-      "opening_hook": "第一章：村长要拉走她家的最后一头牛，牛脖子上的欠条却不停喊“我是假的”。",
-      "reader_promise": "萌宝的机灵既可爱又有边界，每解决一笔错账就改变一户人家的命运，逐渐修复家庭与村社关系。",
-      "long_form_engine": "90万字靠乡村小账→县城商账→府城票号→朝廷赈灾账→追溯家族旧冤扩展，搭配孩子成长和家庭关系变化。",
-      "stage_variation": "保住牛→帮村民清账→开小书铺→建立互助信用→揭露赈灾假账→恢复公信。",
-      "midpoint_crisis": "阿枣发现母亲曾主动签下一张假欠条保护别人，所谓全家无辜并不成立。",
-      "ending_direction": "外祖父恢复清白、乡村建立公开账簿，阿枣成长为懂得查证与仁慈的少年，而不是永远五岁。",
-      "risk": "幼童不能像成年官员一样万能；能力只是提示，必须通过可采信的票据和成人行动破局。",
-      "source_ids": [
-        "S05",
-        "S06"
-      ]
-    },
-    {
-      "id": "T07",
-      "title": "《替嫁当天，我把两家婚书都烧了》",
-      "genre": "女频·古代言情／契约博弈／双强",
-      "target_reader": "喜欢女性自主、势均力敌情感与反转的读者",
-      "pitch": "被逼替嫁的契书师沈照晚在婚堂当众焚毁两份婚书，凭一枚被刮去名字的官印证明两家联姻是个局；她必须在十天内找到最后一份证据，否则连母亲都保不住。",
-      "protagonist_conflict": "她想用自己熟悉的契据规则夺回人生；冷面司户和她互为对手却各查同一旧案，双方都不愿先交出能扳倒各自家族的证据。",
-      "opening_hook": "第一章：新郎揭开盖头，发现堂前的新娘正在给全场宣读“婚书无效”的七条证据。",
-      "reader_promise": "每次反转都由证据、选择和人物关系共同推动，不靠反派突然降智；恋爱以长期信任获得。",
-      "long_form_engine": "90万字靠宅内替嫁局→州县田契争议→商会联姻→官衙伪契网络→母辈旧案→制度性利益牵连展开。",
-      "stage_variation": "破婚局自保→自立契坊→与男主互设局→牵出州府土地案→遭反噬失去信用→联手公开旧案。",
-      "midpoint_crisis": "女主查明自己烧掉的婚书同时是保护母亲的最后合法契据，必须付出真实代价补救。",
-      "ending_direction": "清理伪契产业链，建立独立事务所，感情关系以双方自愿且平等的契约确认。",
-      "risk": "女主不能总靠法条嘴胜；须让证据取得和情绪余波真实发生，避免古代司法逻辑现代化失真。",
-      "source_ids": [
-        "S05",
-        "S06"
-      ]
-    },
-    {
-      "id": "T08",
-      "title": "《重回认亲那天，我先查了自己的失踪案》",
-      "genre": "女频·现代悬疑／豪门成长／感情",
-      "target_reader": "喜欢身份反转、女性成长、抽丝剥茧和成熟情感线的读者",
-      "pitch": "DNA报告显示顾砚秋是失踪十八年的千金，但她记得自己曾被认亲后再次消失；重来一次，她不进豪门，只要一份当年儿童失踪案的卷宗。",
-      "protagonist_conflict": "她想找出第二次失踪的真正原因，保护养母和共同受害者；豪门亲属想用血缘换她闭嘴，调查记者男主追求曝光，却可能伤害她必须保护的人。",
-      "opening_hook": "第一章：认亲宴上警察突然出示一张照片，失踪登记人竟是成年后的她自己。",
-      "reader_promise": "不以打脸为唯一目标，每个身份谜题提供有效线索、令人心疼的情感选择与行动后果。",
-      "long_form_engine": "90万字沿DNA疑点→旧案互证→失踪者网络→社会机构追责→财富流转→跨代秘密→受害者重建生活展开。",
-      "stage_variation": "拒绝认亲→独立取证→联合失踪家属→查到机构渎职→面对养母秘密→公开证据并追偿。",
-      "midpoint_crisis": "养母承认当年明知部分真相却选择沉默，女主必须在爱和公义间作艰难选择。",
-      "ending_direction": "让失踪者得到合法身份与补偿，女主决定自己属于哪个家庭，关系收束不靠继承巨额财产。",
-      "risk": "现实法律与刑事侦查要严谨；双时线不能靠重生万能预测，谜面要逐层兑现。",
-      "source_ids": [
-        "S05",
-        "S06"
-      ]
     }
   ],
   "research": {
     "platform": "tadu",
     "checked_at": "2026-10-28T10:47:58+00:00",
     "coverage_status": "partial",
-    "method": "2026-10-28公开官网阅读和点击榜单链接；记录网页可见的人气和榜位。官网抓取缓存可能滞后，榜单不保证实时；未获取作者登录后台、AI具体审核规则及任何真实收入或留存。",
-    "sources": [
-      {
-        "id": "S01",
-        "title": "塔读官方作者福利及签约、投稿规则",
-        "url": "https://www.tadu.com/v3/authorWelfare",
-        "accessed_at": "2026-10-28T10:47:58+00:00",
-        "publisher": "塔读官方"
-      },
-      {
-        "id": "S02",
-        "title": "塔读作者创作中心与推荐作品",
-        "url": "https://author.tadu.com/",
-        "accessed_at": "2026-10-28T10:47:58+00:00",
-        "publisher": "塔读官方"
-      },
-      {
-        "id": "S03",
-        "title": "塔读男频新书榜",
-        "url": "https://www.tadu.com/book/rank/list/0-potential-0-0-1",
-        "accessed_at": "2026-10-28T10:47:58+00:00",
-        "publisher": "塔读官方"
-      },
-      {
-        "id": "S04",
-        "title": "塔读男频人气榜",
-        "url": "https://www.tadu.com/book/rank/list/0-hour72-0-0-1",
-        "accessed_at": "2026-10-28T10:47:58+00:00",
-        "publisher": "塔读官方"
-      },
-      {
-        "id": "S05",
-        "title": "塔读女频新书榜",
-        "url": "https://www.tadu.com/book/rank/list/3-potential-0-0-1",
-        "accessed_at": "2026-10-28T10:47:58+00:00",
-        "publisher": "塔读官方"
-      },
-      {
-        "id": "S06",
-        "title": "塔读女频人气榜",
-        "url": "https://www.tadu.com/book/rank/list/3-hour72-0-0-1",
-        "accessed_at": "2026-10-28T10:47:58+00:00",
-        "publisher": "塔读官方"
-      },
-      {
-        "id": "S07",
-        "title": "塔读榜单总入口",
-        "url": "https://www.tadu.com/book/rank",
-        "accessed_at": "2026-10-28T10:47:58+00:00",
-        "publisher": "塔读官方"
-      },
-      {
-        "id": "S08",
-        "title": "塔读平台介绍（历史性分类背景）",
-        "url": "https://www.tadu.com/platform/introduce",
-        "accessed_at": "2026-10-28T10:47:58+00:00",
-        "publisher": "塔读官方"
-      }
-    ],
-    "rules": [
-      {
-        "topic": "平台分类和风格",
-        "status": "verified",
-        "source_id": "S07",
-        "conclusion": "公开榜单男频含东方玄幻、现代都市、脑洞创意、历史架空、科幻末世、灵异悬疑等分类；女频含古代言情、幻想言情、现代言情、浪漫青春、悬疑小说等分类。分类存在不意味着一定适合新人或能签约。"
-      },
-      {
-        "topic": "创建作品与普通签约申请",
-        "status": "verified",
-        "source_id": "S01",
-        "conclusion": "在官方作家专区/作者专区新建作品，已发布正文字数达到2万字可以申请签约；官网写审核时间2个工作日。签约与否取决于实际审核。"
-      },
-      {
-        "topic": "优质保底投稿",
-        "status": "verified",
-        "source_id": "S01",
-        "conclusion": "官网列出优质保底方式：3万字正文加大纲发给编辑，3至5个工作日回复；不可同时投多个编辑。保底并非符合字数就一定获得。"
-      },
-      {
-        "topic": "原创与版权",
-        "status": "verified",
-        "source_id": "S01",
-        "conclusion": "投稿需有全部版权，签约计划要求作品首发塔读、原创、不得抄袭或高仿，并遵守平台及法律审核要求；以签约合同为准。"
-      },
-      {
-        "topic": "精品分成与保底",
-        "status": "verified",
-        "source_id": "S01",
-        "conclusion": "官网列精品分成本站净收益70%及渠道净收益50%，另列优质保底千字15元起及超保底分成。属不同合同方案，均有适用条件，不作作者收益预测。"
-      },
-      {
-        "topic": "全勤及长篇扶持",
-        "status": "verified",
-        "source_id": "S01",
-        "conclusion": "官网列签约作者全勤档：单日首次过审有效正文字数≥3000对应300元、≥5000对应600元；作品连载满20万字后从次月起计算，且需满足月度与断更/请假等条件。长篇扶持为满足筛选条件时参加月度评选，并非保底到手。"
-      },
-      {
-        "topic": "约90万字长篇与完结奖适配",
-        "status": "verified",
-        "source_id": "S01",
-        "conclusion": "官网完结奖计划对精品分成签约作品规定完本100万字及其他资格条件；本项目拟90万汉字，不能据此承诺达到或取得完结奖（平台字数统计口径也需核实）。"
-      },
-      {
-        "topic": "AI辅助写作/AI生成正文的可接受范围及标识",
-        "status": "unknown",
-        "source_id": null,
-        "conclusion": "未在可读取的塔读官方作者福利及作者首页找到足够明确的2026年AI辅助/生成正文使用、披露或限制条款。发布前应查登录后的最新协议并向塔读责编确认，不将其他平台的AI规则移植为塔读规定。"
-      },
-      {
-        "topic": "平台官方对选题热度、曝光与新人保底的保证",
-        "status": "unknown",
-        "source_id": null,
-        "conclusion": "榜单只能表明官方公开排序；无法据此验证平台真实曝光分布、留存率、签约率、稿酬或接下来某一题材必爆。"
-      }
-    ],
-    "rank_samples": [
-      {
-        "title": "命格抽奖：从末等奴仆到镇神楼主",
-        "author": "清风莫语",
-        "list_name": "男频新书榜",
-        "observed_at": "2026-10-28",
-        "source_id": "S03",
-        "book_url": "https://www.tadu.com/book/1054616",
-        "rank": 1,
-        "genre": "脑洞创意",
-        "visible_metric": "日人气9499（访问时页面值）"
-      },
-      {
-        "title": "荒岛求生：我带着主播杀出绝境",
-        "author": "抱抱一只猪",
-        "list_name": "男频新书榜",
-        "observed_at": "2026-10-28",
-        "source_id": "S03",
-        "book_url": "https://www.tadu.com/book/1053916",
-        "rank": 3,
-        "genre": "现代都市",
-        "visible_metric": "日人气632"
-      },
-      {
-        "title": "穿越觉醒仙田，我直接上报官方",
-        "author": "冬东耳",
-        "list_name": "男频新书榜",
-        "observed_at": "2026-10-28",
-        "source_id": "S03",
-        "book_url": "https://www.tadu.com/book/1053323",
-        "rank": 4,
-        "genre": "现代都市",
-        "visible_metric": "日人气569"
-      },
-      {
-        "title": "乱世武圣，从探索寺庙开始",
-        "author": "逼我写网文是吧",
-        "list_name": "男频新书榜",
-        "observed_at": "2026-10-28",
-        "source_id": "S03",
-        "book_url": "https://www.tadu.com/book/1055147",
-        "rank": 8,
-        "genre": "东方玄幻",
-        "visible_metric": "日人气14"
-      },
-      {
-        "title": "代晋",
-        "author": "大苹果",
-        "list_name": "男频人气榜",
-        "observed_at": "2026-10-28",
-        "source_id": "S04",
-        "book_url": "https://www.tadu.com/book/999879",
-        "rank": 1,
-        "genre": "历史架空",
-        "visible_metric": "日人气48769（指定榜单页快照值；其他抓取时点可能变化）"
-      },
-      {
-        "title": "系统劈腿，判给我半个系统",
-        "author": "小小怪",
-        "list_name": "男频人气榜",
-        "observed_at": "2026-10-28",
-        "source_id": "S04",
-        "book_url": "https://www.tadu.com/book/1034377",
-        "rank": 2,
-        "genre": "东方玄幻",
-        "visible_metric": "日人气22084"
-      },
-      {
-        "title": "我竟穿成了三个崽崽的锦鲤后娘",
-        "author": "夜雨声寒",
-        "list_name": "女频新书榜",
-        "observed_at": "2026-10-28",
-        "source_id": "S05",
-        "book_url": "https://www.tadu.com/book/1053127",
-        "rank": 1,
-        "genre": "古代言情",
-        "visible_metric": "日人气182"
-      },
-      {
-        "title": "开局捡个爹爹，四岁奶包能言灵",
-        "author": "仗剑长歌须纵酒",
-        "list_name": "女频新书榜",
-        "observed_at": "2026-10-28",
-        "source_id": "S05",
-        "book_url": "https://www.tadu.com/book/1053860",
-        "rank": 2,
-        "genre": "幻想言情",
-        "visible_metric": "日人气178"
-      },
-      {
-        "title": "穿成豪门真千金，强抢主角气运",
-        "author": "刖清",
-        "list_name": "女频新书榜",
-        "observed_at": "2026-10-28",
-        "source_id": "S05",
-        "book_url": "https://www.tadu.com/book/1053979",
-        "rank": 3,
-        "genre": "幻想言情",
-        "visible_metric": "日人气142"
-      },
-      {
-        "title": "六岁糖糖当领头羊，带全家奔小康",
-        "author": "蚊香不怕巷子深",
-        "list_name": "女频新书榜",
-        "observed_at": "2026-10-28",
-        "source_id": "S05",
-        "book_url": "https://www.tadu.com/book/1053503",
-        "rank": 5,
-        "genre": "现代言情",
-        "visible_metric": "日人气44"
-      },
-      {
-        "title": "七零带空间，退婚后被糙汉宠翻了",
-        "author": "柒玖吖",
-        "list_name": "女频新书榜",
-        "observed_at": "2026-10-28",
-        "source_id": "S05",
-        "book_url": "https://www.tadu.com/book/1053959",
-        "rank": 7,
-        "genre": "现代言情",
-        "visible_metric": "日人气15"
-      },
-      {
-        "title": "让你养个摆设你把太子宠疯了",
-        "author": "屿上观月",
-        "list_name": "女频新书榜",
-        "observed_at": "2026-10-28",
-        "source_id": "S05",
-        "book_url": "https://www.tadu.com/book/1054294",
-        "rank": 9,
-        "genre": "古代言情",
-        "visible_metric": "日人气11"
-      },
-      {
-        "title": "替嫁婚宠：顾少宠妻花样多",
-        "author": "瑞士卷",
-        "list_name": "女频人气榜",
-        "observed_at": "2026-10-28",
-        "source_id": "S06",
-        "book_url": "https://www.tadu.com/book/800351",
-        "rank": 1,
-        "genre": "现代言情",
-        "visible_metric": "日人气4080"
-      },
-      {
-        "title": "侯府嫡女爽翻天",
-        "author": "坚强的芒果",
-        "list_name": "女频人气榜",
-        "observed_at": "2026-10-28",
-        "source_id": "S06",
-        "book_url": "https://www.tadu.com/book/1034918",
-        "rank": 2,
-        "genre": "古代言情",
-        "visible_metric": "日人气590"
-      }
-    ],
-    "trend_observations": [
-      {
-        "direction": "男频脑洞升级＋身份压迫",
-        "evidence": "S03男频新书榜第1《命格抽奖》以低阶奴仆和抽取命格机制形成可理解的爽点。",
-        "inference": "“明确危机＋非传统升级资源＋跨阶层代价”是可借鉴的结构机制，而非复制具体系统。"
-      },
-      {
-        "direction": "都市异能＋现实组织",
-        "evidence": "S03新书榜有《穿越觉醒仙田，我直接上报官方》，将异常能力与现实秩序连接。",
-        "inference": "超自然能力的社会后果、组织对抗和协作可支持长期连载。"
-      },
-      {
-        "direction": "群体求生/乱世成长",
-        "evidence": "S03新书榜有《荒岛求生》和《乱世武圣》。",
-        "inference": "生存资源、群体关系与阶段性外部威胁可形成追更。"
-      },
-      {
-        "direction": "女频萌宝、养成与经营",
-        "evidence": "S05新书榜有《锦鲤后娘》《四岁奶包能言灵》《六岁糖糖》。",
-        "inference": "孩子或家庭关系作为情感抓手，配经营/成长来扩展叙事，需避免全靠宠爱和卖萌。"
-      },
-      {
-        "direction": "古言/豪门身份逆袭与情感",
-        "evidence": "S06人气榜有《替嫁婚宠》《侯府嫡女爽翻天》，S05有《豪门真千金》。",
-        "inference": "清晰受损处境、关系不对等和能被兑现的反转是商业化开篇信号。"
-      }
-    ],
+    "sources": [],
+    "rules": [],
+    "rank_samples": [],
     "gaps": [
-      "公开榜单会变化且有缓存延迟；样本仅代表官方可见页面，无法代表全平台用户偏好。",
-      "未登录作者后台核实最新版作者协议、2026年AI辅助或AI生成正文与标注细则。",
-      "没有得到真实留存率、收入、推荐流量、新人签约通过率等后台数据。",
-      "官网奖励细则有适用对象、申请条件及最终合同约定；需在签约时复核。"
+      "原始研究资料在GitHub正式仓库；本文件只用于规划本地流程验证，绝不提交"
     ]
   },
   "history": [
@@ -557,6 +139,18 @@
       "phase": "PLANNING",
       "label": "长篇规划",
       "detail": "作者已确认塔读T02；约90万汉字全书设定、10阶段路线及前5章详细大纲已完成并登记，当前未写正式正文。"
+    },
+    {
+      "at": "2026-10-28T14:51:26+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "作者已授权创作第1章，写作任务书已登记；正在写验尸房首章并核验线索。"
+    },
+    {
+      "at": "2026-10-28T15:01:40+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第1章《验尸房里有人叫我的名字》已采用并冻结；实测9873汉字。已完成任务书、限信息近似审读、8项发布前检查与事实记录，平台尚无真实发布回执。"
     }
   ]
 }

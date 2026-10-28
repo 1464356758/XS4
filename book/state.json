@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "5524ba3e-4e97-4df5-9d82-c2c361f97ae6",
   "title": "《朝廷让我验妖尸，我验出了自己的死期》",
-  "revision": 3,
+  "revision": 4,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -21,7 +21,18 @@
     "opening_impact_max_han": 3000,
     "narrative_review_required": true
   },
-  "chapters": {},
+  "chapters": {
+    "1": {
+      "title": "验尸房里有人叫我的名字",
+      "stage": "S01",
+      "text_path": "chapters/CH001_dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae.txt",
+      "text_sha256": "dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae",
+      "record_path": "records/CH001_f0daae1e7c3da9d17ada0d95289adf7f3c28858a0a98afa25ddf1e5d9e11b2a4.json",
+      "record_sha256": "f0daae1e7c3da9d17ada0d95289adf7f3c28858a0a98afa25ddf1e5d9e11b2a4",
+      "han_count": 9873,
+      "adopted_at": "2026-10-28T15:01:38+00:00"
+    }
+  },
   "checkpoints": [],
   "needs_revalidation": [],
   "inputs": {
@@ -52,15 +63,164 @@
       "reason": "为已选T02建立约90万汉字、100章、10阶段路线和近五章规划"
     }
   ],
-  "tasks": {},
+  "tasks": {
+    "1": {
+      "task_id": "177b4476-5198-419c-8d5f-8a37c9045890",
+      "chapter": 1,
+      "mode": "write",
+      "phase": "adopted",
+      "repairs": 0,
+      "history": [
+        {
+          "sha256": "dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae",
+          "reason": "初稿",
+          "repairs": 0
+        }
+      ],
+      "candidate_sha256": "dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae",
+      "candidate_path": "candidates/CH001_dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae.txt"
+    }
+  },
   "completion": null,
   "serialization": {
     "schema_version": 1,
     "enabled": true,
-    "frozen": {},
+    "frozen": {
+      "1": {
+        "text_sha256": "dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae",
+        "record_sha256": "f0daae1e7c3da9d17ada0d95289adf7f3c28858a0a98afa25ddf1e5d9e11b2a4"
+      }
+    },
     "published": {},
-    "gates": {},
-    "promises": {},
+    "gates": {
+      "1": {
+        "path": "releases/CH001_13d6b19544a7486b452dc323fdad592ee514418b4de706ec6ae8353059ad1b1e.json",
+        "sha256": "13d6b19544a7486b452dc323fdad592ee514418b4de706ec6ae8353059ad1b1e",
+        "used": true
+      }
+    },
+    "promises": {
+      "H01": {
+        "history": [
+          {
+            "id": "H01",
+            "action": "set",
+            "deadline_chapter": 10,
+            "reason": "尸语机关与人物发声者仍未知，第一卷第10章前须给丝线及执行者可复核证据。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae",
+              "quote": "“你不是今天该死的那个。”"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 10,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "H02": {
+        "history": [
+          {
+            "id": "H02",
+            "action": "set",
+            "deadline_chapter": 5,
+            "reason": "实际斩令拟日为第3日，不得把死期拖成第四日；第5章应阻断斩决并保留留押代价。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae",
+              "quote": "四月十一，酉时。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 5,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "H03": {
+        "history": [
+          {
+            "id": "H03",
+            "action": "set",
+            "deadline_chapter": 10,
+            "reason": "末谎内刑台似未来，刑台木背钉纸及左手执刀是已给读者的公平反查点，第10章前解释替身排演链。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae",
+              "quote": "执刀者抬起左手，把刀柄换了个方向。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 10,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "H04": {
+        "history": [
+          {
+            "id": "H04",
+            "action": "set",
+            "deadline_chapter": 10,
+            "reason": "杜千衡为何被列异尸和北仓册页关系仍未查明，第10章前完成死亡机制及身份线小案。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae",
+              "quote": "去查杜千衡从北仓带出来的是什么。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 10,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "H05": {
+        "history": [
+          {
+            "id": "H05",
+            "action": "set",
+            "deadline_chapter": 20,
+            "reason": "父亲旧债本章体现角色动机和生存压力，第20章前交一部分可证原因，中段再承担责任。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae",
+              "quote": "债是父亲旧职牵出的"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 20,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "H06": {
+        "history": [
+          {
+            "id": "H06",
+            "action": "set",
+            "deadline_chapter": 55,
+            "reason": "记忆缺口已发生但旧案责任尚无物证；第55章前独立审查主角缺失过去，不能失忆免罪。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae",
+              "quote": "他有过一整个下午。如今那个下午不见了。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 55,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      }
+    },
     "incidents": {}
+  },
+  "writing_briefs": {
+    "1": {
+      "path": "briefs/CH001_409e0a90b7afe632c00e1e71b2ba5cbdd995e55d2373c321268bdcf1ee3234d2.json",
+      "sha256": "409e0a90b7afe632c00e1e71b2ba5cbdd995e55d2373c321268bdcf1ee3234d2"
+    }
   }
 }
