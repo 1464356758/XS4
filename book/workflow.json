@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "revision": 0,
+  "revision": 5,
   "book_id": "5524ba3e-4e97-4df5-9d82-c2c361f97ae6",
-  "phase": "WAITING_PLATFORM",
-  "platform": null,
+  "phase": "WAITING_TOPIC",
+  "platform": "tadu",
   "selected_topic": null,
-  "research_path": null,
-  "topics_path": null,
+  "research_path": "research/platform_203a04b43db668ddf7bf040f747403afe1e79c64747a94293807e75d07551245.json",
+  "topics_path": "research/topics_0533d0041450f81386ca5620656613610a333122a209e7217c1174621d3293f6.json",
   "chapter": 1,
   "history": [
     {
@@ -14,9 +14,39 @@
       "phase": "WAITING_PLATFORM",
       "label": "等待选择平台",
       "detail": "系统已准备好，请先选择创作平台。"
+    },
+    {
+      "at": "2026-10-28T10:47:58+00:00",
+      "phase": "RESEARCH_PLATFORM",
+      "label": "核查平台规则",
+      "detail": "已选择塔读小说，正在等待核查现行规则。"
+    },
+    {
+      "at": "2026-10-28T10:47:59+00:00",
+      "phase": "SCANNING_RANKINGS",
+      "label": "研究榜单",
+      "detail": "规则和榜单资料已保存；存在待核实项。"
+    },
+    {
+      "at": "2026-10-28T10:48:00+00:00",
+      "phase": "WAITING_TOPIC",
+      "label": "等待选择题材",
+      "detail": "已准备8个原创选题，等待作者选择。"
+    },
+    {
+      "at": "2026-10-28T10:48:22+00:00",
+      "phase": "SCANNING_RANKINGS",
+      "label": "研究榜单",
+      "detail": "规则和榜单资料已保存；存在待核实项。"
+    },
+    {
+      "at": "2026-10-28T10:48:22+00:00",
+      "phase": "WAITING_TOPIC",
+      "label": "等待选择题材",
+      "detail": "已准备8个原创选题，等待作者选择。"
     }
   ],
-  "detail": "系统已准备好，请先选择创作平台。",
-  "next_action": "在起点、番茄、七猫、晋江中选择一个平台，或指定其他平台。",
-  "updated_at": "2026-10-28T09:13:18+00:00"
+  "detail": "已准备8个原创选题，等待作者选择。",
+  "next_action": "作者选择候选编号后，进行长篇规划；当前不写正文。",
+  "updated_at": "2026-10-28T10:48:22+00:00"
 }

@@ -1,0 +1,309 @@
+{
+  "platform": "tadu",
+  "checked_at": "2026-10-28T10:47:58+00:00",
+  "coverage_status": "partial",
+  "method": "2026-10-28公开官网阅读和点击榜单链接；记录网页可见的人气和榜位。官网抓取缓存可能滞后，榜单不保证实时；未获取作者登录后台、AI具体审核规则及任何真实收入或留存。",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "塔读官方作者福利及签约、投稿规则",
+      "url": "https://www.tadu.com/v3/authorWelfare",
+      "accessed_at": "2026-10-28T10:47:58+00:00",
+      "publisher": "塔读官方"
+    },
+    {
+      "id": "S02",
+      "title": "塔读作者创作中心与推荐作品",
+      "url": "https://author.tadu.com/",
+      "accessed_at": "2026-10-28T10:47:58+00:00",
+      "publisher": "塔读官方"
+    },
+    {
+      "id": "S03",
+      "title": "塔读男频新书榜",
+      "url": "https://www.tadu.com/book/rank/list/0-potential-0-0-1",
+      "accessed_at": "2026-10-28T10:47:58+00:00",
+      "publisher": "塔读官方"
+    },
+    {
+      "id": "S04",
+      "title": "塔读男频人气榜",
+      "url": "https://www.tadu.com/book/rank/list/0-hour72-0-0-1",
+      "accessed_at": "2026-10-28T10:47:58+00:00",
+      "publisher": "塔读官方"
+    },
+    {
+      "id": "S05",
+      "title": "塔读女频新书榜",
+      "url": "https://www.tadu.com/book/rank/list/3-potential-0-0-1",
+      "accessed_at": "2026-10-28T10:47:58+00:00",
+      "publisher": "塔读官方"
+    },
+    {
+      "id": "S06",
+      "title": "塔读女频人气榜",
+      "url": "https://www.tadu.com/book/rank/list/3-hour72-0-0-1",
+      "accessed_at": "2026-10-28T10:47:58+00:00",
+      "publisher": "塔读官方"
+    },
+    {
+      "id": "S07",
+      "title": "塔读榜单总入口",
+      "url": "https://www.tadu.com/book/rank",
+      "accessed_at": "2026-10-28T10:47:58+00:00",
+      "publisher": "塔读官方"
+    },
+    {
+      "id": "S08",
+      "title": "塔读平台介绍（历史性分类背景）",
+      "url": "https://www.tadu.com/platform/introduce",
+      "accessed_at": "2026-10-28T10:47:58+00:00",
+      "publisher": "塔读官方"
+    }
+  ],
+  "rules": [
+    {
+      "topic": "平台分类和风格",
+      "status": "verified",
+      "source_id": "S07",
+      "conclusion": "公开榜单男频含东方玄幻、现代都市、脑洞创意、历史架空、科幻末世、灵异悬疑等分类；女频含古代言情、幻想言情、现代言情、浪漫青春、悬疑小说等分类。分类存在不意味着一定适合新人或能签约。"
+    },
+    {
+      "topic": "创建作品与普通签约申请",
+      "status": "verified",
+      "source_id": "S01",
+      "conclusion": "在官方作家专区/作者专区新建作品，已发布正文字数达到2万字可以申请签约；官网写审核时间2个工作日。签约与否取决于实际审核。"
+    },
+    {
+      "topic": "优质保底投稿",
+      "status": "verified",
+      "source_id": "S01",
+      "conclusion": "官网列出优质保底方式：3万字正文加大纲发给编辑，3至5个工作日回复；不可同时投多个编辑。保底并非符合字数就一定获得。"
+    },
+    {
+      "topic": "原创与版权",
+      "status": "verified",
+      "source_id": "S01",
+      "conclusion": "投稿需有全部版权，签约计划要求作品首发塔读、原创、不得抄袭或高仿，并遵守平台及法律审核要求；以签约合同为准。"
+    },
+    {
+      "topic": "精品分成与保底",
+      "status": "verified",
+      "source_id": "S01",
+      "conclusion": "官网列精品分成本站净收益70%及渠道净收益50%，另列优质保底千字15元起及超保底分成。属不同合同方案，均有适用条件，不作作者收益预测。"
+    },
+    {
+      "topic": "全勤及长篇扶持",
+      "status": "verified",
+      "source_id": "S01",
+      "conclusion": "官网列签约作者全勤档：单日首次过审有效正文字数≥3000对应300元、≥5000对应600元；作品连载满20万字后从次月起计算，且需满足月度与断更/请假等条件。长篇扶持为满足筛选条件时参加月度评选，并非保底到手。"
+    },
+    {
+      "topic": "约90万字长篇与完结奖适配",
+      "status": "verified",
+      "source_id": "S01",
+      "conclusion": "官网完结奖计划对精品分成签约作品规定完本100万字及其他资格条件；本项目拟90万汉字，不能据此承诺达到或取得完结奖（平台字数统计口径也需核实）。"
+    },
+    {
+      "topic": "AI辅助写作/AI生成正文的可接受范围及标识",
+      "status": "unknown",
+      "source_id": null,
+      "conclusion": "未在可读取的塔读官方作者福利及作者首页找到足够明确的2026年AI辅助/生成正文使用、披露或限制条款。发布前应查登录后的最新协议并向塔读责编确认，不将其他平台的AI规则移植为塔读规定。"
+    },
+    {
+      "topic": "平台官方对选题热度、曝光与新人保底的保证",
+      "status": "unknown",
+      "source_id": null,
+      "conclusion": "榜单只能表明官方公开排序；无法据此验证平台真实曝光分布、留存率、签约率、稿酬或接下来某一题材必爆。"
+    }
+  ],
+  "rank_samples": [
+    {
+      "title": "命格抽奖：从末等奴仆到镇神楼主",
+      "author": "清风莫语",
+      "list_name": "男频新书榜",
+      "observed_at": "2026-10-28",
+      "source_id": "S03",
+      "book_url": "https://www.tadu.com/book/1054616",
+      "rank": 1,
+      "genre": "脑洞创意",
+      "visible_metric": "日人气9499（访问时页面值）"
+    },
+    {
+      "title": "荒岛求生：我带着主播杀出绝境",
+      "author": "抱抱一只猪",
+      "list_name": "男频新书榜",
+      "observed_at": "2026-10-28",
+      "source_id": "S03",
+      "book_url": "https://www.tadu.com/book/1053916",
+      "rank": 3,
+      "genre": "现代都市",
+      "visible_metric": "日人气632"
+    },
+    {
+      "title": "穿越觉醒仙田，我直接上报官方",
+      "author": "冬东耳",
+      "list_name": "男频新书榜",
+      "observed_at": "2026-10-28",
+      "source_id": "S03",
+      "book_url": "https://www.tadu.com/book/1053323",
+      "rank": 4,
+      "genre": "现代都市",
+      "visible_metric": "日人气569"
+    },
+    {
+      "title": "乱世武圣，从探索寺庙开始",
+      "author": "逼我写网文是吧",
+      "list_name": "男频新书榜",
+      "observed_at": "2026-10-28",
+      "source_id": "S03",
+      "book_url": "https://www.tadu.com/book/1055147",
+      "rank": 8,
+      "genre": "东方玄幻",
+      "visible_metric": "日人气14"
+    },
+    {
+      "title": "代晋",
+      "author": "大苹果",
+      "list_name": "男频人气榜",
+      "observed_at": "2026-10-28",
+      "source_id": "S04",
+      "book_url": "https://www.tadu.com/book/999879",
+      "rank": 1,
+      "genre": "历史架空",
+      "visible_metric": "日人气48769（指定榜单页快照值；其他抓取时点可能变化）"
+    },
+    {
+      "title": "系统劈腿，判给我半个系统",
+      "author": "小小怪",
+      "list_name": "男频人气榜",
+      "observed_at": "2026-10-28",
+      "source_id": "S04",
+      "book_url": "https://www.tadu.com/book/1034377",
+      "rank": 2,
+      "genre": "东方玄幻",
+      "visible_metric": "日人气22084"
+    },
+    {
+      "title": "我竟穿成了三个崽崽的锦鲤后娘",
+      "author": "夜雨声寒",
+      "list_name": "女频新书榜",
+      "observed_at": "2026-10-28",
+      "source_id": "S05",
+      "book_url": "https://www.tadu.com/book/1053127",
+      "rank": 1,
+      "genre": "古代言情",
+      "visible_metric": "日人气182"
+    },
+    {
+      "title": "开局捡个爹爹，四岁奶包能言灵",
+      "author": "仗剑长歌须纵酒",
+      "list_name": "女频新书榜",
+      "observed_at": "2026-10-28",
+      "source_id": "S05",
+      "book_url": "https://www.tadu.com/book/1053860",
+      "rank": 2,
+      "genre": "幻想言情",
+      "visible_metric": "日人气178"
+    },
+    {
+      "title": "穿成豪门真千金，强抢主角气运",
+      "author": "刖清",
+      "list_name": "女频新书榜",
+      "observed_at": "2026-10-28",
+      "source_id": "S05",
+      "book_url": "https://www.tadu.com/book/1053979",
+      "rank": 3,
+      "genre": "幻想言情",
+      "visible_metric": "日人气142"
+    },
+    {
+      "title": "六岁糖糖当领头羊，带全家奔小康",
+      "author": "蚊香不怕巷子深",
+      "list_name": "女频新书榜",
+      "observed_at": "2026-10-28",
+      "source_id": "S05",
+      "book_url": "https://www.tadu.com/book/1053503",
+      "rank": 5,
+      "genre": "现代言情",
+      "visible_metric": "日人气44"
+    },
+    {
+      "title": "七零带空间，退婚后被糙汉宠翻了",
+      "author": "柒玖吖",
+      "list_name": "女频新书榜",
+      "observed_at": "2026-10-28",
+      "source_id": "S05",
+      "book_url": "https://www.tadu.com/book/1053959",
+      "rank": 7,
+      "genre": "现代言情",
+      "visible_metric": "日人气15"
+    },
+    {
+      "title": "让你养个摆设你把太子宠疯了",
+      "author": "屿上观月",
+      "list_name": "女频新书榜",
+      "observed_at": "2026-10-28",
+      "source_id": "S05",
+      "book_url": "https://www.tadu.com/book/1054294",
+      "rank": 9,
+      "genre": "古代言情",
+      "visible_metric": "日人气11"
+    },
+    {
+      "title": "替嫁婚宠：顾少宠妻花样多",
+      "author": "瑞士卷",
+      "list_name": "女频人气榜",
+      "observed_at": "2026-10-28",
+      "source_id": "S06",
+      "book_url": "https://www.tadu.com/book/800351",
+      "rank": 1,
+      "genre": "现代言情",
+      "visible_metric": "日人气4080"
+    },
+    {
+      "title": "侯府嫡女爽翻天",
+      "author": "坚强的芒果",
+      "list_name": "女频人气榜",
+      "observed_at": "2026-10-28",
+      "source_id": "S06",
+      "book_url": "https://www.tadu.com/book/1034918",
+      "rank": 2,
+      "genre": "古代言情",
+      "visible_metric": "日人气590"
+    }
+  ],
+  "trend_observations": [
+    {
+      "direction": "男频脑洞升级＋身份压迫",
+      "evidence": "S03男频新书榜第1《命格抽奖》以低阶奴仆和抽取命格机制形成可理解的爽点。",
+      "inference": "“明确危机＋非传统升级资源＋跨阶层代价”是可借鉴的结构机制，而非复制具体系统。"
+    },
+    {
+      "direction": "都市异能＋现实组织",
+      "evidence": "S03新书榜有《穿越觉醒仙田，我直接上报官方》，将异常能力与现实秩序连接。",
+      "inference": "超自然能力的社会后果、组织对抗和协作可支持长期连载。"
+    },
+    {
+      "direction": "群体求生/乱世成长",
+      "evidence": "S03新书榜有《荒岛求生》和《乱世武圣》。",
+      "inference": "生存资源、群体关系与阶段性外部威胁可形成追更。"
+    },
+    {
+      "direction": "女频萌宝、养成与经营",
+      "evidence": "S05新书榜有《锦鲤后娘》《四岁奶包能言灵》《六岁糖糖》。",
+      "inference": "孩子或家庭关系作为情感抓手，配经营/成长来扩展叙事，需避免全靠宠爱和卖萌。"
+    },
+    {
+      "direction": "古言/豪门身份逆袭与情感",
+      "evidence": "S06人气榜有《替嫁婚宠》《侯府嫡女爽翻天》，S05有《豪门真千金》。",
+      "inference": "清晰受损处境、关系不对等和能被兑现的反转是商业化开篇信号。"
+    }
+  ],
+  "gaps": [
+    "公开榜单会变化且有缓存延迟；样本仅代表官方可见页面，无法代表全平台用户偏好。",
+    "未登录作者后台核实最新版作者协议、2026年AI辅助或AI生成正文与标注细则。",
+    "没有得到真实留存率、收入、推荐流量、新人签约通过率等后台数据。",
+    "官网奖励细则有适用对象、申请条件及最终合同约定；需在签约时复核。"
+  ]
+}
