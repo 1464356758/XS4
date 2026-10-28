@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "book_id": "5524ba3e-4e97-4df5-9d82-c2c361f97ae6",
-  "title": "未命名小说",
-  "revision": 0,
+  "title": "《朝廷让我验妖尸，我验出了自己的死期》",
+  "revision": 3,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -24,8 +24,34 @@
   "chapters": {},
   "checkpoints": [],
   "needs_revalidation": [],
-  "inputs": {},
-  "input_history": [],
+  "inputs": {
+    "canon": {
+      "kind": "canon",
+      "path": "inputs/canon_7d4b65b1b6974d2ff5759f57d46205578b2f2e6d074056e410eee56ccde5a0a9.md",
+      "sha256": "7d4b65b1b6974d2ff5759f57d46205578b2f2e6d074056e410eee56ccde5a0a9",
+      "reason": "作者正式选择T02，建立新书世界观、人物、能力规则和证据边界"
+    },
+    "roadmap": {
+      "kind": "roadmap",
+      "path": "inputs/roadmap_554d19e361a0a5313a2fbff0db06507645f893d7a595e87f6053ae12867c97ed.md",
+      "sha256": "554d19e361a0a5313a2fbff0db06507645f893d7a595e87f6053ae12867c97ed",
+      "reason": "为已选T02建立约90万汉字、100章、10阶段路线和近五章规划"
+    }
+  },
+  "input_history": [
+    {
+      "kind": "canon",
+      "path": "inputs/canon_7d4b65b1b6974d2ff5759f57d46205578b2f2e6d074056e410eee56ccde5a0a9.md",
+      "sha256": "7d4b65b1b6974d2ff5759f57d46205578b2f2e6d074056e410eee56ccde5a0a9",
+      "reason": "作者正式选择T02，建立新书世界观、人物、能力规则和证据边界"
+    },
+    {
+      "kind": "roadmap",
+      "path": "inputs/roadmap_554d19e361a0a5313a2fbff0db06507645f893d7a595e87f6053ae12867c97ed.md",
+      "sha256": "554d19e361a0a5313a2fbff0db06507645f893d7a595e87f6053ae12867c97ed",
+      "reason": "为已选T02建立约90万汉字、100章、10阶段路线和近五章规划"
+    }
+  ],
   "tasks": {},
   "completion": null,
   "serialization": {

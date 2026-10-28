@@ -4,18 +4,18 @@
   "initialized": true,
   "book": {
     "id": "5524ba3e-4e97-4df5-9d82-c2c361f97ae6",
-    "title": "未命名小说",
+    "title": "《朝廷让我验妖尸，我验出了自己的死期》",
     "platform": "tadu",
-    "selected_topic_id": null
+    "selected_topic_id": "T02"
   },
   "source": {
     "repository_url": "https://github.com/1464356758/XS4",
     "branch": "main",
-    "generated_at": "2026-10-28T10:48:22+00:00",
-    "state_revision": 0,
-    "workflow_revision": 5,
-    "state_sha256": "5b10c7fd0bbb76bace083a76cf90aed6634bbb32d29aa4b4e6823218dc82f02f",
-    "workflow_sha256": "5428d60d44a37bf1d34ae680bc4339cb7a8a612fff2253a5cb88cd6c53870343",
+    "generated_at": "2026-10-28T14:38:57.234Z",
+    "state_revision": 3,
+    "workflow_revision": 7,
+    "state_sha256": "fa3234d30a15f2f4d8a9184609db1bbf82ef5f5c56e1750caa290c76decbde96",
+    "workflow_sha256": "60950324b2aef0c8f6bd3180521d5e4430ea495d79c30e134ea0c36d4d007fa2",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WAITING_TOPIC",
-    "label": "等待选择题材",
+    "phase": "PLANNING",
+    "label": "长篇规划",
     "chapter": 1,
-    "detail": "已准备8个原创选题，等待作者选择。",
-    "next_action": "作者选择候选编号后，进行长篇规划；当前不写正文。",
-    "updated_at": "2026-10-28T10:48:22+00:00"
+    "detail": "作者已确认塔读T02；约90万汉字全书设定、10阶段路线及前5章详细大纲已完成并登记，当前未写正式正文。",
+    "next_action": "等待作者另行明确授权开始第1章；届时先按V4.3检查写作任务书、证据约束及发布前检查。",
+    "updated_at": "2026-10-28T14:35:23+00:00"
   },
   "chapters": [],
   "topics": [
@@ -545,6 +545,18 @@
       "phase": "WAITING_TOPIC",
       "label": "等待选择题材",
       "detail": "已准备8个原创选题，等待作者选择。"
+    },
+    {
+      "at": "2026-10-28T14:35:21+00:00",
+      "phase": "PLANNING",
+      "label": "长篇规划",
+      "detail": "已选定《《朝廷让我验妖尸，我验出了自己的死期》》，准备长篇规划。"
+    },
+    {
+      "at": "2026-10-28T14:35:23+00:00",
+      "phase": "PLANNING",
+      "label": "长篇规划",
+      "detail": "作者已确认塔读T02；约90万汉字全书设定、10阶段路线及前5章详细大纲已完成并登记，当前未写正式正文。"
     }
   ]
 }
