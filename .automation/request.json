@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_xs4_20261030_6607b7f9_10",
-  "base_sha": "6c54cfe9026e477026a879e18f70177c3804ee3d",
+  "request_id": "command_xs4_20261030_6607b7f9_11",
+  "base_sha": "c8436c0f8e8024d0075a88f66e7a219b224038f6",
   "book_id": "5524ba3e-4e97-4df5-9d82-c2c361f97ae6",
   "controller": {
     "kind": "automation",
@@ -17,24 +17,12 @@
       "args": [
         "--root",
         "book",
-        "check-record",
-        "--text",
-        "drafts/CH002_20261030_v2.txt",
-        "--record",
-        "drafts/CH002_record_20261030_v2.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "release-request",
+        "release-check",
         "--text",
         "drafts/CH002_20261030_v2.txt",
         "--record",
         "drafts/CH002_record_20261030_v2.json",
-        "--out",
+        "--report",
         "drafts/CH002_release_20261030_v2.json"
       ]
     }
