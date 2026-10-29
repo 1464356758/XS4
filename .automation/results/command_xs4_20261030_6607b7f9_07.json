@@ -1,0 +1,85 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "command_xs4_20261030_6607b7f9_07",
+  "request_sha256": "535c4cc5d2366ea7a4a24685ad72802a8b21ac51845ee6ccf9891592db21b180",
+  "source_sha": "ae89d3d17cc3c189d5c6bf469a99cf1f684a53b6",
+  "base_sha": "df95a440d7f961363c65c3e0a0b10bb6241e510b",
+  "book_id": "5524ba3e-4e97-4df5-9d82-c2c361f97ae6",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae2143a4c5c81919872737a3463a23b",
+    "session_id": "xs4_20261030_6607b7f9_6864_8333_8ed0_95bb7cc11fcc",
+    "platform_run_id": "6607b7f9-6864-8333-8ed0-95bb7cc11fcc"
+  },
+  "phase": "command",
+  "executed_at": "2026-10-29T20:11:37+00:00",
+  "executor_status": "ok",
+  "github_run_id": "40946798579",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "candidate",
+        "--chapter",
+        "2",
+        "--text",
+        "drafts/CH002_20261030.txt"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_xs4_20261030_6607b7f9_07/tool-01.stdout.txt",
+          "sha256": "1547e086afd8bf85b1f48ee67e139f0590998369f71a313db40ea89a156f2fa5",
+          "bytes": 491
+        },
+        "stderr": {
+          "path": ".automation/work/command_xs4_20261030_6607b7f9_07/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH002_20261030.txt",
+        "--out",
+        "drafts/CH002_reader_20261030.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/command_xs4_20261030_6607b7f9_07/tool-02.stdout.txt",
+          "sha256": "ce5a74d7f4824e95329b95e10799a129558f09c471660e8ddf88df1bd9f3b074",
+          "bytes": 110
+        },
+        "stderr": {
+          "path": ".automation/work/command_xs4_20261030_6607b7f9_07/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "8e7b848e573744688a5e9566fd38fd7e",
+  "changed_paths": [
+    ".automation/work/command_xs4_20261030_6607b7f9_07/tool-01.stderr.txt",
+    ".automation/work/command_xs4_20261030_6607b7f9_07/tool-01.stdout.txt",
+    ".automation/work/command_xs4_20261030_6607b7f9_07/tool-02.stderr.txt",
+    ".automation/work/command_xs4_20261030_6607b7f9_07/tool-02.stdout.txt",
+    "book/candidates/CH002_084b040d68375edbdef91d37a64e545afeff4a51e6c8c5c96f6f7c23691fd54d.txt",
+    "book/daily/active.json",
+    "book/state.json",
+    "drafts/CH002_reader_20261030.md",
+    "online/index.json"
+  ]
+}
