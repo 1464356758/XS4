@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "begin_xs4_20261030_6607b7f9_02",
-  "base_sha": "8cda56b7b73dd2640e0736a316f51fc9e9d44a3d",
+  "request_id": "command_xs4_20261030_6607b7f9_03",
+  "base_sha": "8bfe2116169043b10c18e41bfc483dbb94ecd7aa",
   "book_id": "5524ba3e-4e97-4df5-9d82-c2c361f97ae6",
   "controller": {
     "kind": "automation",
@@ -9,5 +9,38 @@
     "session_id": "xs4_20261030_6607b7f9_6864_8333_8ed0_95bb7cc11fcc",
     "platform_run_id": "6607b7f9-6864-8333-8ed0-95bb7cc11fcc"
   },
-  "phase": "begin"
+  "phase": "command",
+  "run_id": "8e7b848e573744688a5e9566fd38fd7e",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH002_brief_20261030.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "尸体 黑丝 封存 交接 官符 取证"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "谢惊弦 何砚生 杜千衡 官文 印号"
+      ]
+    }
+  ]
 }
