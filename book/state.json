@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "5524ba3e-4e97-4df5-9d82-c2c361f97ae6",
   "title": "《朝廷让我验妖尸，我验出了自己的死期》",
-  "revision": 4,
+  "revision": 5,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -31,6 +31,16 @@
       "record_sha256": "f0daae1e7c3da9d17ada0d95289adf7f3c28858a0a98afa25ddf1e5d9e11b2a4",
       "han_count": 9873,
       "adopted_at": "2026-10-28T15:01:38+00:00"
+    },
+    "2": {
+      "title": "死人的最后一句谎话",
+      "stage": "S01",
+      "text_path": "chapters/CH002_0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c.txt",
+      "text_sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+      "record_path": "records/CH002_2dd479994eb3bf7b3e2a635495845ef7c8aff4c1dced0125e26820edd5243b63.json",
+      "record_sha256": "2dd479994eb3bf7b3e2a635495845ef7c8aff4c1dced0125e26820edd5243b63",
+      "han_count": 8330,
+      "adopted_at": "2026-10-29T20:15:37+00:00"
     }
   },
   "checkpoints": [],
@@ -84,7 +94,7 @@
       "task_id": "83561317-dfbe-4ed6-9e14-420b0e3e6ee2",
       "chapter": 2,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 1,
       "history": [
         {
@@ -110,6 +120,10 @@
       "1": {
         "text_sha256": "dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae",
         "record_sha256": "f0daae1e7c3da9d17ada0d95289adf7f3c28858a0a98afa25ddf1e5d9e11b2a4"
+      },
+      "2": {
+        "text_sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+        "record_sha256": "2dd479994eb3bf7b3e2a635495845ef7c8aff4c1dced0125e26820edd5243b63"
       }
     },
     "published": {},
@@ -122,7 +136,7 @@
       "2": {
         "path": "releases/CH002_49e592052db1cf25d51a88e1d8a66be6505f7b00f0ac5e6e5ffae8e3b518be98.json",
         "sha256": "49e592052db1cf25d51a88e1d8a66be6505f7b00f0ac5e6e5ffae8e3b518be98",
-        "used": false
+        "used": true
       }
     },
     "promises": {
@@ -143,7 +157,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       },
       "H02": {
         "history": [
@@ -162,7 +176,7 @@
         ],
         "deadline_chapter": 5,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       },
       "H03": {
         "history": [
@@ -181,7 +195,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       },
       "H04": {
         "history": [
@@ -200,7 +214,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       },
       "H05": {
         "history": [
@@ -219,7 +233,7 @@
         ],
         "deadline_chapter": 20,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       },
       "H06": {
         "history": [
@@ -238,7 +252,7 @@
         ],
         "deadline_chapter": 55,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       }
     },
     "incidents": {}

@@ -11,26 +11,26 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS4",
     "branch": "main",
-    "generated_at": "2026-10-29T20:15:11+00:00",
-    "state_revision": 4,
-    "workflow_revision": 9,
-    "state_sha256": "9508eaf958c28cb50617617c078a812f1ef278aaa875ca3fa0af575efa6f8ecc",
-    "workflow_sha256": "9cb79fb2a9a3c3ff951ce951c19605b5e88d61f5383c9a727fd4bb94a547f7f2",
+    "generated_at": "2026-10-29T20:15:37+00:00",
+    "state_revision": 5,
+    "workflow_revision": 10,
+    "state_sha256": "78bde6a3017df2f5b187ec2b96b4da1560a960c250facebbfe59ce20d81296a2",
+    "workflow_sha256": "5eb214d2f05d461dabd44502e5fd7eeb875daef2ecbc303a13cb1c269f8677c8",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
   "progress": {
     "target_chapters": 100,
-    "adopted_chapters": 1,
+    "adopted_chapters": 2,
     "target_han": 900000,
-    "actual_han": 9873,
+    "actual_han": 18203,
     "completed": false,
     "needs_revalidation": [],
     "reviewed_until": 0,
     "window_review_due": false,
     "unresolved_reviews": [],
     "serial_mode": true,
-    "frozen_chapters": 1,
+    "frozen_chapters": 2,
     "published_chapters": 0,
     "publication_status": "只统计真实回执；无回执不等于未发布",
     "open_incidents": 0,
@@ -40,10 +40,10 @@
   "task": {
     "phase": "WAITING_NEXT",
     "label": "等待下一章",
-    "chapter": 2,
-    "detail": "第1章《验尸房里有人叫我的名字》已采用并冻结；实测9873汉字。已完成任务书、限信息近似审读、8项发布前检查与事实记录，平台尚无真实发布回执。",
-    "next_action": "等待下一次创作授权；第二章先核验杜千衡死因、北仓行踪与官符案号，并保持首章原文只读。",
-    "updated_at": "2026-10-28T15:01:40+00:00"
+    "chapter": 3,
+    "detail": "第2章已采用并冻结；平台发布另凭真实回执登记。",
+    "next_action": "读取正式状态后，由下一次日更处理下一章。",
+    "updated_at": "2026-10-29T20:15:37+00:00"
   },
   "chapters": [
     {
@@ -53,6 +53,18 @@
       "han_count": 9873,
       "text_path": "book/chapters/CH001_dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae.txt",
       "sha256": "dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae",
+      "needs_revalidation": false,
+      "frozen": true,
+      "publication_status": "unreported",
+      "published_at": null
+    },
+    {
+      "number": 2,
+      "title": "死人的最后一句谎话",
+      "stage": "S01",
+      "han_count": 8330,
+      "text_path": "book/chapters/CH002_0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c.txt",
+      "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
       "needs_revalidation": false,
       "frozen": true,
       "publication_status": "unreported",
@@ -582,6 +594,12 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "第1章《验尸房里有人叫我的名字》已采用并冻结；实测9873汉字。已完成任务书、限信息近似审读、8项发布前检查与事实记录，平台尚无真实发布回执。"
+    },
+    {
+      "at": "2026-10-29T20:15:37+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第2章已采用并冻结；平台发布另凭真实回执登记。"
     }
   ]
 }
