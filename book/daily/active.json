@@ -7,7 +7,7 @@
   "start_date": "2026-10-30",
   "started_at": "2026-10-29T20:03:28+00:00",
   "chapter": 2,
-  "status": "running",
+  "status": "blocked",
   "baseline_count": 1,
   "baseline_fingerprint": "85379bfc4cfd2c32731883dbbfa721762227b28613805edd7e20d42cb67b0f9f",
   "attempts": [],
@@ -22,5 +22,7 @@
     "phase": "command",
     "at": "2026-10-29T20:05:32+00:00",
     "github_run_id": "40945895802"
-  }
+  },
+  "reason": "本阶段不允许该小说工具命令。",
+  "blocked_at": "2026-10-29T20:10:35+00:00"
 }
