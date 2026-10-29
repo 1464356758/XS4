@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "command_xs4_20261030_6607b7f9_03",
-  "base_sha": "8bfe2116169043b10c18e41bfc483dbb94ecd7aa",
+  "request_id": "command_xs4_20261030_6607b7f9_04",
+  "base_sha": "918e25996711ef7e0b478aec34537ee4baa72d1a",
   "book_id": "5524ba3e-4e97-4df5-9d82-c2c361f97ae6",
   "controller": {
     "kind": "automation",
@@ -17,8 +17,8 @@
       "args": [
         "--root",
         "book",
-        "brief-request",
-        "--out",
+        "brief-check",
+        "--file",
         "drafts/CH002_brief_20261030.json"
       ]
     },
@@ -27,19 +27,11 @@
       "args": [
         "--root",
         "book",
-        "history-search",
-        "--query",
-        "尸体 黑丝 封存 交接 官符 取证"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "谢惊弦 何砚生 杜千衡 官文 印号"
+        "context",
+        "--profile",
+        "writer",
+        "--out",
+        "drafts/CH002_writer_20261030.md"
       ]
     }
   ]
