@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "book_id": "5524ba3e-4e97-4df5-9d82-c2c361f97ae6",
+  "chapter": 2,
+  "base_revision": 4,
+  "task_id": "83561317-dfbe-4ed6-9e14-420b0e3e6ee2",
+  "repairs": 1,
+  "text_sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+  "record_sha256": "2dd479994eb3bf7b3e2a635495845ef7c8aff4c1dced0125e26820edd5243b63",
+  "canon_sha256": "7d4b65b1b6974d2ff5759f57d46205578b2f2e6d074056e410eee56ccde5a0a9",
+  "roadmap_sha256": "554d19e361a0a5313a2fbff0db06507645f893d7a595e87f6053ae12867c97ed",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "df0d3ccfc146917d88a6114e0db33ec3ee8cb4c2948b241d968f974ef09c1f9c",
+  "decision": "pending",
+  "read_full_text": false,
+  "blocking_issues": [
+    "尚未实际阅读检查"
+  ],
+  "read_coverage": {
+    "1": "dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae",
+    "2": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c"
+  },
+  "reader_reason_to_continue": "",
+  "consequence": "",
+  "ending_runway": "",
+  "checks": {
+    "timeline": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+          "quote": ""
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+          "quote": ""
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+          "quote": ""
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+          "quote": ""
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+          "quote": ""
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+          "quote": ""
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+          "quote": ""
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+          "quote": ""
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "chapter": 1,
+      "sha256": "dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae",
+      "quote": "",
+      "difference": ""
+    }
+  ],
+  "future_window": [
+    {
+      "chapter": 3,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    },
+    {
+      "chapter": 4,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    },
+    {
+      "chapter": 5,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "H01",
+      "action": "keep",
+      "deadline_chapter": 10,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+        "quote": ""
+      }
+    },
+    {
+      "id": "H02",
+      "action": "keep",
+      "deadline_chapter": 5,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+        "quote": ""
+      }
+    },
+    {
+      "id": "H03",
+      "action": "keep",
+      "deadline_chapter": 10,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+        "quote": ""
+      }
+    },
+    {
+      "id": "H04",
+      "action": "keep",
+      "deadline_chapter": 10,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+        "quote": ""
+      }
+    },
+    {
+      "id": "H05",
+      "action": "keep",
+      "deadline_chapter": 20,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+        "quote": ""
+      }
+    },
+    {
+      "id": "H06",
+      "action": "keep",
+      "deadline_chapter": 55,
+      "reason": "",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+        "quote": ""
+      }
+    }
+  ],
+  "incident_actions": [],
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "",
+        "choice": "",
+        "change": "",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+            "quote": ""
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "",
+    "reader": {
+      "mode": "pending",
+      "limitation": "",
+      "coverage": {
+        "1": {
+          "text_sha256": "dc80a719e2a6d29db2126ded30b33d2001bfbde7a144fe8a1e56290457739eae",
+          "mode": "full_text"
+        },
+        "2": {
+          "text_sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "",
+      "information_load": "",
+      "promise_delivery": "",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+          "quote": ""
+        }
+      ],
+      "issues": []
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+            "quote": ""
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+            "quote": ""
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "0d1012305bda1142a768cb39cb4bbe7ad87c9bf217497ef30894f3e7dc637e3c",
+            "quote": ""
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "1421eab68f8ee00138c9ee0c024fc33624ed60f17772e2d3f708edf1b58b650e",
+      "queries": [
+        "尸体 黑丝 封存 交接 官符 取证",
+        "谢惊弦 何砚生 杜千衡 官文 印号"
+      ],
+      "comparisons": [],
+      "no_match_reason": ""
+    },
+    "reader_updates": [],
+    "reader_update_note": "",
+    "surface_findings": []
+  }
+}
