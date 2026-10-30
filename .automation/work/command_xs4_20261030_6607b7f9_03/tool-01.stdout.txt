@@ -1,5 +1,0 @@
-{
-  "path": "/tmp/novel-tool-batch-lw_3ef8f/project/drafts/CH002_brief_20261030.json",
-  "decision": "pending",
-  "note": "GPT读真实来源后填写；模板不算完成。"
-}
