@@ -91,8 +91,16 @@ def validate_request(project, request):
         require(config_path.is_file(), "先登记本书实际唯一任务绑定，不在运行时猜测。")
         cfg = ns.read_json(config_path)
         if owner.get("kind") == "manual":
-            require(cfg.get("book_id") == state["book_id"] and cfg.get("automation_id") is None,
-                    "本书已登记自动日更，手动执行不得绕过既有任务的控制权。")
+            require(cfg.get("book_id") == state["book_id"], "手动控制者的作品身份不匹配。")
+            if cfg.get("automation_id") is not None:
+                # Allow only the manual owner that actually acquired this lock BEFORE
+                # scheduling to finish its existing chapter. Never grant a new manual begin.
+                active = read_active(project)
+                require(request["phase"] in ("command", "finalize", "block") and active is not None and
+                        active.get("status") in ("running", "blocked") and
+                        active.get("run_id") == request.get("run_id") and
+                        owner_equal(active.get("controller"), owner),
+                        "已绑定定时任务；只允许原手动控制者完成旧章，不允许新开手动任务或接管他人锁。")
         else:
             require(cfg.get("book_id") == state["book_id"] and
                     cfg.get("automation_id") == owner.get("automation_id"), "请求控制者与已登记的唯一任务不符。")

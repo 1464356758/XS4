@@ -92,6 +92,29 @@ class ExecutorTests(WorkspaceFixture):
         result = executor.apply_request(self.project, wrong, "b" * 40)
         self.assertEqual(result["executor_status"], "error")
 
+    def test_original_manual_owner_can_finish_after_schedule_registration(self):
+        self.owner = {"kind": "manual", "session_id": "synthetic_manual_session_001"}
+        book_id = ns.load_state(self.root)["book_id"]
+        ns.atomic_json(self.project / ".automation/config.json",
+                       {"schema_version": 1, "book_id": book_id, "automation_id": None})
+        start = self.begin()
+        ns.atomic_json(self.project / ".automation/config.json",
+                       {"schema_version": 1, "book_id": book_id, "automation_id": "synthetic_automation_001"})
+        same = self.execute("command", run_id=start["run_id"],
+                            commands=[{"script": "novel_state.py",
+                                       "args": ["--root", "book", "history-search", "--query", "测试"]}])
+        self.assertEqual(same["executor_status"], "ok")
+        self.assertEqual(same["business_status"], "tools_completed")
+        self.assertEqual(executor.read_active(self.project)["run_id"], start["run_id"])
+        with self.assertRaises(executor.ns.WorkspaceError):
+            self.begin()
+        wrong = self.request("command", run_id=start["run_id"], commands=[
+            {"script": "novel_state.py", "args": ["--root", "book", "history-search", "--query", "测试"]}])
+        wrong["controller"]["session_id"] = "synthetic_other_manual_session"
+        with self.assertRaises(executor.ns.WorkspaceError):
+            executor.apply_request(self.project, wrong, "b" * 40)
+        self.assertEqual(executor.read_active(self.project)["controller"], self.owner)
+
     def test_manual_run_refused_when_a_scheduled_owner_is_registered(self):
         self.owner = {"kind": "manual", "session_id": "synthetic_manual_session_001"}
         with self.assertRaises(executor.ns.WorkspaceError):
