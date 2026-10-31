@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 8,
+  "revision": 9,
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
-  "phase": "WRITING",
+  "phase": "WAITING_NEXT",
   "platform": "tadu",
   "selected_topic": {
     "id": "T01",
@@ -23,7 +23,7 @@
   },
   "research_path": "research/platform_72d7e00afdb40114d48c5df60c6b9faef960fc4ec61ff37fc026424ede92d1c5.json",
   "topics_path": "research/topics_983650a887f61799084685018ca4bdbced1b4cfae45bf7026551b4cf78b7faa9.json",
-  "chapter": 1,
+  "chapter": 2,
   "history": [
     {
       "at": "2026-10-31T12:43:04+00:00",
@@ -78,9 +78,15 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "第一章执行已归属，正在建立写前任务书并创作完整正文；前章冻结数为0。"
+    },
+    {
+      "at": "2026-10-31T14:41:16+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第1章已采用并冻结；平台发布另凭真实回执登记。"
     }
   ],
-  "detail": "第一章执行已归属，正在建立写前任务书并创作完整正文；前章冻结数为0。",
-  "next_action": "按V4.3登记brief并由writer资料完整创作CH001，完成阅读审核与冻结前校验。",
-  "updated_at": "2026-10-31T14:21:20+00:00"
+  "detail": "第1章已采用并冻结；平台发布另凭真实回执登记。",
+  "next_action": "读取正式状态后，由下一次日更处理下一章。",
+  "updated_at": "2026-10-31T14:41:16+00:00"
 }

@@ -11,26 +11,26 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS4",
     "branch": "main",
-    "generated_at": "2026-10-31T14:40:33+00:00",
-    "state_revision": 3,
-    "workflow_revision": 8,
-    "state_sha256": "a5a203d63864c6aa4f574853ef6c7ce2af1190c03a4e7889406f2560d36a2b77",
-    "workflow_sha256": "31e81f40a813460e627063b50672fb91be22a6e54bc64048dccd3101833b63b2",
+    "generated_at": "2026-10-31T14:41:16+00:00",
+    "state_revision": 4,
+    "workflow_revision": 9,
+    "state_sha256": "4516853264d726ba2ce9d086ee58b1e77454f4f3814f4eada484ea6d708acdbe",
+    "workflow_sha256": "480af665db84dafe15212c86e36f1ee45a4ca722f8e572ad1f9020a47b1bedbb",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
   "progress": {
     "target_chapters": 100,
-    "adopted_chapters": 0,
+    "adopted_chapters": 1,
     "target_han": 900000,
-    "actual_han": 0,
+    "actual_han": 9830,
     "completed": false,
     "needs_revalidation": [],
     "reviewed_until": 0,
     "window_review_due": false,
     "unresolved_reviews": [],
     "serial_mode": true,
-    "frozen_chapters": 0,
+    "frozen_chapters": 1,
     "published_chapters": 0,
     "publication_status": "只统计真实回执；无回执不等于未发布",
     "open_incidents": 0,
@@ -38,14 +38,27 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WRITING",
-    "label": "撰写正文",
-    "chapter": 1,
-    "detail": "第一章执行已归属，正在建立写前任务书并创作完整正文；前章冻结数为0。",
-    "next_action": "按V4.3登记brief并由writer资料完整创作CH001，完成阅读审核与冻结前校验。",
-    "updated_at": "2026-10-31T14:21:20+00:00"
+    "phase": "WAITING_NEXT",
+    "label": "等待下一章",
+    "chapter": 2,
+    "detail": "第1章已采用并冻结；平台发布另凭真实回执登记。",
+    "next_action": "读取正式状态后，由下一次日更处理下一章。",
+    "updated_at": "2026-10-31T14:41:16+00:00"
   },
-  "chapters": [],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "断脉印落下",
+      "stage": "S01",
+      "han_count": 9830,
+      "text_path": "book/chapters/CH001_c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875.txt",
+      "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+      "needs_revalidation": false,
+      "frozen": true,
+      "publication_status": "unreported",
+      "published_at": null
+    }
+  ],
   "topics": [
     {
       "id": "T01",
@@ -485,6 +498,12 @@
       "phase": "WRITING",
       "label": "撰写正文",
       "detail": "第一章执行已归属，正在建立写前任务书并创作完整正文；前章冻结数为0。"
+    },
+    {
+      "at": "2026-10-31T14:41:16+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第1章已采用并冻结；平台发布另凭真实回执登记。"
     }
   ]
 }

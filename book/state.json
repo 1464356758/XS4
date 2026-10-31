@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "title": "灵根被废那天，我看见了功法的破绽",
-  "revision": 3,
+  "revision": 4,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -21,7 +21,18 @@
     "opening_impact_max_han": 3000,
     "narrative_review_required": true
   },
-  "chapters": {},
+  "chapters": {
+    "1": {
+      "title": "断脉印落下",
+      "stage": "S01",
+      "text_path": "chapters/CH001_c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875.txt",
+      "text_sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+      "record_path": "records/CH001_1a4284301bd2bb8f8973bc9290d9e213b333bf24a00d92bd24a6a08069c26bb8.json",
+      "record_sha256": "1a4284301bd2bb8f8973bc9290d9e213b333bf24a00d92bd24a6a08069c26bb8",
+      "han_count": 9830,
+      "adopted_at": "2026-10-31T14:41:16+00:00"
+    }
+  },
   "checkpoints": [],
   "needs_revalidation": [],
   "inputs": {
@@ -57,7 +68,7 @@
       "task_id": "b23f4821-765a-488a-80e5-341aa67f45ac",
       "chapter": 1,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 0,
       "history": [
         {
@@ -74,16 +85,98 @@
   "serialization": {
     "schema_version": 1,
     "enabled": true,
-    "frozen": {},
+    "frozen": {
+      "1": {
+        "text_sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+        "record_sha256": "1a4284301bd2bb8f8973bc9290d9e213b333bf24a00d92bd24a6a08069c26bb8"
+      }
+    },
     "published": {},
     "gates": {
       "1": {
         "path": "releases/CH001_40a23c203531c785c9f449222fdb1b55ab2e3f18c13372cd81d88ba6be03c908.json",
         "sha256": "40a23c203531c785c9f449222fdb1b55ab2e3f18c13372cd81d88ba6be03c908",
-        "used": false
+        "used": true
       }
     },
-    "promises": {},
+    "promises": {
+      "P-DOUBLE-004": {
+        "history": [
+          {
+            "id": "P-DOUBLE-004",
+            "action": "set",
+            "deadline_chapter": 3,
+            "reason": "阿七关于两块乙七前号牌的陈述刚出现，CH002以班次和车号开展核验，最迟CH003给出双牌实际去向或可信的独立核对结果。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+              "quote": "我只知道晚班有两块牌都挂过‘乙七’。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 3,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "P-FURNACE-003": {
+        "history": [
+          {
+            "id": "P-FURNACE-003",
+            "action": "set",
+            "deadline_chapter": 3,
+            "reason": "阿禾仍在第七炉且面临重排班与追捕威胁，最迟CH003必须实际救援并交代结果，而不是不断推迟。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+              "quote": "我妹妹还在第七炉值夜"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 3,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "P-MINE-001": {
+        "history": [
+          {
+            "id": "P-MINE-001",
+            "action": "set",
+            "deadline_chapter": 10,
+            "reason": "郑循掌握旧三孔木牌，矿车异数尚缺正式独立证据，预计CH005开始核账，最迟CH010取得可核验的正式受理与证人/记录结果。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+              "quote": "矿尘布囊已经用尽，半截三孔木牌落进了郑循袖中，没法再凭一双手抢回来。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 10,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "P-RESCUE-002": {
+        "history": [
+          {
+            "id": "P-RESCUE-002",
+            "action": "set",
+            "deadline_chapter": 2,
+            "reason": "陈九已随江砚青逃离追兵眼前，但扭伤、失血及安全屋未落实；CH002必须处理具体医治及暂时安置，不能视为已经安全。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+              "quote": "他扶起陈九，两人贴着旧梁往前挪。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 2,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      }
+    },
     "incidents": {}
   },
   "writing_briefs": {

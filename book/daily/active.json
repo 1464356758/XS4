@@ -7,7 +7,7 @@
   "start_date": "2026-10-31",
   "started_at": "2026-10-31T14:19:05+00:00",
   "chapter": 1,
-  "status": "running",
+  "status": "completed",
   "baseline_count": 0,
   "baseline_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
   "attempts": [],
@@ -16,9 +16,11 @@
     "session_id": "XS4_CH001_manual_1793456331335"
   },
   "executor_checkpoint": {
-    "request_id": "XS4_ch001_releasecheck_1793457618897",
-    "phase": "command",
-    "at": "2026-10-31T14:40:33+00:00",
-    "github_run_id": "41211220128"
-  }
+    "request_id": "XS4_ch001_finalize_1793457652100",
+    "phase": "finalize",
+    "at": "2026-10-31T14:41:16+00:00",
+    "github_run_id": "41211262301"
+  },
+  "completed_at": "2026-10-31T14:41:16+00:00",
+  "receipt_path": "daily/2026-10-31.json"
 }
