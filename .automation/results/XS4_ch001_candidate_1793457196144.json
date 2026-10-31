@@ -1,0 +1,114 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "XS4_ch001_candidate_1793457196144",
+  "request_sha256": "6acb43617c6aba026d95a0a5ec52003d1ffde19001b959283341c7b6eb42a239",
+  "source_sha": "66eb900b0baf7e6ba3badb28a51df3c1eb5e789e",
+  "base_sha": "2898dbcf9cf8fd4a83d675e6df349d30933f48b5",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "manual",
+    "session_id": "XS4_CH001_manual_1793456331335"
+  },
+  "phase": "command",
+  "executed_at": "2026-10-31T14:33:33+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41210675526",
+  "tools": [
+    {
+      "script": "draft_transfer.py",
+      "args": [
+        "assemble",
+        "--out",
+        "drafts/CH001.txt",
+        "--sha256",
+        "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+        "--parts",
+        "drafts/CH001_part_01.txt",
+        "drafts/CH001_part_02.txt",
+        "drafts/CH001_part_03.txt",
+        "drafts/CH001_part_04.txt"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/XS4_ch001_candidate_1793457196144/tool-01.stdout.txt",
+          "sha256": "553b155cb141cf5f8e1d96adcf5725c51db14b75d85bdd5bb5dc0f703181fdd8",
+          "bytes": 152
+        },
+        "stderr": {
+          "path": ".automation/work/XS4_ch001_candidate_1793457196144/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "candidate",
+        "--chapter",
+        "1",
+        "--text",
+        "drafts/CH001.txt"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/XS4_ch001_candidate_1793457196144/tool-02.stdout.txt",
+          "sha256": "c172567f01273a45015d982a2d190a18d0bca1fc19bbbdbd88d1f5ef6892dd0c",
+          "bytes": 491
+        },
+        "stderr": {
+          "path": ".automation/work/XS4_ch001_candidate_1793457196144/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH001.txt",
+        "--out",
+        "drafts/CH001_reader_packet.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/XS4_ch001_candidate_1793457196144/tool-03.stdout.txt",
+          "sha256": "f3327a228cab30b0e6b21ba825a39f208fc436e06e01328ce7186df417f75229",
+          "bytes": 108
+        },
+        "stderr": {
+          "path": ".automation/work/XS4_ch001_candidate_1793457196144/tool-03.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "73e8ef90b8eb4268acd48fec1284a024",
+  "changed_paths": [
+    ".automation/work/XS4_ch001_candidate_1793457196144/tool-01.stderr.txt",
+    ".automation/work/XS4_ch001_candidate_1793457196144/tool-01.stdout.txt",
+    ".automation/work/XS4_ch001_candidate_1793457196144/tool-02.stderr.txt",
+    ".automation/work/XS4_ch001_candidate_1793457196144/tool-02.stdout.txt",
+    ".automation/work/XS4_ch001_candidate_1793457196144/tool-03.stderr.txt",
+    ".automation/work/XS4_ch001_candidate_1793457196144/tool-03.stdout.txt",
+    "book/candidates/CH001_c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875.txt",
+    "book/daily/active.json",
+    "book/state.json",
+    "drafts/CH001.txt",
+    "drafts/CH001_reader_packet.md",
+    "online/index.json"
+  ]
+}

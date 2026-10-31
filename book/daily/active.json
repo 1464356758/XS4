@@ -16,9 +16,9 @@
     "session_id": "XS4_CH001_manual_1793456331335"
   },
   "executor_checkpoint": {
-    "request_id": "XS4_ch001_briefcheck_1793456594795",
+    "request_id": "XS4_ch001_candidate_1793457196144",
     "phase": "command",
-    "at": "2026-10-31T14:23:29+00:00",
-    "github_run_id": "41209903590"
+    "at": "2026-10-31T14:33:33+00:00",
+    "github_run_id": "41210675526"
   }
 }

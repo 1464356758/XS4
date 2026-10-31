@@ -1,0 +1,1 @@
+{"path": "drafts/CH001.txt", "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875", "han_count": 9830, "parts": 4, "chapter": 1}
