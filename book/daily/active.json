@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "type": "novel-daily-task-v1",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "run_id": "73e8ef90b8eb4268acd48fec1284a024",
+  "work_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f:2026-10-31:1",
+  "start_date": "2026-10-31",
+  "started_at": "2026-10-31T14:19:05+00:00",
+  "chapter": 1,
+  "status": "running",
+  "baseline_count": 0,
+  "baseline_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "attempts": [],
+  "controller": {
+    "kind": "manual",
+    "session_id": "XS4_CH001_manual_1793456331335"
+  },
+  "executor_checkpoint": {
+    "request_id": "XS4_ch001_begin_1793456331335",
+    "phase": "begin",
+    "at": "2026-10-31T14:19:05+00:00",
+    "github_run_id": "41209555331"
+  }
+}
