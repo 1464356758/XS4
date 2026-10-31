@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "XS4_ch001_briefcheck_1793456594795",
-  "base_sha": "6482450cd79cfdebd978938ca054007fe2a682c0",
+  "request_id": "XS4_ch001_candidate_1793457196144",
+  "base_sha": "2898dbcf9cf8fd4a83d675e6df349d30933f48b5",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "manual",
@@ -11,13 +11,30 @@
   "run_id": "73e8ef90b8eb4268acd48fec1284a024",
   "commands": [
     {
+      "script": "draft_transfer.py",
+      "args": [
+        "assemble",
+        "--out",
+        "drafts/CH001.txt",
+        "--sha256",
+        "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+        "--parts",
+        "drafts/CH001_part_01.txt",
+        "drafts/CH001_part_02.txt",
+        "drafts/CH001_part_03.txt",
+        "drafts/CH001_part_04.txt"
+      ]
+    },
+    {
       "script": "novel_state.py",
       "args": [
         "--root",
         "book",
-        "brief-check",
-        "--file",
-        "drafts/CH001_brief.json"
+        "candidate",
+        "--chapter",
+        "1",
+        "--text",
+        "drafts/CH001.txt"
       ]
     },
     {
@@ -27,21 +44,11 @@
         "book",
         "context",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/CH001.txt",
         "--out",
-        "drafts/CH001_writer_packet.md"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "矿车牌 错息 铜铃",
-        "--limit",
-        "5"
+        "drafts/CH001_reader_packet.md"
       ]
     }
   ]
