@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_20261101_briefrequest_f575a183",
-  "base_sha": "92c8eef37ac90a27b2a001d38812e5ac09dd3311",
+  "request_id": "xs4_20261101_briefcheck_f575a183",
+  "base_sha": "7f8f7ad26c89907a2a47f798d7552ac4dfaa4c7a",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "automation",
@@ -17,8 +17,8 @@
       "args": [
         "--root",
         "book",
-        "brief-request",
-        "--out",
+        "brief-check",
+        "--file",
         "drafts/CH002_brief.json"
       ]
     },
@@ -27,11 +27,11 @@
       "args": [
         "--root",
         "book",
-        "history-search",
-        "--query",
-        "矿车 乙七 木牌 换车",
-        "--limit",
-        "5"
+        "context",
+        "--profile",
+        "writer",
+        "--out",
+        "drafts/CH002_writer_packet.md"
       ]
     }
   ]
