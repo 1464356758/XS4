@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "title": "灵根被废那天，我看见了功法的破绽",
-  "revision": 1,
+  "revision": 3,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -24,8 +24,34 @@
   "chapters": {},
   "checkpoints": [],
   "needs_revalidation": [],
-  "inputs": {},
-  "input_history": [],
+  "inputs": {
+    "canon": {
+      "kind": "canon",
+      "path": "inputs/canon_3da9f16026cf60bebeee90ac70450c69f0f4c4b6ca080e7a621ba5dec7e42195.md",
+      "sha256": "3da9f16026cf60bebeee90ac70450c69f0f4c4b6ca080e7a621ba5dec7e42195",
+      "reason": "开书设定：作者选择第二轮T01，建立人物、能力边界、知情与资源事实账"
+    },
+    "roadmap": {
+      "kind": "roadmap",
+      "path": "inputs/roadmap_71a7186407b9b83986267fa0e0bc3b1de92750e00046d2b67c37f3fe30efa082.md",
+      "sha256": "71a7186407b9b83986267fa0e0bc3b1de92750e00046d2b67c37f3fe30efa082",
+      "reason": "开书路线：10阶段100章、前五章场景预算和承诺兑现窗口"
+    }
+  },
+  "input_history": [
+    {
+      "kind": "canon",
+      "path": "inputs/canon_3da9f16026cf60bebeee90ac70450c69f0f4c4b6ca080e7a621ba5dec7e42195.md",
+      "sha256": "3da9f16026cf60bebeee90ac70450c69f0f4c4b6ca080e7a621ba5dec7e42195",
+      "reason": "开书设定：作者选择第二轮T01，建立人物、能力边界、知情与资源事实账"
+    },
+    {
+      "kind": "roadmap",
+      "path": "inputs/roadmap_71a7186407b9b83986267fa0e0bc3b1de92750e00046d2b67c37f3fe30efa082.md",
+      "sha256": "71a7186407b9b83986267fa0e0bc3b1de92750e00046d2b67c37f3fe30efa082",
+      "reason": "开书路线：10阶段100章、前五章场景预算和承诺兑现窗口"
+    }
+  ],
   "tasks": {},
   "completion": null,
   "serialization": {
