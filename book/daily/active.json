@@ -2,25 +2,25 @@
   "schema_version": 1,
   "type": "novel-daily-task-v1",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
-  "run_id": "73e8ef90b8eb4268acd48fec1284a024",
-  "work_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f:2026-10-31:1",
-  "start_date": "2026-10-31",
-  "started_at": "2026-10-31T14:19:05+00:00",
-  "chapter": 1,
-  "status": "completed",
-  "baseline_count": 0,
-  "baseline_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "run_id": "0be54c8d284e4347bfc0db7ef5d9b6e3",
+  "work_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f:2026-11-01:2",
+  "start_date": "2026-11-01",
+  "started_at": "2026-10-31T20:35:27+00:00",
+  "chapter": 2,
+  "status": "running",
+  "baseline_count": 1,
+  "baseline_fingerprint": "cb6f29105680bfec9537fa27a8ec24fc538f673c0962eed634c7f1825e2dd3cc",
   "attempts": [],
   "controller": {
-    "kind": "manual",
-    "session_id": "XS4_CH001_manual_1793456331335"
+    "kind": "automation",
+    "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
+    "session_id": "xs4_session_20261101_f575a183",
+    "platform_run_id": "f575a183-bc10-832e-af49-48bcaf9511f9"
   },
   "executor_checkpoint": {
-    "request_id": "XS4_ch001_finalize_1793457652100",
-    "phase": "finalize",
-    "at": "2026-10-31T14:41:16+00:00",
-    "github_run_id": "41211262301"
-  },
-  "completed_at": "2026-10-31T14:41:16+00:00",
-  "receipt_path": "daily/2026-10-31.json"
+    "request_id": "xs4_20261101_begin_f575a183",
+    "phase": "begin",
+    "at": "2026-10-31T20:35:27+00:00",
+    "github_run_id": "41239609199"
+  }
 }
