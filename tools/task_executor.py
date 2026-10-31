@@ -49,9 +49,13 @@ def read_active(project):
 
 
 def owner_equal(a, b):
-    return (isinstance(a, dict) and isinstance(b, dict) and a.get("kind") == b.get("kind") == "automation"
-            and all(a.get(k) == b.get(k) and a.get(k) for k in ("automation_id", "session_id"))
-            and a.get("platform_run_id") == b.get("platform_run_id"))
+    if not isinstance(a, dict) or not isinstance(b, dict) or a.get("kind") != b.get("kind"):
+        return False
+    if a.get("kind") == "manual":
+        return bool(a.get("session_id")) and a.get("session_id") == b.get("session_id") and not a.get("automation_id") and not b.get("automation_id")
+    return (a.get("kind") == "automation" and
+            all(a.get(k) == b.get(k) and a.get(k) for k in ("automation_id", "session_id")) and
+            a.get("platform_run_id") == b.get("platform_run_id"))
 
 
 def validate_request(project, request):
@@ -63,6 +67,10 @@ def validate_request(project, request):
     require(isinstance(owner, dict), "缺少执行控制者。")
     if request["phase"] in ("preflight", "recover") and owner.get("kind") == "maintenance":
         require(bool(ID.fullmatch(owner.get("session_id", ""))), "维护预检须有独立会话编号。")
+    elif owner.get("kind") == "manual" and request["phase"] in ("preflight", "begin", "command", "finalize", "block"):
+        require(isinstance(owner.get("session_id"), str) and bool(ID.fullmatch(owner["session_id"])) and
+                owner.get("automation_id") is None and owner.get("platform_run_id") is None,
+                "手动执行须有真实独立会话编号，不得冒充自动化或平台运行编号。")
     else:
         require(owner.get("kind") == "automation" and
                 all(isinstance(owner.get(k), str) and ID.fullmatch(owner[k]) for k in ("automation_id", "session_id")),
@@ -82,8 +90,12 @@ def validate_request(project, request):
     elif request["phase"] != "preflight":
         require(config_path.is_file(), "先登记本书实际唯一任务绑定，不在运行时猜测。")
         cfg = ns.read_json(config_path)
-        require(cfg.get("book_id") == state["book_id"] and
-                cfg.get("automation_id") == owner.get("automation_id"), "请求控制者与已登记的唯一任务不符。")
+        if owner.get("kind") == "manual":
+            require(cfg.get("book_id") == state["book_id"] and cfg.get("automation_id") is None,
+                    "本书已登记自动日更，手动执行不得绕过既有任务的控制权。")
+        else:
+            require(cfg.get("book_id") == state["book_id"] and
+                    cfg.get("automation_id") == owner.get("automation_id"), "请求控制者与已登记的唯一任务不符。")
     return state
 
 

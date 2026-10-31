@@ -80,6 +80,24 @@ class ExecutorTests(WorkspaceFixture):
         self.assertEqual(active["chapter"], 2)
         self.assertEqual(len(ns.load_state(self.root)["chapters"]), 1)
 
+    def test_manual_authorized_run_uses_same_v43_executor_without_scheduling(self):
+        self.owner = {"kind": "manual", "session_id": "synthetic_manual_session_001"}
+        ns.atomic_json(self.project / ".automation/config.json", {"schema_version": 1, "book_id": ns.load_state(self.root)["book_id"], "automation_id": None})
+        first = self.begin()
+        self.assertEqual(first["business_status"], "started")
+        self.assertEqual(executor.read_active(self.project)["controller"], self.owner)
+        self.assertEqual(self.begin()["business_status"], "continue_owned")
+        wrong = self.request("command", run_id=first["run_id"], commands=[{"script": "novel_state.py", "args": ["--root", "book", "history-search", "--query", "测试"]}])
+        wrong["controller"]["session_id"] = "other_manual_session_002"
+        result = executor.apply_request(self.project, wrong, "b" * 40)
+        self.assertEqual(result["executor_status"], "error")
+
+    def test_manual_run_refused_when_a_scheduled_owner_is_registered(self):
+        self.owner = {"kind": "manual", "session_id": "synthetic_manual_session_001"}
+        with self.assertRaises(executor.ns.WorkspaceError):
+            self.begin()
+        self.assertFalse((self.root / "daily/active.json").exists())
+
     def test_foreign_session_cannot_run_commands_or_block_the_owner(self):
         started = self.begin(); original = (self.root / "daily/active.json").read_bytes()
         self.owner["session_id"] = "another_synthetic_session"
