@@ -162,6 +162,10 @@ def command_spec(project, command):
             require(i + 1 < len(args) and args[i + 1] == "roadmap", "日更只调整未来路线，不改canon。")
     elif script == "online_state.py":
         require(args[:2] == ["--project", "."] and args[2] in ("task", "build-index", "validate-index"), "工作流工具命令无效。")
+    elif script == "draft_transfer.py":
+        require(args[0] == "assemble" and args[1] == "--out" and args[3] == "--sha256" and
+                args[5] == "--parts" and len(args) >= 8,
+                "仅允许按固定顺序合并当前章节的草稿片段，必须绑定完整SHA256。")
     else:
         raise ns.WorkspaceError("仅执行仓库既有小说/索引工具，不接受任意脚本或shell。")
     for i, value in enumerate(args):
