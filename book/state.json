@@ -183,6 +183,10 @@
     "1": {
       "path": "briefs/CH001_fd73027e26700474767f56388e51aaf6f4af237d13f3e2007442fe519866fabb.json",
       "sha256": "fd73027e26700474767f56388e51aaf6f4af237d13f3e2007442fe519866fabb"
+    },
+    "2": {
+      "path": "briefs/CH002_010561556792bf7d82d26bc280293fde8aa1823dade0be6ac69955cdc5ff41d3.json",
+      "sha256": "010561556792bf7d82d26bc280293fde8aa1823dade0be6ac69955cdc5ff41d3"
     }
   }
 }
