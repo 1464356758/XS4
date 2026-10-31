@@ -1,11 +1,28 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_schedule_preflight_20261031_01",
-  "base_sha": "d5e31558d85be8f9ccc5019afcffd71cfa74b2b3",
+  "request_id": "XS4_ch001_releasecheck_1793457618897",
+  "base_sha": "166dee4603fb2ec2b595345bb60ebd1368442e27",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
-    "kind": "maintenance",
-    "session_id": "xs4_0430_bind_check_20261031"
+    "kind": "manual",
+    "session_id": "XS4_CH001_manual_1793456331335"
   },
-  "phase": "preflight"
+  "phase": "command",
+  "run_id": "73e8ef90b8eb4268acd48fec1284a024",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "release-check",
+        "--text",
+        "drafts/CH001.txt",
+        "--record",
+        "drafts/CH001_record.json",
+        "--report",
+        "drafts/CH001_release.json"
+      ]
+    }
+  ]
 }
