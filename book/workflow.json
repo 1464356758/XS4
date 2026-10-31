@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "revision": 3,
+  "revision": 5,
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "phase": "WAITING_TOPIC",
   "platform": "tadu",
   "selected_topic": null,
-  "research_path": "research/platform_7d39ab53625ba8da805c9d708ff2f5ef56f3f3d8a4b75362d4dcae44cacd59be.json",
-  "topics_path": "research/topics_aa64ee04f2494e30d8bd51a5ad08e1d386cf37d2162df1aefd62d1cb0b367958.json",
+  "research_path": "research/platform_72d7e00afdb40114d48c5df60c6b9faef960fc4ec61ff37fc026424ede92d1c5.json",
+  "topics_path": "research/topics_983650a887f61799084685018ca4bdbced1b4cfae45bf7026551b4cf78b7faa9.json",
   "chapter": 1,
   "history": [
     {
@@ -32,9 +32,21 @@
       "phase": "WAITING_TOPIC",
       "label": "等待选择题材",
       "detail": "已准备8个原创选题，等待作者选择。"
+    },
+    {
+      "at": "2026-10-31T13:20:04+00:00",
+      "phase": "SCANNING_RANKINGS",
+      "label": "研究榜单",
+      "detail": "补查女频新书榜并重新构思8个原创候选；保留榜单缓存缺口。"
+    },
+    {
+      "at": "2026-10-31T13:20:05+00:00",
+      "phase": "WAITING_TOPIC",
+      "label": "等待选择题材",
+      "detail": "重新研究塔读并提供第二轮8个原创选题，等待作者选择。"
     }
   ],
-  "detail": "已准备8个原创选题，等待作者选择。",
-  "next_action": "作者选择候选编号后，进行长篇规划；当前不写正文。",
-  "updated_at": "2026-10-31T12:47:21+00:00"
+  "detail": "重新研究塔读并提供第二轮8个原创选题，等待作者选择。",
+  "next_action": "从第二轮候选T01—T08选一个，再建立100章路线；目前不写正文。",
+  "updated_at": "2026-10-31T13:20:05+00:00"
 }
