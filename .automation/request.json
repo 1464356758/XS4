@@ -1,11 +1,40 @@
 {
   "schema_version": 1,
-  "request_id": "XS4_ch001_begin_1793456331335",
-  "base_sha": "0595819b93aa5cc986a772f551a20e6e7a3a8d64",
+  "request_id": "XS4_ch001_briefrequest_1793456464311",
+  "base_sha": "916a37eccf045eb157c8e4bdb9e7dc8551606f4c",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "manual",
     "session_id": "XS4_CH001_manual_1793456331335"
   },
-  "phase": "begin"
+  "phase": "command",
+  "run_id": "73e8ef90b8eb4268acd48fec1284a024",
+  "commands": [
+    {
+      "script": "online_state.py",
+      "args": [
+        "--project",
+        ".",
+        "task",
+        "--phase",
+        "WRITING",
+        "--detail",
+        "第一章执行已归属，正在建立写前任务书并创作完整正文；前章冻结数为0。",
+        "--next",
+        "按V4.3登记brief并由writer资料完整创作CH001，完成阅读审核与冻结前校验。",
+        "--chapter",
+        "1"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH001_brief.json"
+      ]
+    }
+  ]
 }
