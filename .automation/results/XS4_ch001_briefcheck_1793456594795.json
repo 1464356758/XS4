@@ -1,0 +1,106 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "XS4_ch001_briefcheck_1793456594795",
+  "request_sha256": "34da0a605a847d84937055a73ee8364edee6243dcdb4bac7886dda02e009e4c6",
+  "source_sha": "fa727090a2ec9484999354a33bdb22186eb62f62",
+  "base_sha": "6482450cd79cfdebd978938ca054007fe2a682c0",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "manual",
+    "session_id": "XS4_CH001_manual_1793456331335"
+  },
+  "phase": "command",
+  "executed_at": "2026-10-31T14:23:28+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41209903590",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-check",
+        "--file",
+        "drafts/CH001_brief.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/XS4_ch001_briefcheck_1793456594795/tool-01.stdout.txt",
+          "sha256": "f7c3c3eb281af7e6f03724aa260e606dd0e63d0a78b1ed498c7b82b97bca2eeb",
+          "bytes": 319
+        },
+        "stderr": {
+          "path": ".automation/work/XS4_ch001_briefcheck_1793456594795/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
+        "--out",
+        "drafts/CH001_writer_packet.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/XS4_ch001_briefcheck_1793456594795/tool-02.stdout.txt",
+          "sha256": "33bf21f084d8114b875920c10f243460ef02adb60d220a4ef27eeb3e9a097809",
+          "bytes": 107
+        },
+        "stderr": {
+          "path": ".automation/work/XS4_ch001_briefcheck_1793456594795/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "矿车牌 错息 铜铃",
+        "--limit",
+        "5"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/XS4_ch001_briefcheck_1793456594795/tool-03.stdout.txt",
+          "sha256": "6af6667b336f35a1cde2bb297e278189649fcb67c5f25383f393708d402b22d3",
+          "bytes": 363
+        },
+        "stderr": {
+          "path": ".automation/work/XS4_ch001_briefcheck_1793456594795/tool-03.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "73e8ef90b8eb4268acd48fec1284a024",
+  "changed_paths": [
+    ".automation/work/XS4_ch001_briefcheck_1793456594795/tool-01.stderr.txt",
+    ".automation/work/XS4_ch001_briefcheck_1793456594795/tool-01.stdout.txt",
+    ".automation/work/XS4_ch001_briefcheck_1793456594795/tool-02.stderr.txt",
+    ".automation/work/XS4_ch001_briefcheck_1793456594795/tool-02.stdout.txt",
+    ".automation/work/XS4_ch001_briefcheck_1793456594795/tool-03.stderr.txt",
+    ".automation/work/XS4_ch001_briefcheck_1793456594795/tool-03.stdout.txt",
+    "book/briefs/CH001_fd73027e26700474767f56388e51aaf6f4af237d13f3e2007442fe519866fabb.json",
+    "book/daily/active.json",
+    "book/state.json",
+    "drafts/CH001_writer_packet.md",
+    "online/index.json"
+  ]
+}
