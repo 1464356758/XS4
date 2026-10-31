@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_20261101_briefcheck_f575a183",
-  "base_sha": "7f8f7ad26c89907a2a47f798d7552ac4dfaa4c7a",
+  "request_id": "xs4_20261101_block_f575a183",
+  "base_sha": "97f06535bf1294c19a34c579583678a447ecbd8b",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "automation",
@@ -9,30 +9,7 @@
     "session_id": "xs4_session_20261101_f575a183",
     "platform_run_id": "f575a183-bc10-832e-af49-48bcaf9511f9"
   },
-  "phase": "command",
+  "phase": "block",
   "run_id": "0be54c8d284e4347bfc0db7ef5d9b6e3",
-  "commands": [
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "brief-check",
-        "--file",
-        "drafts/CH002_brief.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "context",
-        "--profile",
-        "writer",
-        "--out",
-        "drafts/CH002_writer_packet.md"
-      ]
-    }
-  ]
+  "reason": "CH002仅完成3190汉字工作草稿drafts/CH002_working.txt，未达到8000—10000汉字，也未完成候选登记、限信息审读、八项证据审核及release-check；禁止不完整正文采用。保留本章目标、写前brief及工作草稿，后续核验原平台终态与执行器作业后合法续写，不跳章。"
 }
