@@ -76,7 +76,13 @@
     "enabled": true,
     "frozen": {},
     "published": {},
-    "gates": {},
+    "gates": {
+      "1": {
+        "path": "releases/CH001_40a23c203531c785c9f449222fdb1b55ab2e3f18c13372cd81d88ba6be03c908.json",
+        "sha256": "40a23c203531c785c9f449222fdb1b55ab2e3f18c13372cd81d88ba6be03c908",
+        "used": false
+      }
+    },
     "promises": {},
     "incidents": {}
   },

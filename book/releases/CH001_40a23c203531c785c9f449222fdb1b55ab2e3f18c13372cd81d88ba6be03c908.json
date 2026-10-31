@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "chapter": 1,
+  "base_revision": 3,
+  "task_id": "b23f4821-765a-488a-80e5-341aa67f45ac",
+  "repairs": 0,
+  "text_sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+  "record_sha256": "1a4284301bd2bb8f8973bc9290d9e213b333bf24a00d92bd24a6a08069c26bb8",
+  "canon_sha256": "3da9f16026cf60bebeee90ac70450c69f0f4c4b6ca080e7a621ba5dec7e42195",
+  "roadmap_sha256": "71a7186407b9b83986267fa0e0bc3b1de92750e00046d2b67c37f3fe30efa082",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "fd73027e26700474767f56388e51aaf6f4af237d13f3e2007442fe519866fabb",
+  "decision": "release",
+  "read_full_text": true,
+  "blocking_issues": [],
+  "read_coverage": {
+    "1": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875"
+  },
+  "reader_reason_to_continue": "本章不仅给出“废灵根者看见法印错息”的可视化核心卖点，还真正凭矿工受力经验、陈九协助和矿尘争得活路；但木牌被郑循拿走，陈九的换车证词尚无独立来源，末尾阿七提到两块乙七前号牌及不应上工的人，下一章能直接查到具体账目和危险。",
+  "consequence": "江砚青的灵根已被断脉印毁伤，左眼产生重影，右腿旧伤加剧；一袋矿尘用尽，三孔旧牌归郑循，陈九右手扭伤且尚无正式医治。江砚青仅救出陈九并暂时脱离押送，矿区追捕令未解除、没有得到灵石药丹或自由身份。",
+  "ending_runway": "CH002先处理陈九伤处与暂时藏身，核对称重前后的乙七矿车号，不可把陈九关于换车的单方证词当作铁证；CH003再针对第七炉与阿禾安全兑现救人承诺；CH004追寻合法工牌/签名与可能被报复的证人。郑循知道旧牌在自己手里且掌护矿小队，能够追捕并抢先改记录。",
+  "checks": {
+    "timeline": {
+      "decision": "pass",
+      "conclusion": "石台夜审、断脉、借煤尘脱困、围捕、救陈九和废煤道会合连续发生于同一夜；人物没有远距瞬移。story_time_end为当夜5:10的规划刻度，后续可依正文更精确地核查，不把分钟数冒充正文报时。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+          "quote": "矿道尽头的铜铃响了三声。"
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pass",
+      "conclusion": "江砚青凭自己昨夜锉过木牌识别三孔与两孔差异，却不知道谁换牌；陈九讲“称后换车”为其口供，阿七讲乙七双牌亦为待核线索，不等于作者已经证明真相。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+          "quote": "是称完以后，又有人换了车。你写的第一遍没错，我看见了。"
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pass",
+      "conclusion": "起始低资源被严格保留：矿尘袋只使用一次、磨钝短刀由护矿人搜走后重新取回且只用于割绳；三孔木牌落在郑循手里，未凭空重现，伤眼和右腿痛均保持到末尾。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+          "quote": "矿尘布囊已经用尽，半截三孔木牌落进了郑循袖中，没法再凭一双手抢回来。"
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pass",
+      "conclusion": "从断脉程序缺复核导致争辩无效，到目睹双执印短暂失步，再借铜铃架、煤尘、陈九协助挤出有限窗口；选择返回救陈九又丢失关键牌，因果链不是一句破法即胜。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+          "quote": "他把刀抽出来，不朝人胸腹刺，只一刀割开系在老煤井横木上的旧麻绳。"
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pass",
+      "conclusion": "见隙发生在实运行的执印术法之内，主角只辨出换息延迟，不能直接夺修为、治根、瞬间打败郑循；长时间观察后左眼残影和体力受损仍存在。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+          "quote": "左眼还在流泪，视线里不断闪着白色残影。"
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pass",
+      "conclusion": "第一章兑现了断脉后局部自救和一次实际反制，没有兑现宗门洗冤、阿禾救援或矿车案定罪；陈九活证和乙七两牌按章设明确兑现期限并避免空转。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+          "quote": "我只知道晚班有两块牌都挂过‘乙七’。"
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pass",
+      "conclusion": "这是尚无采用历史的第一章，不能宣称全书语义去重通过；本章两次争辩查账的功能各异，初次辨牌是身份自救，后次以账换人是行动筹码，后续CH002不能照搬相同威胁再逃一次。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+          "quote": "你要的是账，不是陈九。他连字都认不全，哪有本事改账？"
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pass",
+      "conclusion": "江砚青不是被动等神通救命：冒险指出牌孔错误、试探见隙真伪、与陈九配合并回头救人；阿七提出自己妹妹的风险，郑循持续加压和封路。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+          "quote": "他扶起陈九，两人贴着旧梁往前挪。"
+        }
+      ]
+    }
+  },
+  "comparison": [],
+  "future_window": [
+    {
+      "chapter": 2,
+      "goal": "为陈九找到止血药与躲避追兵的暂存地点，核对乙七牌在矿车房与第七炉之间的流转记录。",
+      "change": "拿到至少一个独立班次/过磅实物交叉来源，证明双牌异常实际存在，但不能立刻锁定上级。",
+      "ending_question": "第七车称重前后的交接人及两孔牌是谁登记？"
+    },
+    {
+      "chapter": 3,
+      "goal": "在第七炉清炉/重新点名前救出阿七妹妹阿禾，并防止她被迫承认不知情的记录。",
+      "change": "阿禾确实脱离当夜险境并留下伤损与搜捕代价；若取证与救人不能同时完成，优先救人。",
+      "ending_question": "炉房账本与巡查线索被谁销去，又能从谁的记录追回？"
+    },
+    {
+      "chapter": 4,
+      "goal": "通过出矿登记关并保护愿意签署真实口供的矿役，不制造假证。",
+      "change": "得到实际签名、病伤托管或受理凭据，但登记的痕迹使郑循能够反向追人。",
+      "ending_question": "怎样在不暴露更多家眷的情况下寻找原始失踪簿检验号？"
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "P-DOUBLE-004",
+      "action": "set",
+      "deadline_chapter": 3,
+      "reason": "阿七关于两块乙七前号牌的陈述刚出现，CH002以班次和车号开展核验，最迟CH003给出双牌实际去向或可信的独立核对结果。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+        "quote": "我只知道晚班有两块牌都挂过‘乙七’。"
+      }
+    },
+    {
+      "id": "P-FURNACE-003",
+      "action": "set",
+      "deadline_chapter": 3,
+      "reason": "阿禾仍在第七炉且面临重排班与追捕威胁，最迟CH003必须实际救援并交代结果，而不是不断推迟。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+        "quote": "我妹妹还在第七炉值夜"
+      }
+    },
+    {
+      "id": "P-MINE-001",
+      "action": "set",
+      "deadline_chapter": 10,
+      "reason": "郑循掌握旧三孔木牌，矿车异数尚缺正式独立证据，预计CH005开始核账，最迟CH010取得可核验的正式受理与证人/记录结果。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+        "quote": "矿尘布囊已经用尽，半截三孔木牌落进了郑循袖中，没法再凭一双手抢回来。"
+      }
+    },
+    {
+      "id": "P-RESCUE-002",
+      "action": "set",
+      "deadline_chapter": 2,
+      "reason": "陈九已随江砚青逃离追兵眼前，但扭伤、失血及安全屋未落实；CH002必须处理具体医治及暂时安置，不能视为已经安全。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+        "quote": "他扶起陈九，两人贴着旧梁往前挪。"
+      }
+    }
+  ],
+  "incident_actions": [],
+  "opening": {
+    "first_hook": {
+      "quote": "第三声还没有落地，江砚青的膝盖就撞在了黑石上。",
+      "why": "矿道铃声三下之后立即有人被按上断脉石台，八百字内让读者看到不可逆危险而非空泛悬念。"
+    },
+    "core_promise": {
+      "quote": "他看见两条灰白的细线从执印人的胸前引向石台。",
+      "why": "三千字内用正在运行的法印、两名施法者错息具象化破绽能力，不是只预告以后会变强。"
+    },
+    "protagonist_impact": {
+      "quote": "他试图运转早已练了七年的引气诀，只聚起半寸温热，便散成一团冷汗。",
+      "why": "主角立即失去赖以存活的引气能力，个人利益和生死都受直接影响。"
+    }
+  },
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "矿区押审定罪",
+        "choice": "江砚青当众指出换牌却被郑循无视，继续挣扎以求核实",
+        "change": "罪案程序并未启动独立复核，断脉真实发生，主角没有法律保护",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "“我昨天当值的是第七车。”"
+          }
+        ]
+      },
+      {
+        "event": "断脉后见隙但不能强破",
+        "choice": "他试图聚气、辨两名执印人换息不同步，并用矿务手艺测试铜铃结构",
+        "change": "获得只能辨错息的微弱机会，灵根并未恢复且留下眼部副作用",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "他看见两条灰白的细线从执印人的胸前引向石台。"
+          }
+        ]
+      },
+      {
+        "event": "借环境破押送",
+        "choice": "他与陈九有限协作利用矿尘、铜铃架和旧井构件，而不是以破绽直接击杀执事",
+        "change": "争得几息逃离窗口，却迫使郑循命人追缉",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "陈九把铲子丢在地上。"
+          }
+        ]
+      },
+      {
+        "event": "返回救陈九",
+        "choice": "有机会独自跑远时仍回头与郑循周旋，割绳制造响动并拖出受伤的陈九",
+        "change": "保住一名活证人，却失去三孔旧牌、损耗物资并暴露自身方向",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "他把刀抽出来，不朝人胸腹刺，只一刀割开系在老煤井横木上的旧麻绳。"
+          }
+        ]
+      },
+      {
+        "event": "废煤道接应",
+        "choice": "先问陈九真实见闻，再接受阿七提供的乙七双牌线索，决定找具体班次",
+        "change": "从不能申冤的冤案进入可核查的车牌链条；陈九与阿禾仍在危险里",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "我只知道晚班有两块牌都挂过‘乙七’。"
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "七段写前场景任务中的石台伤害、见隙观察、辩证工牌、矿尘与铃架协作、追缉、救陈九时丢失证物、废煤道阿七接应均在正文形成实际场景。正文比计划增加陈九亲口承认过磅后换车的细节，并把无来源高层阴谋改为其单方证言，避免主角过早全知；结尾留下“前号乙七重复”与意外点名者两个层次的问题，但第二章须优先查乙七而非连续放大玄谜。陈九救出并不等于真正脱险。",
+    "reader": {
+      "mode": "same_context_approximation",
+      "limitation": "同一会话读者视角只是限信息资料包与正文的近似审读，无法真的清除已知canon或模拟独立真实读者，也没有第三方盲读。只据现有完整章正文判断，读者推测不得写成未来事实。",
+      "coverage": {
+        "1": {
+          "text_sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "读者可以仅凭正文理解主角是懂矿车木牌的低阶外役，被宗门执事以可疑账目定罪毁根，偶然看见双施印人的错息而非突然拥有无限武力；陈九是犹豫后才帮助的人，郑循掌握护矿队，阿七妹妹仍在第七炉，故事即将核乙七木牌。",
+      "information_load": "新名词只围绕断脉印、错息、矿牌及乙七展开；没有一次塞入完整境界树和全洲背景。铜铃、木楔、煤尘、旧井构件之间的机关衔接需要专注阅读，属于可接受的动作负担，但后续不能继续用几次同型矿井机关补篇幅。",
+      "promise_delivery": "书名所承诺的“废灵根后看见功法破绽”在开头真实发生；第一次破局是借环境争取时间，不是无代价直接反杀。木牌被夺、陈九伤势与阿禾危险构成下一章现实目标。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+          "quote": "他看见两条灰白的细线从执印人的胸前引向石台。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+          "quote": "矿尘布囊已经用尽，半截三孔木牌落进了郑循袖中，没法再凭一双手抢回来。"
+        }
+      ],
+      "issues": [
+        {
+          "severity": "suggestion",
+          "status": "open",
+          "reason": "末段“昨天就不该来上工的人”制造第二重谜面；它可作轻度钩子，但CH002应优先兑现乙七木牌和陈九止血，不可再以神秘身份替代实际推进。",
+          "evidence": {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "点名的不是执事。"
+          }
+        }
+      ]
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "reviewed",
+        "conclusion": "郑循在听见三孔牌疑问后仍持续执行断脉，并派人堵出口、抓陈九逼主角回头；这些行动与他掌控记录和灭口风险一致，不把他写成等待破绽被打败的木偶。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "郑循没看他，朝执印的两名护矿人颔首：“行刑。”"
+          },
+          {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "你要的是账，不是陈九。他连字都认不全，哪有本事改账？"
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "reviewed",
+        "conclusion": "江砚青的追问基于自己经手的牌孔和矿工生存需要；郑循刻意避答程序问题、要账逼人；陈九的“我看见了”是惧怕家人却最终出声的选择；阿七提妹妹使下一步行动附带家人风险。各自话语有现实目的，不只帮作者解释设定。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "是称完以后，又有人换了车。你写的第一遍没错，我看见了。"
+          },
+          {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "我妹妹还在第七炉值夜"
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "reviewed",
+        "conclusion": "断脉后没有恢复修为，逃脱后左眼残影、伤腿、短刀归还、布囊耗尽与三孔牌丢失被持续记录；陈九需要被扶着走，阿七急着转移伤者而非轻松庆祝。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "左眼还在流泪，视线里不断闪着白色残影。"
+          },
+          {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "他扶起陈九，两人贴着旧梁往前挪。"
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "queries": [],
+      "comparisons": [],
+      "no_match_reason": "本次候选为CH001；当前正式采用历史0章，书内不存在可回读的更早桥段。已比较本章内部两次问账的不同目标和结果，并记录未来章节不能重复的矿尘/铃架逃亡手法。"
+    },
+    "reader_updates": [
+      {
+        "kind": "observed",
+        "statement": "江砚青在石台上遭断脉印重伤，试图聚气却不能正常聚拢；他不能按原办法继续修炼。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "他试图运转早已练了七年的引气诀，只聚起半寸温热，便散成一团冷汗。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "一次性矿尘袋耗尽、原三孔牌被郑循拿走且江砚青带着左眼重影继续逃亡。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "矿尘布囊已经用尽，半截三孔木牌落进了郑循袖中，没法再凭一双手抢回来。"
+          }
+        ]
+      },
+      {
+        "kind": "claim",
+        "statement": "陈九称过磅后有人换矿车，称江砚青初次登记的数目正确；尚无独立证据。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "是称完以后，又有人换了车。你写的第一遍没错，我看见了。"
+          }
+        ]
+      },
+      {
+        "kind": "uncertain",
+        "statement": "阿七称晚班出现两块同前号乙七的牌，实际是谁管理、是否同一班次尚未查证。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "我只知道晚班有两块牌都挂过‘乙七’。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "阿七当面表示阿禾还在第七炉值夜，他担心即将重新点名。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "我妹妹还在第七炉值夜"
+          }
+        ]
+      }
+    ],
+    "reader_update_note": "限于CH001真实正文：已经看到的可记为observed；陈九换车口供、阿七双牌说法分别是claim与uncertain。读者尚不知道谁篡改账、下一班会否真的出事、见隙源头，不能将roadmap预设的组织和人物作为已揭露事实。",
+    "surface_findings": []
+  }
+}
