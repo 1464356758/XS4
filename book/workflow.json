@@ -1,10 +1,26 @@
 {
   "schema_version": 1,
-  "revision": 5,
+  "revision": 6,
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
-  "phase": "WAITING_TOPIC",
+  "phase": "PLANNING",
   "platform": "tadu",
-  "selected_topic": null,
+  "selected_topic": {
+    "id": "T01",
+    "title": "灵根被废那天，我看见了功法的破绽",
+    "genre": "东方玄幻·男频",
+    "pitch": "宗门杂役试炼被废掉灵根，却发现自己能看见每门功法的致命缺陷；第一个要破解的就是自己身上的禁法。",
+    "reader_promise": "开篇绝境翻盘，每次破解立即改变生死或人物关系。",
+    "long_form_engine": "只能发现破绽、不能凭空变强，靠材料、试错和盟友，逐渐追查武学缺陷源头。",
+    "stage_variation": "杂役自保→宗门比试→城邦武院→边荒禁法→旧时代战争→修行制度重建。",
+    "midpoint_crisis": "他破解的功法被仿制，害死无辜者，必须公开负责。",
+    "ending_direction": "让知识不再被垄断，也允许别人破解自己的功法。",
+    "risk": "不能每章都轻松找弱点秒杀，要让对手学习并有反制。",
+    "source_ids": [
+      "S3",
+      "S4"
+    ],
+    "author_request": "作者在2026-10-31明确选择XS4第二轮T01《灵根被废那天，我看见了功法的破绽》，要求先完成研究同步并按V4.3规划；暂不写正文。"
+  },
   "research_path": "research/platform_72d7e00afdb40114d48c5df60c6b9faef960fc4ec61ff37fc026424ede92d1c5.json",
   "topics_path": "research/topics_983650a887f61799084685018ca4bdbced1b4cfae45bf7026551b4cf78b7faa9.json",
   "chapter": 1,
@@ -44,9 +60,15 @@
       "phase": "WAITING_TOPIC",
       "label": "等待选择题材",
       "detail": "重新研究塔读并提供第二轮8个原创选题，等待作者选择。"
+    },
+    {
+      "at": "2026-10-31T13:33:59+00:00",
+      "phase": "PLANNING",
+      "label": "长篇规划",
+      "detail": "已选定《灵根被废那天，我看见了功法的破绽》，准备100章长期规划。"
     }
   ],
-  "detail": "重新研究塔读并提供第二轮8个原创选题，等待作者选择。",
-  "next_action": "从第二轮候选T01—T08选一个，再建立100章路线；目前不写正文。",
-  "updated_at": "2026-10-31T13:20:05+00:00"
+  "detail": "已选定《灵根被废那天，我看见了功法的破绽》，准备100章长期规划。",
+  "next_action": "建立作者设定、人物知情与资源账、100章长期路线和近期5章；暂不写正文。",
+  "updated_at": "2026-10-31T13:33:59+00:00"
 }

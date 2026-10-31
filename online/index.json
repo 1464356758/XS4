@@ -4,18 +4,18 @@
   "initialized": true,
   "book": {
     "id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
-    "title": "新小说（待选题）",
+    "title": "灵根被废那天，我看见了功法的破绽",
     "platform": "tadu",
-    "selected_topic_id": null
+    "selected_topic_id": "T01"
   },
   "source": {
     "repository_url": "https://github.com/1464356758/XS4",
     "branch": "main",
-    "generated_at": "2026-10-31T13:20:05+00:00",
-    "state_revision": 0,
-    "workflow_revision": 5,
-    "state_sha256": "7e25b3bec619878e9ec181633347285962b9e63e464205109511d9929a3a0bb8",
-    "workflow_sha256": "9baec3ea8705234205d36f50a6073a3b6375dd92c43733582d8d95a3761fb18e",
+    "generated_at": "2026-10-31T13:33:59+00:00",
+    "state_revision": 1,
+    "workflow_revision": 6,
+    "state_sha256": "558c7bc52376af075b4ec43d5d3a59196da9e9beee6a28cd659c4c4d383b9f24",
+    "workflow_sha256": "7dfeaf0a27ef8bc9adcd96220baf444f01d236be9df0ad120413101d25f1e25e",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WAITING_TOPIC",
-    "label": "等待选择题材",
+    "phase": "PLANNING",
+    "label": "长篇规划",
     "chapter": 1,
-    "detail": "重新研究塔读并提供第二轮8个原创选题，等待作者选择。",
-    "next_action": "从第二轮候选T01—T08选一个，再建立100章路线；目前不写正文。",
-    "updated_at": "2026-10-31T13:20:05+00:00"
+    "detail": "已选定《灵根被废那天，我看见了功法的破绽》，准备100章长期规划。",
+    "next_action": "建立作者设定、人物知情与资源账、100章长期路线和近期5章；暂不写正文。",
+    "updated_at": "2026-10-31T13:33:59+00:00"
   },
   "chapters": [],
   "topics": [
@@ -467,6 +467,12 @@
       "phase": "WAITING_TOPIC",
       "label": "等待选择题材",
       "detail": "重新研究塔读并提供第二轮8个原创选题，等待作者选择。"
+    },
+    {
+      "at": "2026-10-31T13:33:59+00:00",
+      "phase": "PLANNING",
+      "label": "长篇规划",
+      "detail": "已选定《灵根被废那天，我看见了功法的破绽》，准备100章长期规划。"
     }
   ]
 }
