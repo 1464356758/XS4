@@ -1,0 +1,21 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs4_manual_preflight_1793456072708",
+  "request_sha256": "fc05deb47b4b2b9534dd73a642f30ae622c8bcd3ceddb502c04dd77b3a9920ea",
+  "source_sha": "f3842263fdbe7aabbfc085b0928f7606ab287e28",
+  "base_sha": "2a465dff0e859aea756b62abad2d8eee1e7a28bd",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "maintenance",
+    "session_id": "xs4_manual_controller_1793456072708"
+  },
+  "phase": "preflight",
+  "executed_at": "2026-10-31T14:14:48+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41209224587",
+  "business_status": "preflight_passed",
+  "active_status": null,
+  "changed_paths": [
+    "online/index.json"
+  ]
+}
