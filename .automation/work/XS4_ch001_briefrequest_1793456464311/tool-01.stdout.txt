@@ -1,0 +1,5 @@
+{
+  "phase": "WRITING",
+  "updated_at": "2026-10-31T14:21:20+00:00",
+  "chapters": 0
+}

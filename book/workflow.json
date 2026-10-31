@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 7,
+  "revision": 8,
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
-  "phase": "PLANNING",
+  "phase": "WRITING",
   "platform": "tadu",
   "selected_topic": {
     "id": "T01",
@@ -72,9 +72,15 @@
       "phase": "PLANNING",
       "label": "长篇规划",
       "detail": "第二轮T01已选定；canon有人物知情与资源账，roadmap含100章长期路线和近期5章安排，等待作者“开始写”。"
+    },
+    {
+      "at": "2026-10-31T14:21:20+00:00",
+      "phase": "WRITING",
+      "label": "撰写正文",
+      "detail": "第一章执行已归属，正在建立写前任务书并创作完整正文；前章冻结数为0。"
     }
   ],
-  "detail": "第二轮T01已选定；canon有人物知情与资源账，roadmap含100章长期路线和近期5章安排，等待作者“开始写”。",
-  "next_action": "收到作者“开始写”授权后，只处理CH001；先登记写前任务书，再做八项与叙事检查，采用前release-check。",
-  "updated_at": "2026-10-31T13:45:17+00:00"
+  "detail": "第一章执行已归属，正在建立写前任务书并创作完整正文；前章冻结数为0。",
+  "next_action": "按V4.3登记brief并由writer资料完整创作CH001，完成阅读审核与冻结前校验。",
+  "updated_at": "2026-10-31T14:21:20+00:00"
 }

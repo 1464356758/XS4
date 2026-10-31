@@ -1,0 +1,82 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "XS4_ch001_briefrequest_1793456464311",
+  "request_sha256": "f177564696edb62e4639133368e6237cda91e1853faebad44efd76caf1c96990",
+  "source_sha": "20d2c78597afe053a97d32b5e8ae5fed683cffad",
+  "base_sha": "916a37eccf045eb157c8e4bdb9e7dc8551606f4c",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "manual",
+    "session_id": "XS4_CH001_manual_1793456331335"
+  },
+  "phase": "command",
+  "executed_at": "2026-10-31T14:21:20+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41209738800",
+  "tools": [
+    {
+      "script": "online_state.py",
+      "args": [
+        "--project",
+        ".",
+        "task",
+        "--phase",
+        "WRITING",
+        "--detail",
+        "第一章执行已归属，正在建立写前任务书并创作完整正文；前章冻结数为0。",
+        "--next",
+        "按V4.3登记brief并由writer资料完整创作CH001，完成阅读审核与冻结前校验。",
+        "--chapter",
+        "1"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/XS4_ch001_briefrequest_1793456464311/tool-01.stdout.txt",
+          "sha256": "bedb06d307c6a0a7de546c4c1159341f1acc8c9d1b2201674d8decd268cee9e7",
+          "bytes": 87
+        },
+        "stderr": {
+          "path": ".automation/work/XS4_ch001_briefrequest_1793456464311/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH001_brief.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/XS4_ch001_briefrequest_1793456464311/tool-02.stdout.txt",
+          "sha256": "bd13855d44eaf1ce7113ce452bdd9dd40c57dafe174b39b32c8c527b34f9ea41",
+          "bytes": 169
+        },
+        "stderr": {
+          "path": ".automation/work/XS4_ch001_briefrequest_1793456464311/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "73e8ef90b8eb4268acd48fec1284a024",
+  "changed_paths": [
+    ".automation/work/XS4_ch001_briefrequest_1793456464311/tool-01.stderr.txt",
+    ".automation/work/XS4_ch001_briefrequest_1793456464311/tool-01.stdout.txt",
+    ".automation/work/XS4_ch001_briefrequest_1793456464311/tool-02.stderr.txt",
+    ".automation/work/XS4_ch001_briefrequest_1793456464311/tool-02.stdout.txt",
+    "book/daily/active.json",
+    "book/workflow.json",
+    "drafts/CH001_brief.json",
+    "online/index.json"
+  ]
+}
