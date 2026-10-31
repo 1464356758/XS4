@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "system_version": "4.3-quality",
+  "initialized": true,
+  "book": {
+    "id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+    "title": "新小说（待选题）",
+    "platform": "tadu",
+    "selected_topic_id": null
+  },
+  "source": {
+    "repository_url": "https://github.com/1464356758/XS4",
+    "branch": "main",
+    "generated_at": "2026-10-31T12:47:21+00:00",
+    "state_revision": 0,
+    "workflow_revision": 3,
+    "state_sha256": "7e25b3bec619878e9ec181633347285962b9e63e464205109511d9929a3a0bb8",
+    "workflow_sha256": "9c23fd5ab2d1ecc488cf29d6696b5556e439a74411cde82556f47b870c682d8e",
+    "manuscript_storage": "plain_files_v1",
+    "requires_reader_key": false
+  },
+  "progress": {
+    "target_chapters": 100,
+    "adopted_chapters": 0,
+    "target_han": 900000,
+    "actual_han": 0,
+    "completed": false,
+    "needs_revalidation": [],
+    "reviewed_until": 0,
+    "window_review_due": false,
+    "unresolved_reviews": [],
+    "serial_mode": true,
+    "frozen_chapters": 0,
+    "published_chapters": 0,
+    "publication_status": "只统计真实回执；无回执不等于未发布",
+    "open_incidents": 0,
+    "narrative_review_required": true,
+    "release_check_required": true
+  },
+  "task": {
+    "phase": "WAITING_TOPIC",
+    "label": "等待选择题材",
+    "chapter": 1,
+    "detail": "已准备8个原创选题，等待作者选择。",
+    "next_action": "作者选择候选编号后，进行长篇规划；当前不写正文。",
+    "updated_at": "2026-10-31T12:47:21+00:00"
+  },
+  "chapters": [],
+  "topics": [
+    {
+      "id": "T01",
+      "title": "我在末日修复最后一座城",
+      "genre": "科幻末世·男频",
+      "pitch": "停电废墟的修理工发现能源分配被篡改；救一个街区会让另一个街区断电，必须公开自己的取舍。",
+      "reader_promise": "每次抢修都有活生生的受益者和受损者，解决问题也改变社会关系。",
+      "long_form_engine": "由居民区扩展至城际能源网络，材料稀缺、政治博弈、旧账与技术边界持续变化。",
+      "stage_variation": "修一栋楼→恢复电网→城际争夺→联盟分裂→建立公开分配制度。",
+      "ending_direction": "让幸存者集体掌握修复和分配权，而非主角一人永远救世。",
+      "risk": "技术问题易写成枯燥操作说明，须落实人物命运。",
+      "source_ids": [
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "id": "T02",
+      "title": "仙门让我背债，我把仙山拍卖了",
+      "genre": "东方玄幻·男频",
+      "pitch": "末等账房发现仙门拿信徒未来寿命做抵押；越努力清账，越被大宗门列为必须清除的债务人。",
+      "reader_promise": "每段升级都实际追回资源、改变地位或揭开一份契约的人性代价。",
+      "long_form_engine": "山门、仙城、王朝、天庭都有不同债权规则，胜利会引出更沉重的代偿。",
+      "stage_variation": "底层追债→山门争产→跨域债网→本人背巨债→天道契约改革。",
+      "ending_direction": "把债与寿还给原主人，放弃独占那套不公秩序。",
+      "risk": "抽象账务容易压垮叙事；必须转化为人物选择及硬后果。",
+      "source_ids": [
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "id": "T03",
+      "title": "乱世县令：先救灾，后算账",
+      "genre": "历史架空·男频",
+      "pitch": "代理县令面对七日官粮，不得不在灾民、豪绅、军镇间分粮并承担每次得罪的势力。",
+      "reader_promise": "一个个治理难题有实际兑现，百姓生活和仕途都发生变化。",
+      "long_form_engine": "从水粮、疫病、迁徙到河运、边关及战后重建，不重复单一开仓爽点。",
+      "stage_variation": "开仓救灾→修渠斗权→县际运粮→战事迁民→民众参与治理。",
+      "ending_direction": "留下不依赖清官个人的公开账目和地方治理制度。",
+      "risk": "历史农业常识须核验，反派不能集体降智。",
+      "source_ids": [
+        "S4",
+        "S5"
+      ]
+    },
+    {
+      "id": "T04",
+      "title": "旧城夜班：每具遗体都少了一分钟",
+      "genre": "都市悬疑·偏男频",
+      "pitch": "夜班修表师发现多名死者死亡记录恰好被抹掉一分钟，调查碰到家人参与的旧城事故。",
+      "reader_promise": "每案带来新答案，且对主角亲缘或社会关系造成实质改变。",
+      "long_form_engine": "从单案扩展为旧厂事故、证人保护、伪证交易和公开审理，案件手法各异。",
+      "stage_variation": "首次异常→旧案证据→证人反证→公开质证→集体事故真相。",
+      "ending_direction": "救出幸存证人，令被掩盖责任获得合法追究。",
+      "risk": "取证法律细节易失真；不照搬现实事故或流行悬疑套路。",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "id": "T05",
+      "title": "退亲后，她接管了边关粮道",
+      "genre": "古言经营·女频",
+      "pitch": "被退婚的驿站掌柜之女接手军粮欠账，送一车粮就要在亲族、商队和边军间夺回自主权。",
+      "reader_promise": "每段经商都有具体货物、真实损耗和关系选择。",
+      "long_form_engine": "驿道、盐路、马市、海贸与封关分属不同利益结构，资源得失连续。",
+      "stage_variation": "小驿站→商队联盟→边军粮路→封锁求生→独立商会。",
+      "ending_direction": "女主保有生意与尊严，不把成功兑换成婚姻奖品。",
+      "risk": "退婚经商赛道同质化，需要鲜活角色与可信物流。",
+      "source_ids": [
+        "S3",
+        "S5"
+      ]
+    },
+    {
+      "id": "T06",
+      "title": "法器维修铺：坏掉的天命不包退",
+      "genre": "仙侠经营升级·男频",
+      "pitch": "失去灵根的修补匠能听见破损法器旧誓；修复一件东西就承担一段未完成的承诺。",
+      "reader_promise": "修器即救人，也可能欠下更难偿还的责任。",
+      "long_form_engine": "法器故障、宗门回收、战场器债、修行设施崩坏依次升级，技术有严格代价。",
+      "stage_variation": "街边维修→宗门争价→假神器案→器灵诉求→改造修行工艺。",
+      "ending_direction": "让人人都能修复而不必献祭，不依赖万能神器。",
+      "risk": "避免每章都修到同一升级道具并轻松碾压。",
+      "source_ids": [
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "id": "T07",
+      "title": "我在荒海经营一座救生站",
+      "genre": "现代求生群像·男频",
+      "pitch": "海难遗孤继承快倒闭的救生站，一场风暴逼他在救亲人和陌生船员之间做残酷取舍。",
+      "reader_promise": "救援强悬念与真实代价并行，船员群像共同成长。",
+      "long_form_engine": "燃料、天气、赔偿、港口权力与跨海协同持续创造新冲突。",
+      "stage_variation": "救生站保卫→港口改革→走私陷阱→岛链救援联盟→海域共治。",
+      "ending_direction": "打造不靠个人英雄撑着的长期公共救援网络。",
+      "risk": "海上安全及专业知识需要核实，避免夸张伤亡。",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "T08",
+      "title": "失业那天，我接手了全城废弃店铺",
+      "genre": "都市经营逆袭·男频",
+      "pitch": "失业物业维修员接手关店的合同与债务；每救活一家店，都会碰到一个街区的旧利益格局。",
+      "reader_promise": "低起点翻身、当场兑现经营成果，每个小人物都有自己的选择。",
+      "long_form_engine": "商圈、物流、品牌、社区、并购和城市规则不断改变竞争方法。",
+      "stage_variation": "修一家店→重启街区→成立联盟→资本围堵→居民自治。",
+      "ending_direction": "保住社区长期生计，不靠突然天降巨款解决一切。",
+      "risk": "真实商业现金流难写，不可凭空制造利润。",
+      "source_ids": [
+        "S3",
+        "S5"
+      ]
+    }
+  ],
+  "research": {
+    "platform": "tadu",
+    "checked_at": "2026-10-31T20:47:00+08:00",
+    "coverage_status": "partial",
+    "sources": [
+      {
+        "id": "S1",
+        "title": "塔读作家创作中心",
+        "url": "https://author.tadu.com/",
+        "accessed_at": "2026-10-31T20:47:00+08:00"
+      },
+      {
+        "id": "S2",
+        "title": "塔读文学官方作者福利及投稿要求",
+        "url": "https://www.tadu.com/v3/authorWelfare",
+        "accessed_at": "2026-10-31T20:47:00+08:00"
+      },
+      {
+        "id": "S3",
+        "title": "塔读男频新书榜",
+        "url": "https://www.tadu.com/book/rank/list/0-potential-0-0-1",
+        "accessed_at": "2026-10-31T20:47:00+08:00"
+      },
+      {
+        "id": "S4",
+        "title": "塔读男频人气榜",
+        "url": "https://www.tadu.com/book/rank/list/0-hour72-0-0-1",
+        "accessed_at": "2026-10-31T20:47:00+08:00"
+      },
+      {
+        "id": "S5",
+        "title": "塔读男频互动榜",
+        "url": "https://www.tadu.com/book/rank/list/0-interactive-0-0-1",
+        "accessed_at": "2026-10-31T20:47:00+08:00"
+      }
+    ],
+    "rules": [
+      {
+        "topic": "注册与创作",
+        "status": "verified",
+        "source_id": "S1",
+        "conclusion": "作家创作中心可注册成为作者并进入工作台，手机端可在塔读小说APP作者专区创建作品。"
+      },
+      {
+        "topic": "分成签约",
+        "status": "verified",
+        "source_id": "S2",
+        "conclusion": "官网公开要求首发塔读、拥有全部版权且原创无抄袭高仿；发布正文满2万字可申请签约，官网公示审核约2个工作日。实际以后台和合同为准。"
+      },
+      {
+        "topic": "优质保底投稿",
+        "status": "verified",
+        "source_id": "S2",
+        "conclusion": "官网披露优质保底可提交3万字正文与大纲至编辑邮箱申请，审核回复约3—5工作日；起步报价不等于每部作品保证获保底。"
+      },
+      {
+        "topic": "全勤条件",
+        "status": "verified",
+        "source_id": "S2",
+        "conclusion": "签约并连载达20万字后，次月可根据3000或5000每日有效字数档申请全勤；须满足首次审核有效字数、断更及次月申请等要求。"
+      },
+      {
+        "topic": "完本奖与计划长度",
+        "status": "verified",
+        "source_id": "S2",
+        "conclusion": "公开完本奖规定精品分成签约作品达到100万字及以上并正常完结；本书默认约90万字，不自动符合该奖门槛。"
+      },
+      {
+        "topic": "原创禁止水文",
+        "status": "verified",
+        "source_id": "S2",
+        "conclusion": "官方明列禁止抄袭、过度借鉴、高仿、恶意水文、重复章节、刷榜；应保留原创证据并核对实际合同。"
+      },
+      {
+        "topic": "AI辅助与AI生成作品",
+        "status": "unknown",
+        "source_id": null,
+        "conclusion": "未核实到塔读现行明确的AI辅助原创认定、生成文本标注与占比条款，投稿前须向官方作者后台或编辑核实。"
+      },
+      {
+        "topic": "2026福利更新与后台协议",
+        "status": "unknown",
+        "source_id": null,
+        "conclusion": "官网公开福利细则主要标示2022年起适用，未取得2026年后台私有协议和最新编辑通知，不能推定完全未变。"
+      }
+    ],
+    "rank_samples": [
+      {
+        "title": "命格抽奖：从末等奴仆到镇神楼主",
+        "author": "清风莫语",
+        "list_name": "新书榜",
+        "observed_at": "2026-10-31T20:47:00+08:00",
+        "rank": 1,
+        "genre": "脑洞创意",
+        "visible_metric": "日人气6213",
+        "book_url": "https://www.tadu.com/book/1054616",
+        "source_id": "S3",
+        "note": "公开榜单页面快照；不代表实时稳定榜位"
+      },
+      {
+        "title": "我在韩娱那些年",
+        "author": "闲人苍穹",
+        "list_name": "新书榜",
+        "observed_at": "2026-10-31T20:47:00+08:00",
+        "rank": 2,
+        "genre": "现代都市",
+        "visible_metric": "日人气1805",
+        "book_url": "https://www.tadu.com/book/1054218",
+        "source_id": "S3",
+        "note": "公开榜单页面快照；不代表实时稳定榜位"
+      },
+      {
+        "title": "噬神无限觉醒天赋，我成为机制怪",
+        "author": "波兰",
+        "list_name": "新书榜",
+        "observed_at": "2026-10-31T20:47:00+08:00",
+        "rank": 3,
+        "genre": "脑洞创意",
+        "visible_metric": "日人气828",
+        "book_url": "https://www.tadu.com/book/rank/list/0-potential-0-0-1",
+        "source_id": "S3",
+        "note": "公开榜单页面快照；不代表实时稳定榜位"
+      },
+      {
+        "title": "荒岛求生：我带着主播杀出绝境",
+        "author": "抱抱一只猪",
+        "list_name": "新书榜",
+        "observed_at": "2026-10-31T20:47:00+08:00",
+        "rank": 4,
+        "genre": "现代都市",
+        "visible_metric": "榜单快照可见，指标随页面变化",
+        "book_url": "https://www.tadu.com/book/1053916",
+        "source_id": "S3",
+        "note": "公开榜单页面快照；不代表实时稳定榜位"
+      },
+      {
+        "title": "每日神通：从山役成就极道武圣",
+        "author": "执笔凡尘",
+        "list_name": "新书榜",
+        "observed_at": "2026-10-31T20:47:00+08:00",
+        "rank": 5,
+        "genre": "东方玄幻",
+        "visible_metric": "榜单快照可见，指标随页面变化",
+        "book_url": "https://www.tadu.com/book/1054234",
+        "source_id": "S3",
+        "note": "公开榜单页面快照；不代表实时稳定榜位"
+      },
+      {
+        "title": "代晋",
+        "author": "大苹果",
+        "list_name": "人气榜",
+        "observed_at": "2026-10-31T20:47:00+08:00",
+        "rank": 1,
+        "genre": "历史架空",
+        "visible_metric": "日人气42301",
+        "book_url": "https://www.tadu.com/book/999879",
+        "source_id": "S4",
+        "note": "公开榜单页面快照；不代表实时稳定榜位"
+      },
+      {
+        "title": "相由心生",
+        "author": "水龙吟",
+        "list_name": "人气榜",
+        "observed_at": "2026-10-31T20:47:00+08:00",
+        "rank": 2,
+        "genre": "灵异悬疑",
+        "visible_metric": "日人气19704",
+        "book_url": "https://www.tadu.com/book/917314",
+        "source_id": "S4",
+        "note": "公开榜单页面快照；不代表实时稳定榜位"
+      },
+      {
+        "title": "系统劈腿，判给我半个系统",
+        "author": "小小怪",
+        "list_name": "人气榜",
+        "observed_at": "2026-10-31T20:47:00+08:00",
+        "rank": 3,
+        "genre": "东方玄幻",
+        "visible_metric": "日人气13759",
+        "book_url": "https://www.tadu.com/book/1034377",
+        "source_id": "S4",
+        "note": "公开榜单页面快照；不代表实时稳定榜位"
+      },
+      {
+        "title": "重生十年前，每天到账一千万",
+        "author": "白驹过隙我不过",
+        "list_name": "互动榜",
+        "observed_at": "2026-10-31T20:47:00+08:00",
+        "rank": null,
+        "genre": "现代都市",
+        "visible_metric": "互动值261（参考快照）",
+        "book_url": "https://www.tadu.com/book/1050949",
+        "source_id": "S5",
+        "note": "公开榜单页面快照；不代表实时稳定榜位"
+      },
+      {
+        "title": "说好让我做首辅，女帝封我为皇夫",
+        "author": "忘川雾",
+        "list_name": "互动榜",
+        "observed_at": "2026-10-31T20:47:00+08:00",
+        "rank": null,
+        "genre": "历史架空",
+        "visible_metric": "榜单中可见；具体名次随快照波动",
+        "book_url": "https://www.tadu.com/book/1049055",
+        "source_id": "S5",
+        "note": "公开榜单页面快照；不代表实时稳定榜位"
+      }
+    ],
+    "gaps": [
+      "AI辅助或AI生成稿件的当前平台明细规则未从可访问官方页面核实；正式投稿前须联系官方编辑确认。",
+      "公开榜单存在页面缓存与抓取延迟；按公开页面所见标明榜类和可见指标，不将指标混为收益。",
+      "签约、福利及有效字数以平台后台最新规则、审核及实际合同为准。"
+    ],
+    "summary": "新书榜出现玄幻规则升级、现代都市及求生；长期人气榜仍有历史、悬疑与系统等不同类型。只有可见样本，不据此保证热度或签约。"
+  },
+  "history": [
+    {
+      "at": "2026-10-31T12:43:04+00:00",
+      "phase": "WAITING_PLATFORM",
+      "label": "等待选择平台",
+      "detail": "系统已准备好，请先选择创作平台。"
+    },
+    {
+      "at": "2026-10-31T12:44:40+00:00",
+      "phase": "RESEARCH_PLATFORM",
+      "label": "核查平台规则",
+      "detail": "已选择塔读小说，正在等待核查现行规则。"
+    },
+    {
+      "at": "2026-10-31T12:47:20+00:00",
+      "phase": "SCANNING_RANKINGS",
+      "label": "研究榜单",
+      "detail": "规则和榜单资料已保存；存在待核实项。"
+    },
+    {
+      "at": "2026-10-31T12:47:21+00:00",
+      "phase": "WAITING_TOPIC",
+      "label": "等待选择题材",
+      "detail": "已准备8个原创选题，等待作者选择。"
+    }
+  ]
+}
