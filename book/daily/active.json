@@ -7,7 +7,7 @@
   "start_date": "2026-11-01",
   "started_at": "2026-10-31T20:35:27+00:00",
   "chapter": 2,
-  "status": "running",
+  "status": "blocked",
   "baseline_count": 1,
   "baseline_fingerprint": "cb6f29105680bfec9537fa27a8ec24fc538f673c0962eed634c7f1825e2dd3cc",
   "attempts": [],
@@ -18,9 +18,11 @@
     "platform_run_id": "f575a183-bc10-832e-af49-48bcaf9511f9"
   },
   "executor_checkpoint": {
-    "request_id": "xs4_20261101_briefcheck_f575a183",
-    "phase": "command",
-    "at": "2026-10-31T20:36:25+00:00",
-    "github_run_id": "41239688009"
-  }
+    "request_id": "xs4_20261101_block_f575a183",
+    "phase": "block",
+    "at": "2026-10-31T20:37:48+00:00",
+    "github_run_id": "41239789700"
+  },
+  "reason": "CH002仅完成3190汉字工作草稿drafts/CH002_working.txt，未达到8000—10000汉字，也未完成候选登记、限信息审读、八项证据审核及release-check；禁止不完整正文采用。保留本章目标、写前brief及工作草稿，后续核验原平台终态与执行器作业后合法续写，不跳章。",
+  "blocked_at": "2026-10-31T20:37:48+00:00"
 }
