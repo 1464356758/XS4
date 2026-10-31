@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "XS4_ch001_candidate_1793457196144",
-  "base_sha": "2898dbcf9cf8fd4a83d675e6df349d30933f48b5",
+  "request_id": "XS4_ch001_record_request_1793457339955",
+  "base_sha": "682a3bcf6a9b2e714dfb2336ac6d7541a63dba23",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "manual",
@@ -11,18 +11,15 @@
   "run_id": "73e8ef90b8eb4268acd48fec1284a024",
   "commands": [
     {
-      "script": "draft_transfer.py",
+      "script": "novel_state.py",
       "args": [
-        "assemble",
-        "--out",
+        "--root",
+        "book",
+        "check-record",
+        "--text",
         "drafts/CH001.txt",
-        "--sha256",
-        "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
-        "--parts",
-        "drafts/CH001_part_01.txt",
-        "drafts/CH001_part_02.txt",
-        "drafts/CH001_part_03.txt",
-        "drafts/CH001_part_04.txt"
+        "--record",
+        "drafts/CH001_record.json"
       ]
     },
     {
@@ -30,25 +27,13 @@
       "args": [
         "--root",
         "book",
-        "candidate",
-        "--chapter",
-        "1",
-        "--text",
-        "drafts/CH001.txt"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "context",
-        "--profile",
-        "reader",
+        "release-request",
         "--text",
         "drafts/CH001.txt",
+        "--record",
+        "drafts/CH001_record.json",
         "--out",
-        "drafts/CH001_reader_packet.md"
+        "drafts/CH001_release.json"
       ]
     }
   ]
