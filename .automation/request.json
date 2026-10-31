@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "XS4_ch001_briefrequest_1793456464311",
-  "base_sha": "916a37eccf045eb157c8e4bdb9e7dc8551606f4c",
+  "request_id": "XS4_ch001_briefcheck_1793456594795",
+  "base_sha": "6482450cd79cfdebd978938ca054007fe2a682c0",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "manual",
@@ -11,19 +11,13 @@
   "run_id": "73e8ef90b8eb4268acd48fec1284a024",
   "commands": [
     {
-      "script": "online_state.py",
+      "script": "novel_state.py",
       "args": [
-        "--project",
-        ".",
-        "task",
-        "--phase",
-        "WRITING",
-        "--detail",
-        "第一章执行已归属，正在建立写前任务书并创作完整正文；前章冻结数为0。",
-        "--next",
-        "按V4.3登记brief并由writer资料完整创作CH001，完成阅读审核与冻结前校验。",
-        "--chapter",
-        "1"
+        "--root",
+        "book",
+        "brief-check",
+        "--file",
+        "drafts/CH001_brief.json"
       ]
     },
     {
@@ -31,9 +25,23 @@
       "args": [
         "--root",
         "book",
-        "brief-request",
+        "context",
+        "--profile",
+        "writer",
         "--out",
-        "drafts/CH001_brief.json"
+        "drafts/CH001_writer_packet.md"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "矿车牌 错息 铜铃",
+        "--limit",
+        "5"
       ]
     }
   ]
