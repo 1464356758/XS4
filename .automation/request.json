@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_CH002_candidate_1793512127848",
-  "base_sha": "b50a56cc957bf271ca1afd7aae1a5fc0cd60b462",
+  "request_id": "xs4_CH002_record_request_1793512324252",
+  "base_sha": "7d20a311c6b3ddebb95604c29632aed7390ca888",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "automation",
@@ -17,25 +17,11 @@
       "args": [
         "--root",
         "book",
-        "candidate",
-        "--chapter",
-        "2",
-        "--text",
-        "drafts/CH002.txt"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "context",
-        "--profile",
-        "reader",
+        "check-record",
         "--text",
         "drafts/CH002.txt",
-        "--out",
-        "drafts/CH002_reader_packet.md"
+        "--record",
+        "drafts/CH002_record.json"
       ]
     },
     {
@@ -43,11 +29,13 @@
       "args": [
         "--root",
         "book",
-        "history-search",
-        "--query",
-        "乙七 陈九 救人 记号 换牌",
-        "--limit",
-        "5"
+        "release-request",
+        "--text",
+        "drafts/CH002.txt",
+        "--record",
+        "drafts/CH002_record.json",
+        "--out",
+        "drafts/CH002_release.json"
       ]
     }
   ]
