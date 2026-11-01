@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_CH002_resume_begin_1793511784521",
-  "base_sha": "0c58c09be2b474fe12008c8322d8db36c66eba64",
+  "request_id": "xs4_CH002_candidate_1793512127848",
+  "base_sha": "b50a56cc957bf271ca1afd7aae1a5fc0cd60b462",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "automation",
@@ -9,14 +9,46 @@
     "session_id": "xs4_ch002_resume_1793511784521",
     "platform_run_id": null
   },
-  "phase": "begin",
-  "stopped_evidence": {
-    "source": "automation_run_lookup",
-    "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
-    "platform_run_id": "f575a183-bc10-832e-af49-48bcaf9511f9",
-    "run_id": "0be54c8d284e4347bfc0db7ef5d9b6e3",
-    "status": "completed",
-    "all_executor_jobs_terminal": true,
-    "observed_at": "2026-11-01T05:43:04.521Z"
-  }
+  "phase": "command",
+  "run_id": "fed714a8c9734bb1b74b341845c0f583",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "candidate",
+        "--chapter",
+        "2",
+        "--text",
+        "drafts/CH002.txt"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH002.txt",
+        "--out",
+        "drafts/CH002_reader_packet.md"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "乙七 陈九 救人 记号 换牌",
+        "--limit",
+        "5"
+      ]
+    }
+  ]
 }
