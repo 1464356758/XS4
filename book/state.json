@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "title": "灵根被废那天，我看见了功法的破绽",
-  "revision": 4,
+  "revision": 5,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -31,6 +31,16 @@
       "record_sha256": "1a4284301bd2bb8f8973bc9290d9e213b333bf24a00d92bd24a6a08069c26bb8",
       "han_count": 9830,
       "adopted_at": "2026-10-31T14:41:16+00:00"
+    },
+    "2": {
+      "title": "矿车牌少了一号",
+      "stage": "S01",
+      "text_path": "chapters/CH002_eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1.txt",
+      "text_sha256": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
+      "record_path": "records/CH002_b06ade2094c0b4bae7325edaf723fd77dd81480a7a85a7072e6cc6b5fb9d320b.json",
+      "record_sha256": "b06ade2094c0b4bae7325edaf723fd77dd81480a7a85a7072e6cc6b5fb9d320b",
+      "han_count": 9859,
+      "adopted_at": "2026-11-01T05:55:53+00:00"
     }
   },
   "checkpoints": [],
@@ -84,7 +94,7 @@
       "task_id": "d8fd3c2d-78a3-4d7c-81c1-17cd8dbb3041",
       "chapter": 2,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 0,
       "history": [
         {
@@ -105,6 +115,10 @@
       "1": {
         "text_sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
         "record_sha256": "1a4284301bd2bb8f8973bc9290d9e213b333bf24a00d92bd24a6a08069c26bb8"
+      },
+      "2": {
+        "text_sha256": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
+        "record_sha256": "b06ade2094c0b4bae7325edaf723fd77dd81480a7a85a7072e6cc6b5fb9d320b"
       }
     },
     "published": {},
@@ -117,7 +131,7 @@
       "2": {
         "path": "releases/CH002_fd71e5ee200a7f3f29b892dafaf6550dfd5edb5949a40cbc05e2f4e073c29fa8.json",
         "sha256": "fd71e5ee200a7f3f29b892dafaf6550dfd5edb5949a40cbc05e2f4e073c29fa8",
-        "used": false
+        "used": true
       }
     },
     "promises": {
@@ -138,7 +152,7 @@
         ],
         "deadline_chapter": 3,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       },
       "P-FURNACE-003": {
         "history": [
@@ -157,7 +171,7 @@
         ],
         "deadline_chapter": 3,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       },
       "P-MINE-001": {
         "history": [
@@ -176,7 +190,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       },
       "P-RESCUE-002": {
         "history": [
@@ -191,11 +205,23 @@
               "quote": "他扶起陈九，两人贴着旧梁往前挪。"
             },
             "chapter": 1
+          },
+          {
+            "id": "P-RESCUE-002",
+            "action": "complete",
+            "deadline_chapter": 2,
+            "reason": "CH002已用有来源清水/收口粉/木板止血固定并移至灰轮间临时安置，按原限定完成；不把临时安置记为彻底安全或康复。",
+            "evidence": {
+              "chapter": 2,
+              "sha256": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
+              "quote": "但血已经止住，伤处固定好了，他此刻不必再被人拖着走"
+            },
+            "chapter": 2
           }
         ],
         "deadline_chapter": 2,
-        "status": "open",
-        "last_reviewed_chapter": 1
+        "status": "closed",
+        "last_reviewed_chapter": 2
       }
     },
     "incidents": {}
