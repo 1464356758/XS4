@@ -1,11 +1,22 @@
 {
   "schema_version": 1,
-  "request_id": "diag_preflight_20261101_mvx823uk_xs4",
-  "base_sha": "24166d53b40954b88d5a3f4882864ff3d09db209",
+  "request_id": "xs4_CH002_resume_begin_1793511784521",
+  "base_sha": "0c58c09be2b474fe12008c8322d8db36c66eba64",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
-    "kind": "maintenance",
-    "session_id": "diagnose_mvx823uk_xs4"
+    "kind": "automation",
+    "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
+    "session_id": "xs4_ch002_resume_1793511784521",
+    "platform_run_id": null
   },
-  "phase": "preflight"
+  "phase": "begin",
+  "stopped_evidence": {
+    "source": "automation_run_lookup",
+    "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
+    "platform_run_id": "f575a183-bc10-832e-af49-48bcaf9511f9",
+    "run_id": "0be54c8d284e4347bfc0db7ef5d9b6e3",
+    "status": "completed",
+    "all_executor_jobs_terminal": true,
+    "observed_at": "2026-11-01T05:43:04.521Z"
+  }
 }
