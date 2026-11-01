@@ -1,15 +1,11 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_20261101_block_f575a183",
-  "base_sha": "97f06535bf1294c19a34c579583678a447ecbd8b",
+  "request_id": "diag_preflight_20261101_mvx823uk_xs4",
+  "base_sha": "24166d53b40954b88d5a3f4882864ff3d09db209",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
-    "kind": "automation",
-    "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
-    "session_id": "xs4_session_20261101_f575a183",
-    "platform_run_id": "f575a183-bc10-832e-af49-48bcaf9511f9"
+    "kind": "maintenance",
+    "session_id": "diagnose_mvx823uk_xs4"
   },
-  "phase": "block",
-  "run_id": "0be54c8d284e4347bfc0db7ef5d9b6e3",
-  "reason": "CH002仅完成3190汉字工作草稿drafts/CH002_working.txt，未达到8000—10000汉字，也未完成候选登记、限信息审读、八项证据审核及release-check；禁止不完整正文采用。保留本章目标、写前brief及工作草稿，后续核验原平台终态与执行器作业后合法续写，不跳章。"
+  "phase": "preflight"
 }
