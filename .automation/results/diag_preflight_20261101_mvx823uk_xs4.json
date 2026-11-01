@@ -1,0 +1,21 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "diag_preflight_20261101_mvx823uk_xs4",
+  "request_sha256": "1a7c1f878559d6d488607f7f031084462c92aad2b4244765c9c5159e2beda5c9",
+  "source_sha": "3a2dca9e6ad0cbf2206255a9bbdbfe1583e799c1",
+  "base_sha": "24166d53b40954b88d5a3f4882864ff3d09db209",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "maintenance",
+    "session_id": "diagnose_mvx823uk_xs4"
+  },
+  "phase": "preflight",
+  "executed_at": "2026-11-01T02:39:50+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41266114376",
+  "business_status": "preflight_passed",
+  "active_status": "blocked",
+  "changed_paths": [
+    "online/index.json"
+  ]
+}
