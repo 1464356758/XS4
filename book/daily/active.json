@@ -2,56 +2,25 @@
   "schema_version": 1,
   "type": "novel-daily-task-v1",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
-  "run_id": "fed714a8c9734bb1b74b341845c0f583",
-  "work_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f:2026-11-01:2",
-  "start_date": "2026-11-01",
-  "started_at": "2026-10-31T20:35:27+00:00",
-  "chapter": 2,
-  "status": "completed",
-  "baseline_count": 1,
-  "baseline_fingerprint": "cb6f29105680bfec9537fa27a8ec24fc538f673c0962eed634c7f1825e2dd3cc",
-  "attempts": [
-    {
-      "run_id": "0be54c8d284e4347bfc0db7ef5d9b6e3",
-      "status": "blocked",
-      "reason": "CH002仅完成3190汉字工作草稿drafts/CH002_working.txt，未达到8000—10000汉字，也未完成候选登记、限信息审读、八项证据审核及release-check；禁止不完整正文采用。保留本章目标、写前brief及工作草稿，后续核验原平台终态与执行器作业后合法续写，不跳章。",
-      "stopped_confirmed_at": "2026-11-01T05:43:18+00:00"
-    }
-  ],
+  "run_id": "ec2d137cbc4c4f81926a343adf67a9a5",
+  "work_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f:2026-11-02:3",
+  "start_date": "2026-11-02",
+  "started_at": "2026-11-01T20:35:05+00:00",
+  "chapter": 3,
+  "status": "running",
+  "baseline_count": 2,
+  "baseline_fingerprint": "2c5adebb401dd36b6daa14f3b4008bf9f1ae6d87e8914911c4f602bf8a144ca0",
+  "attempts": [],
   "controller": {
     "kind": "automation",
     "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
-    "session_id": "xs4_ch002_resume_1793511784521",
+    "session_id": "xs4_20261102_a92f7c41",
     "platform_run_id": null
   },
   "executor_checkpoint": {
-    "request_id": "xs4_CH002_finalize_1793512534624",
-    "phase": "finalize",
-    "at": "2026-11-01T05:55:53+00:00",
-    "github_run_id": "41278782315"
-  },
-  "reason": "",
-  "blocked_at": "2026-10-31T20:37:48+00:00",
-  "resumed_at": "2026-11-01T05:43:18+00:00",
-  "controller_history": [
-    {
-      "controller": {
-        "kind": "automation",
-        "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
-        "session_id": "xs4_session_20261101_f575a183",
-        "platform_run_id": "f575a183-bc10-832e-af49-48bcaf9511f9"
-      },
-      "stopped_evidence": {
-        "source": "automation_run_lookup",
-        "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
-        "platform_run_id": "f575a183-bc10-832e-af49-48bcaf9511f9",
-        "run_id": "0be54c8d284e4347bfc0db7ef5d9b6e3",
-        "status": "completed",
-        "all_executor_jobs_terminal": true,
-        "observed_at": "2026-11-01T05:43:04.521Z"
-      }
-    }
-  ],
-  "completed_at": "2026-11-01T05:55:53+00:00",
-  "receipt_path": "daily/2026-11-01.json"
+    "request_id": "xs4_20261102_begin_b7d31f42",
+    "phase": "begin",
+    "at": "2026-11-01T20:35:06+00:00",
+    "github_run_id": "41347589386"
+  }
 }
