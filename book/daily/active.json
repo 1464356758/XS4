@@ -25,10 +25,10 @@
     "platform_run_id": null
   },
   "executor_checkpoint": {
-    "request_id": "xs4_CH002_record_request_1793512324252",
+    "request_id": "xs4_CH002_releasecheck_1793512459921",
     "phase": "command",
-    "at": "2026-11-01T05:52:23+00:00",
-    "github_run_id": "41278570265"
+    "at": "2026-11-01T05:54:39+00:00",
+    "github_run_id": "41278705966"
   },
   "reason": "",
   "blocked_at": "2026-10-31T20:37:48+00:00",
