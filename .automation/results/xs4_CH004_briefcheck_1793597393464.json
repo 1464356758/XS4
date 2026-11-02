@@ -1,0 +1,133 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs4_CH004_briefcheck_1793597393464",
+  "request_sha256": "92908981c2b9550d92a42f3f2d694fad12ccf5d087de527519bf404adbdc631c",
+  "source_sha": "49e3f5ce4a5e9b323b5d73379bc468e9647ca6ce",
+  "base_sha": "c7fab3a9037e3f5bd0b4a0cb10bab92bd277f5cd",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "manual",
+    "session_id": "xs4_CH004_manual_1793597191019"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-02T05:30:17+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41394388282",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-check",
+        "--file",
+        "drafts/CH004_brief_request.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH004_briefcheck_1793597393464/tool-01.stdout.txt",
+          "sha256": "fcf373ee871b44d9253afb6afd9a09a1e2aa711fe1f00caed2233d3291513a35",
+          "bytes": 319
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH004_briefcheck_1793597393464/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
+        "--out",
+        "drafts/CH004_writer_packet.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH004_briefcheck_1793597393464/tool-02.stdout.txt",
+          "sha256": "e887a0c8fa6695ceb5622b15f039d55e05a85a586cc30a180aa267ba55654a66",
+          "bytes": 108
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH004_briefcheck_1793597393464/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "陈九 伤臂 医药 自主署名",
+        "--limit",
+        "6"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH004_briefcheck_1793597393464/tool-03.stdout.txt",
+          "sha256": "5e60582ea745cdf842ddcd81bd7f2ea3bb8f11cf66bd7ca1f6516d755ee5716c",
+          "bytes": 8172
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH004_briefcheck_1793597393464/tool-03.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "江砚青 乙七 郑循 班次 见证",
+        "--limit",
+        "6"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH004_briefcheck_1793597393464/tool-04.stdout.txt",
+          "sha256": "40e905ee63d5819c6f60f2a64909186214e62b6579dd7ac3c0e3dd11d6d93c66",
+          "bytes": 8325
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH004_briefcheck_1793597393464/tool-04.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "26c96876599d48d9a1fe45163a272a94",
+  "changed_paths": [
+    ".automation/work/xs4_CH004_briefcheck_1793597393464/tool-01.stderr.txt",
+    ".automation/work/xs4_CH004_briefcheck_1793597393464/tool-01.stdout.txt",
+    ".automation/work/xs4_CH004_briefcheck_1793597393464/tool-02.stderr.txt",
+    ".automation/work/xs4_CH004_briefcheck_1793597393464/tool-02.stdout.txt",
+    ".automation/work/xs4_CH004_briefcheck_1793597393464/tool-03.stderr.txt",
+    ".automation/work/xs4_CH004_briefcheck_1793597393464/tool-03.stdout.txt",
+    ".automation/work/xs4_CH004_briefcheck_1793597393464/tool-04.stderr.txt",
+    ".automation/work/xs4_CH004_briefcheck_1793597393464/tool-04.stdout.txt",
+    "book/briefs/CH004_62a275848288765d1d0c2d0b05728f6e390e93f6b612f2b8dd726e5e54edf4f5.json",
+    "book/daily/active.json",
+    "book/state.json",
+    "drafts/CH004_writer_packet.md",
+    "online/index.json"
+  ]
+}
