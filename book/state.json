@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "title": "灵根被废那天，我看见了功法的破绽",
-  "revision": 6,
+  "revision": 7,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -51,6 +51,16 @@
       "record_sha256": "d59e921d8330f725e166573d99e5903e6d51c9ab7d91ac92a6f8f94f1ff12a93",
       "han_count": 9578,
       "adopted_at": "2026-11-02T05:13:15+00:00"
+    },
+    "4": {
+      "title": "工牌上的血",
+      "stage": "S01",
+      "text_path": "chapters/CH004_818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676.txt",
+      "text_sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+      "record_path": "records/CH004_e5f63a802c9716325a812a8526eea022bd44a03230743721893beeb27aa38333.json",
+      "record_sha256": "e5f63a802c9716325a812a8526eea022bd44a03230743721893beeb27aa38333",
+      "han_count": 9531,
+      "adopted_at": "2026-11-02T05:49:57+00:00"
     }
   },
   "checkpoints": [],
@@ -136,7 +146,7 @@
       "task_id": "0771db60-1faf-4cda-a996-b7f208fee7a5",
       "chapter": 4,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 0,
       "history": [
         {
@@ -165,6 +175,10 @@
       "3": {
         "text_sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
         "record_sha256": "d59e921d8330f725e166573d99e5903e6d51c9ab7d91ac92a6f8f94f1ff12a93"
+      },
+      "4": {
+        "text_sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+        "record_sha256": "e5f63a802c9716325a812a8526eea022bd44a03230743721893beeb27aa38333"
       }
     },
     "published": {},
@@ -187,7 +201,7 @@
       "4": {
         "path": "releases/CH004_0027f7fff36789c40ceba1e3d2250c09efba45070e69b41b3c2163e45dac19fc.json",
         "sha256": "0027f7fff36789c40ceba1e3d2250c09efba45070e69b41b3c2163e45dac19fc",
-        "used": false
+        "used": true
       }
     },
     "promises": {
@@ -270,7 +284,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 3
+        "last_reviewed_chapter": 4
       },
       "P-RESCUE-002": {
         "history": [
@@ -316,11 +330,23 @@
               "quote": "左手掌上鼓起几处浅泡"
             },
             "chapter": 3
+          },
+          {
+            "id": "P-AHE-CARE-004",
+            "action": "complete",
+            "deadline_chapter": 4,
+            "reason": "现场由陶医工清洁冷却并松垫敷布，确有兄妹工食欠账；完成本章初护约定，不声称治好烟呛。",
+            "evidence": {
+              "chapter": 4,
+              "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+              "quote": "陶医工从药棚取出两片干净细布，松松垫在阿禾手掌周围"
+            },
+            "chapter": 4
           }
         ],
         "deadline_chapter": 4,
-        "status": "open",
-        "last_reviewed_chapter": 3
+        "status": "closed",
+        "last_reviewed_chapter": 4
       },
       "P-CUSTODY-004": {
         "history": [
@@ -335,11 +361,61 @@
               "quote": "江砚青被押着往前走"
             },
             "chapter": 3
+          },
+          {
+            "id": "P-CUSTODY-004",
+            "action": "complete",
+            "deadline_chapter": 4,
+            "reason": "已经有北关乙三十一的带伤见证待核转运目的地，主角仍被护矿人牵绳，不伪称获得自由。",
+            "evidence": {
+              "chapter": 4,
+              "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+              "quote": "手腕上的绳索仍连着护矿人"
+            },
+            "chapter": 4
           }
         ],
         "deadline_chapter": 4,
+        "status": "closed",
+        "last_reviewed_chapter": 4
+      },
+      "P-AHE-RECHECK-005": {
+        "history": [
+          {
+            "id": "P-AHE-RECHECK-005",
+            "action": "set",
+            "deadline_chapter": 5,
+            "reason": "目前外门医疗签收未证实；CH005必须评估阿禾烟呛和伤掌，核对费用与真正接收。",
+            "evidence": {
+              "chapter": 4,
+              "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+              "quote": "还没开转医门，不能说已经送到。"
+            },
+            "chapter": 4
+          }
+        ],
+        "deadline_chapter": 5,
         "status": "open",
-        "last_reviewed_chapter": 3
+        "last_reviewed_chapter": 4
+      },
+      "P-GATE-SHIFT-006": {
+        "history": [
+          {
+            "id": "P-GATE-SHIFT-006",
+            "action": "set",
+            "deadline_chapter": 6,
+            "reason": "郑循拿三班名单威胁停工食，将在CH006前实际施压并需应对。",
+            "evidence": {
+              "chapter": 4,
+              "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+              "quote": "谁的工食就停。"
+            },
+            "chapter": 4
+          }
+        ],
+        "deadline_chapter": 6,
+        "status": "open",
+        "last_reviewed_chapter": 4
       }
     },
     "incidents": {}
