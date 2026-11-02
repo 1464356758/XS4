@@ -1,0 +1,57 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs4_ch003_direct_releasecheck_1793596316598",
+  "request_sha256": "a74280acf678711d436a7d296c0db3a351b10090a47536d5bdb44a79e624b61e",
+  "source_sha": "604f987b9cc93abb52a10c4d777423684e410cab",
+  "base_sha": "c08881864cf094fefe4b250b6f2a8883757bdc35",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
+    "session_id": "xs4_ch003_chat_direct_1793595712169",
+    "platform_run_id": null
+  },
+  "phase": "command",
+  "executed_at": "2026-11-02T05:12:20+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41392626798",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "release-check",
+        "--text",
+        "drafts/CH003.txt",
+        "--record",
+        "drafts/CH003_direct_record.json",
+        "--report",
+        "drafts/CH003_direct_release.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_ch003_direct_releasecheck_1793596316598/tool-01.stdout.txt",
+          "sha256": "f217bac5b888909bab46c965244ef9d33b159b0d875dfb86b53f023a509f0b56",
+          "bytes": 223
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_ch003_direct_releasecheck_1793596316598/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "5e168e1445484744a5e1828363a5e585",
+  "changed_paths": [
+    ".automation/work/xs4_ch003_direct_releasecheck_1793596316598/tool-01.stderr.txt",
+    ".automation/work/xs4_ch003_direct_releasecheck_1793596316598/tool-01.stdout.txt",
+    "book/daily/active.json",
+    "book/releases/CH003_85bd52530df8c6356edd5754954cd60aed634e86f51ccf4d0db33b1a1e3a8979.json",
+    "book/state.json",
+    "online/index.json"
+  ]
+}
