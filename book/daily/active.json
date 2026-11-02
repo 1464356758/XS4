@@ -15,9 +15,9 @@
   },
   "source": "author_manual_chapter",
   "executor_checkpoint": {
-    "request_id": "xs4_CH005_briefcheck_1793610843538",
+    "request_id": "xs4_CH005_candidate_1793611700496",
     "phase": "command",
-    "at": "2026-11-02T09:16:06+00:00",
-    "github_run_id": "41419178257"
+    "at": "2026-11-02T09:29:06+00:00",
+    "github_run_id": "41420984030"
   }
 }
