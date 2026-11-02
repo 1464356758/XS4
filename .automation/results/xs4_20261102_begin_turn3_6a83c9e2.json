@@ -1,0 +1,28 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs4_20261102_begin_turn3_6a83c9e2",
+  "request_sha256": "efc05516e0e881376974c96612d62ee06400db7b0cf01935cbe68f52cf4d63cf",
+  "source_sha": "a75399f8edf974a7562edf5b283c696c4e5466cc",
+  "base_sha": "a41036c935bee1bcbd321110a45e471746470e88",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
+    "session_id": "xs4_20261102_turn3_6a83c9e2",
+    "platform_run_id": "71657b67-4104-832c-9245-41548a911bff"
+  },
+  "phase": "begin",
+  "executed_at": "2026-11-02T04:59:17+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41391404757",
+  "business_status": "resumed",
+  "daily_action": "resumed",
+  "run_id": "f7f08ab95a01462985312dce8a23532b",
+  "chapter": 3,
+  "recovery_mode": "operator_revocation",
+  "revoked_run_id": "ec2d137cbc4c4f81926a343adf67a9a5",
+  "changed_paths": [
+    "book/daily/active.json",
+    "online/index.json"
+  ]
+}
