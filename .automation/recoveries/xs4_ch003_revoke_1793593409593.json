@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "type": "novel-operator-recovery-v1",
+  "operation": "revoke_and_resume_same_chapter",
+  "authorization_basis": "explicit_author_repair_request",
+  "author_instruction": "作者在当前会话中，针对上一轮明确提出的“授权修复XS4第三章旧执行锁、保留原证据并接续第三章”的请求，回复“继续”。仅授权撤销旧执行写入权与接续CH003；不确认旧聊天运行状态；不授权修改已冻结章节。",
+  "old_runtime_status": "unverified",
+  "repository": "1464356758/XS4",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
+  "reviewed_head": "9114cfd232ce79ef368b699250ec60dda16d1a93",
+  "old_run_id": "ec2d137cbc4c4f81926a343adf67a9a5",
+  "chapter": 3,
+  "baseline_count": 2,
+  "baseline_fingerprint": "2c5adebb401dd36b6daa14f3b4008bf9f1ae6d87e8914911c4f602bf8a144ca0",
+  "expected_active_sha256": "70dc0e9b3c2f7d16eaf4e281e72da1cbb0d3ea8fb86352ea562c5571c3d896a9",
+  "expected_state_sha256": "ce79de6b6c8f3782620d2cd901318d67a855f336ea46ef8e4babb950785631e5",
+  "reviewed_at": "2026-11-02T04:23:29.593Z",
+  "executor_evidence": {
+    "source": "github_actions_api",
+    "checked_at": "2026-11-02T04:23:29.596Z",
+    "all_jobs_terminal": true,
+    "checked_run_count": 100,
+    "runs": [
+      {
+        "id": 41376610581,
+        "status": "completed",
+        "conclusion": "success",
+        "name": "Novel task executor",
+        "updated_at": "2026-11-02T02:14:18Z",
+        "url": "https://github.com/1464356758/XS4/actions/runs/41376610581"
+      },
+      {
+        "id": 41376542330,
+        "status": "completed",
+        "conclusion": "success",
+        "name": "Novel task executor",
+        "updated_at": "2026-11-02T02:13:32Z",
+        "url": "https://github.com/1464356758/XS4/actions/runs/41376542330"
+      },
+      {
+        "id": 41347646322,
+        "status": "completed",
+        "conclusion": "success",
+        "name": "Novel task executor",
+        "updated_at": "2026-11-01T20:35:45Z",
+        "url": "https://github.com/1464356758/XS4/actions/runs/41347646322"
+      },
+      {
+        "id": 41347589386,
+        "status": "completed",
+        "conclusion": "success",
+        "name": "Novel task executor",
+        "updated_at": "2026-11-01T20:35:11Z",
+        "url": "https://github.com/1464356758/XS4/actions/runs/41347589386"
+      }
+    ]
+  }
+}
