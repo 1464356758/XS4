@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "chapter": 4,
+  "base_revision": 6,
+  "task_id": "0771db60-1faf-4cda-a996-b7f208fee7a5",
+  "repairs": 0,
+  "text_sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+  "record_sha256": "e5f63a802c9716325a812a8526eea022bd44a03230743721893beeb27aa38333",
+  "canon_sha256": "3da9f16026cf60bebeee90ac70450c69f0f4c4b6ca080e7a621ba5dec7e42195",
+  "roadmap_sha256": "71a7186407b9b83986267fa0e0bc3b1de92750e00046d2b67c37f3fe30efa082",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "62a275848288765d1d0c2d0b05728f6e390e93f6b612f2b8dd726e5e54edf4f5",
+  "decision": "pending",
+  "read_full_text": false,
+  "blocking_issues": [
+    "尚未实际阅读检查"
+  ],
+  "read_coverage": {
+    "1": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+    "2": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
+    "3": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+    "4": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676"
+  },
+  "reader_reason_to_continue": "",
+  "consequence": "",
+  "ending_runway": "",
+  "checks": {
+    "timeline": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+          "quote": ""
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+          "quote": ""
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+          "quote": ""
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+          "quote": ""
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+          "quote": ""
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+          "quote": ""
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+          "quote": ""
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+          "quote": ""
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "chapter": 1,
+      "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+      "quote": "",
+      "difference": ""
+    },
+    {
+      "chapter": 2,
+      "sha256": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
+      "quote": "",
+      "difference": ""
+    },
+    {
+      "chapter": 3,
+      "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+      "quote": "",
+      "difference": ""
+    }
+  ],
+  "future_window": [
+    {
+      "chapter": 5,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    },
+    {
+      "chapter": 6,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    },
+    {
+      "chapter": 7,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "P-AHE-CARE-004",
+      "action": "complete",
+      "deadline_chapter": 4,
+      "reason": "",
+      "evidence": {
+        "chapter": 4,
+        "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+        "quote": ""
+      }
+    },
+    {
+      "id": "P-AHE-RECHECK-005",
+      "action": "set",
+      "deadline_chapter": null,
+      "reason": "",
+      "evidence": {
+        "chapter": 4,
+        "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+        "quote": ""
+      }
+    },
+    {
+      "id": "P-CUSTODY-004",
+      "action": "complete",
+      "deadline_chapter": 4,
+      "reason": "",
+      "evidence": {
+        "chapter": 4,
+        "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+        "quote": ""
+      }
+    },
+    {
+      "id": "P-GATE-SHIFT-006",
+      "action": "set",
+      "deadline_chapter": null,
+      "reason": "",
+      "evidence": {
+        "chapter": 4,
+        "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+        "quote": ""
+      }
+    },
+    {
+      "id": "P-MINE-001",
+      "action": "keep",
+      "deadline_chapter": 10,
+      "reason": "",
+      "evidence": {
+        "chapter": 4,
+        "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+        "quote": ""
+      }
+    }
+  ],
+  "incident_actions": [],
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "",
+        "choice": "",
+        "change": "",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+            "quote": ""
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "",
+    "reader": {
+      "mode": "pending",
+      "limitation": "",
+      "coverage": {
+        "1": {
+          "text_sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+          "mode": "full_text"
+        },
+        "2": {
+          "text_sha256": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
+          "mode": "full_text"
+        },
+        "3": {
+          "text_sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+          "mode": "full_text"
+        },
+        "4": {
+          "text_sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "",
+      "information_load": "",
+      "promise_delivery": "",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+          "quote": ""
+        }
+      ],
+      "issues": []
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+            "quote": ""
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+            "quote": ""
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+            "quote": ""
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "ce901e2b7038663bbcc53d439e61230f262d7b35760c5f907dd7981207abe233",
+      "queries": [
+        "陈九 伤臂 医药 自主署名",
+        "阿七 阿禾 清炉 风门 救人 后果",
+        "郑循 工牌 乙七 见证 班次",
+        "江砚青 见隙 短刀 代价"
+      ],
+      "comparisons": [],
+      "no_match_reason": ""
+    },
+    "reader_updates": [],
+    "reader_update_note": "",
+    "surface_findings": []
+  }
+}
