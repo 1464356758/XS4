@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_CH004_candidate_1793597968663",
-  "base_sha": "068d8c1825fa1e425df451bb8cd9c10be40a663e",
+  "request_id": "xs4_CH004_record_1793598210606",
+  "base_sha": "17e1c3b7c68eaf4b7fe6c77336427a4035c5779c",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "manual",
@@ -15,11 +15,11 @@
       "args": [
         "--root",
         "book",
-        "candidate",
-        "--chapter",
-        "4",
+        "check-record",
         "--text",
-        "drafts/CH004.txt"
+        "drafts/CH004.txt",
+        "--record",
+        "drafts/CH004_record.json"
       ]
     },
     {
@@ -27,13 +27,13 @@
       "args": [
         "--root",
         "book",
-        "context",
-        "--profile",
-        "reader",
+        "release-request",
         "--text",
         "drafts/CH004.txt",
+        "--record",
+        "drafts/CH004_record.json",
         "--out",
-        "drafts/CH004_reader_packet.md"
+        "drafts/CH004_release.json"
       ]
     }
   ]
