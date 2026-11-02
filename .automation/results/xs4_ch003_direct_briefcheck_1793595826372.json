@@ -1,0 +1,135 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs4_ch003_direct_briefcheck_1793595826372",
+  "request_sha256": "79c3e2fe0a08109464bf49489a0b52f29b342cb3708bbb8722148b2532faad25",
+  "source_sha": "778376b5269774eff7a473ddb87ad3f745736060",
+  "base_sha": "3dacf6b9a031042f3e7f74a6924599635892bf96",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
+    "session_id": "xs4_ch003_chat_direct_1793595712169",
+    "platform_run_id": null
+  },
+  "phase": "command",
+  "executed_at": "2026-11-02T05:04:05+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41391852068",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-check",
+        "--file",
+        "drafts/CH003_brief_request.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_ch003_direct_briefcheck_1793595826372/tool-01.stdout.txt",
+          "sha256": "de24d418c1d6ccf3fa251a77ce387c956f8a551e9aa7af98678c83e13593ffca",
+          "bytes": 319
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_ch003_direct_briefcheck_1793595826372/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
+        "--out",
+        "drafts/CH003_direct_writer_packet.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_ch003_direct_briefcheck_1793595826372/tool-02.stdout.txt",
+          "sha256": "57909d8f61a3af9c51ea3fe8a01717b36c4ab88e96d60a5fb1c826c49bed642f",
+          "bytes": 115
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_ch003_direct_briefcheck_1793595826372/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "见隙 错息 矿尘 铜铃 救援",
+        "--limit",
+        "5"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_ch003_direct_briefcheck_1793595826372/tool-03.stdout.txt",
+          "sha256": "2aff01d35d831a168cb64a95e62737db40b15baa5a80376783921e916cf31e9c",
+          "bytes": 2842
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_ch003_direct_briefcheck_1793595826372/tool-03.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "乙七 阿七 郑循 矿车牌 受理",
+        "--limit",
+        "5"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_ch003_direct_briefcheck_1793595826372/tool-04.stdout.txt",
+          "sha256": "a03f235dab1a6a6551d14bc81562b3af8dacdc644cf307ef3eff8902a2ca3c8a",
+          "bytes": 5320
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_ch003_direct_briefcheck_1793595826372/tool-04.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "5e168e1445484744a5e1828363a5e585",
+  "changed_paths": [
+    ".automation/work/xs4_ch003_direct_briefcheck_1793595826372/tool-01.stderr.txt",
+    ".automation/work/xs4_ch003_direct_briefcheck_1793595826372/tool-01.stdout.txt",
+    ".automation/work/xs4_ch003_direct_briefcheck_1793595826372/tool-02.stderr.txt",
+    ".automation/work/xs4_ch003_direct_briefcheck_1793595826372/tool-02.stdout.txt",
+    ".automation/work/xs4_ch003_direct_briefcheck_1793595826372/tool-03.stderr.txt",
+    ".automation/work/xs4_ch003_direct_briefcheck_1793595826372/tool-03.stdout.txt",
+    ".automation/work/xs4_ch003_direct_briefcheck_1793595826372/tool-04.stderr.txt",
+    ".automation/work/xs4_ch003_direct_briefcheck_1793595826372/tool-04.stdout.txt",
+    "book/briefs/CH003_4f0b1d96bc361cf1f474fd84742e3835e05f9a014fdaef62f440f55200e0d8cb.json",
+    "book/daily/active.json",
+    "book/state.json",
+    "drafts/CH003_direct_writer_packet.md",
+    "online/index.json"
+  ]
+}
