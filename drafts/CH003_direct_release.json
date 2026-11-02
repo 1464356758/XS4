@@ -11,105 +11,103 @@
   "roadmap_sha256": "71a7186407b9b83986267fa0e0bc3b1de92750e00046d2b67c37f3fe30efa082",
   "narrative_review_version": 1,
   "writing_brief_sha256": "4f0b1d96bc361cf1f474fd84742e3835e05f9a014fdaef62f440f55200e0d8cb",
-  "decision": "pending",
-  "read_full_text": false,
-  "blocking_issues": [
-    "尚未实际阅读检查"
-  ],
+  "decision": "release",
+  "read_full_text": true,
+  "blocking_issues": [],
   "read_coverage": {
     "1": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
     "2": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
     "3": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb"
   },
-  "reader_reason_to_continue": "",
-  "consequence": "",
-  "ending_runway": "",
+  "reader_reason_to_continue": "本章完成阿禾从炉中活着逃出，却让主角因救援被郑循的护矿人暂押。读者已知道炉内的送风印如何只留短暂漏洞，却不知道谁提前下令清炉；阿禾藏下的两截乙七牌又可能是故意投放的伪证。下一章必须解决谁愿意具名、能否保障受伤女孩及主角的押解去向。",
+  "consequence": "阿禾左掌烫伤并烟呛，需有来源的诊治；余三斗止风须担当班炭损及被追责风险；江砚青断刀失落、右手新燎伤、左眼灼痛与右腿旧伤叠加，并被护矿人暂押。乙七两片残牌保住但原班次交接页焚毁，郑循尚掌原三孔牌，绝非圆满洗冤。",
+  "ending_runway": "CH004《工牌上的血》围绕受押江砚青的身份和实际押解记录、自愿见证人署名、阿禾伤情与医药来源展开，不能自动脱困。CH005《失踪簿未落款》核失踪簿原始责任人与两片乙七牌后号的其他独立来源，承认原账被焚不可复活。CH006按既定S01路线回应真正有权限的登记手续与看见破绽的错误风险，不重复本章机关卡杆。",
   "checks": {
     "timeline": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "直接衔接CH002早班钟鸣，第三章第一声清炉梆明确提前，双方先探灰口、再争送风签、施印、止鼓、开门、放兄妹出炉，末尾第二遍早钟。章末统一时间503分钟，较上章455分钟推进48分钟，成立且未写瞬移。",
       "evidence": [
         {
           "chapter": 3,
           "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-          "quote": ""
+          "quote": "山道上响起了第二遍早钟。"
         }
       ]
     },
     "knowledge": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "阿禾并不识牌上文字，仅知道蒙面人交给她烧木片，自己留下两截；江砚青明确保留是否原来牌、是否换过真实车的未知，余三斗只承认其亲自点名和操作，不得把推测冒充郑循幕后实情。",
       "evidence": [
         {
           "chapter": 3,
           "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-          "quote": ""
+          "quote": "我不知道是不是原来那两块。"
         }
       ]
     },
     "props_resources": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "CH002只剩断刃短刀确实被用于本章刮灰、抬板并在风轮下遗失，两个旧楔来自灰沟、草绳来自阿七上夜捆草；阿禾烧伤与烟呛及主角右手燎伤在章末都未得到凭空医治。",
       "evidence": [
         {
           "chapter": 3,
           "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-          "quote": ""
+          "quote": "身上的短刀也丢在了坏掉的风轮旁"
         }
       ]
     },
     "causality": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "局部锁杆失步只带来不到四息的机械延迟，护矿人可补印恢复风压；真正撤下主鼓靠余三斗冒责拉止风杠，开外锁及拆内副栓还需要阿七、阿禾行动，救援与证据损毁构成连锁代价。",
       "evidence": [
         {
           "chapter": 3,
           "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-          "quote": ""
+          "quote": "它不是西廊门锁，也不是整个主鼓。拿它当门开，阿禾照样出不来。"
         }
       ]
     },
     "power_rules": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "江砚青只在三丈以内对正进行的一套送风印完成起承落观察，发现铜环背后锁杆瞬间错息而非整炉漏洞；随后左目灼痛重影持续，未恢复灵根或隔墙透视。",
       "evidence": [
         {
           "chapter": 3,
           "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-          "quote": ""
+          "quote": "同一套印法完成起、承、落的一轮。"
         }
       ]
     },
     "promises": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "本章真实兑现阿禾离开西廊、保留两块形制不同乙七物证两项CH003期限；但伤者尚需治疗，两片残牌缺有效交接链无法判谁换车，故P-MINE-001继续开放。",
       "evidence": [
         {
           "chapter": 3,
           "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-          "quote": ""
+          "quote": "阿禾先迈出了门。"
         }
       ]
     },
     "anti_repeat": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "CH001以见隙加矿尘和铃架争自己逃生窗口，CH002付刀尖换陈九药并查双版记录；CH003虽再次短观术法，但局部卡杆未能解决问题，救援由工牌法规、余三斗停鼓与兄妹拆栓合作达成，代价是被捕和伤损。建议CH004不再用同式短观机关当场破局。",
       "evidence": [
         {
           "chapter": 3,
           "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-          "quote": ""
+          "quote": "炭损算我这一班。"
         }
       ]
     },
     "character_agency": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "阿七为妹拒绝把纸账放首位，阿禾亲自撑住副栓并冒险保存残木，余三斗选择承担炭损、护矿人仍执行捉拿，江砚青最后放弃夺取可能的原账，让兄妹离开而自己被押。",
       "evidence": [
         {
           "chapter": 3,
           "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-          "quote": ""
+          "quote": "他没有动。"
         }
       ]
     }
@@ -118,90 +116,90 @@
     {
       "chapter": 1,
       "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
-      "quote": "",
-      "difference": ""
+      "quote": "矿尘布囊已经用尽，半截三孔木牌落进了郑循袖中，没法再凭一双手抢回来。",
+      "difference": "第一章因废根后在矿尘、铜铃架掩护下短暂逃跑且丢木牌；第三章的见隙只能限制送风锁杆四息，无法独自开内外门，真正救援由阿七、阿禾、余三斗三方协助并主动承担炭损，主角反而被押、失刀与烫伤。两章虽有同种局部洞见，问题目标、协作结构和代价明显不同，后续必须防再重复机关赌窗口。"
     },
     {
       "chapter": 2,
       "sha256": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
-      "quote": "",
-      "difference": ""
+      "quote": "吴槐把旧面翻进梁内，另取一段锁秤的短铁丝拧紧。",
+      "difference": "第二章在数处记录之间谨慎验证而选择留旧板于吴槐、不暴露证人，又为陈九支付药资；第三章则在到期清炉生命危机下放弃追证，实体救出阿禾、取得两片残木却毁掉原纸账，关系从调查者与证人变成救援责任与被押争议。"
     }
   ],
   "future_window": [
     {
       "chapter": 4,
-      "goal": "",
-      "change": "",
-      "ending_question": ""
+      "goal": "处理江砚青已遭暂押的合法身份和押解记录，阿七、阿禾、余三斗是否自愿为清炉具名，同时实际处理阿禾烧伤与烟呛。",
+      "change": "有权提出的证据、签名和伤者治疗有明确来源，主角不能随意消失于押解链；救援群体承担工位/粮食损失，形成第一份可追救援事实。",
+      "ending_question": "有人敢在真实工牌上写下自己看见的清炉失责吗？"
     },
     {
       "chapter": 5,
-      "goal": "",
-      "change": "",
-      "ending_question": ""
+      "goal": "核对失踪簿未落款的责任窗口与乙七完整后号被毁后的其他可核副本，不把阿禾捡到的残牌直接定为涉案原牌。",
+      "change": "得到有限的原始目录/轮值人名单与可重查的证据缺口，郑循追责升级；原页不能无代价恢复。",
+      "ending_question": "谁拥有最后一次真实盖印权，谁又有资格向宗门提出复核？"
     },
     {
       "chapter": 6,
-      "goal": "",
-      "change": "",
-      "ending_question": ""
+      "goal": "按原S01矿区生存与核账路线推动独立身份见证，检验见隙的错判与同伴互相质疑，防止矿区众人无缘无故突然集体支持主角。",
+      "change": "以有限授权或可信但不完整的新证据改变一名矿役的登记状态，主角遭遇反制与现实资源损失。",
+      "ending_question": "当证据伤到帮助过主角的人时，他是否还愿意坚持如实记录？"
     }
   ],
   "promise_reviews": [
     {
       "id": "P-AHE-CARE-004",
       "action": "set",
-      "deadline_chapter": null,
-      "reason": "",
+      "deadline_chapter": 4,
+      "reason": "阿禾从炉里出来并不代表治愈，左掌起泡及烟呛在CH004必须落实真实救护、物资来源与转运条件；不得无限延期。",
       "evidence": {
         "chapter": 3,
         "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-        "quote": ""
+        "quote": "左手掌上鼓起几处浅泡"
       }
     },
     {
       "id": "P-CUSTODY-004",
       "action": "set",
-      "deadline_chapter": null,
-      "reason": "",
+      "deadline_chapter": 4,
+      "reason": "江砚青章末被护矿人押走，CH004必须按真实守卫、押解登记或证人授权解决此处境，不允许转场无解释恢复自由。",
       "evidence": {
         "chapter": 3,
         "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-        "quote": ""
+        "quote": "江砚青被押着往前走"
       }
     },
     {
       "id": "P-DOUBLE-004",
       "action": "complete",
       "deadline_chapter": 3,
-      "reason": "",
+      "reason": "原约定CH003需取得双牌实际去向或可信独立核查：现场确有阿禾保留的两块独立形制乙七残木，阿七分开包存，证明实物并非一片轮流重复使用；但原挂车归属及完整后号不明，这部分继续由P-MINE核。",
       "evidence": {
         "chapter": 3,
         "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-        "quote": ""
+        "quote": "两截断牌被分别包着"
       }
     },
     {
       "id": "P-FURNACE-003",
       "action": "complete",
       "deadline_chapter": 3,
-      "reason": "",
+      "reason": "本章阿禾在阿七、余三斗与江砚青分别付代价后实际离开锁住的检修廊，约定救援兑现；后续医疗风险新立P-AHE-CARE。",
       "evidence": {
         "chapter": 3,
         "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-        "quote": ""
+        "quote": "阿禾先迈出了门。"
       }
     },
     {
       "id": "P-MINE-001",
       "action": "keep",
       "deadline_chapter": 10,
-      "reason": "",
+      "reason": "郑循掌三孔原木牌、炉房纸账焚毁、乙七双实体后号未查，正式受理与责任证据仍应按原CH010期限推进，不因本章两片残木提前认定凶手。",
       "evidence": {
         "chapter": 3,
         "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-        "quote": ""
+        "quote": "纸角在盆里蜷成黑色"
       }
     }
   ],
@@ -210,22 +208,102 @@
     "schema_version": 1,
     "actual_scenes": [
       {
-        "event": "",
-        "choice": "",
-        "change": "",
+        "event": "清炉梆响与检修廊敲声确认",
+        "choice": "阿七坚持先救妹，江砚青试灰沟后因热灰倒灌风险主动撤手，不拿一个无把握的机关赌阿禾的命。",
+        "change": "两人确认阿禾仍能回应且在西检修廊，却只能从外部寻安全入路。",
         "evidence": [
           {
             "chapter": 3,
             "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-            "quote": ""
+            "quote": "第一声清炉梆响起来时，阿七的脸色变了。"
+          }
+        ]
+      },
+      {
+        "event": "钥匙、送风签与护矿人的责任冲突",
+        "choice": "余三斗先拒钥匙，阿七以清炉前有人被困迫其对照签上例外；护矿人仍争执不主动停鼓。",
+        "change": "开锁人明确而止风签权限冲突未消，救援需要承担真实炭损。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "炭损算我这一班。"
+          }
+        ]
+      },
+      {
+        "event": "见隙局部诊断与卡杆失败",
+        "choice": "江砚青完整观察一套运功，只在锁杆回位时用旧楔争短暂空档，不尝试指挥未知的主鼓。",
+        "change": "短暂缓风不足以开门，护矿人很快恢复送风，江砚青被燎伤并失去残刀。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "同一套印法完成起、承、落的一轮。"
+          },
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "身上的短刀也丢在了坏掉的风轮旁"
+          }
+        ]
+      },
+      {
+        "event": "余三斗停鼓与兄妹两侧推栓",
+        "choice": "余三斗担下炭损并拉止风杠，阿七走灰斗入廊，阿禾主动托住副栓协助。",
+        "change": "女孩实际走出被锁检修廊，左掌烧伤和烟呛未被治好。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "阿禾先迈出了门。"
+          },
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "左手掌上鼓起几处浅泡"
+          }
+        ]
+      },
+      {
+        "event": "两片乙七残木的新事实与源头限制",
+        "choice": "阿禾承认不知木牌原位置，江砚青让阿七分别包存且保留栽赃可能，未把外形差异等同真相。",
+        "change": "独立实物差异可复查但原挂车史仍未证明，保护证物的人多了承担风险。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "我不知道是不是原来那两块。"
+          },
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "两截断牌被分别包着"
+          }
+        ]
+      },
+      {
+        "event": "江砚青暂押与原交接纸焚毁",
+        "choice": "主角看见疑似交接原页被焚却不挣脱抢夺，避免追兵再扑受伤兄妹。",
+        "change": "原证据永久损失、主角被押，下一章必须解决真实押解与有人具名问题。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "纸角在盆里蜷成黑色"
+          },
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "江砚青被押着往前走"
           }
         ]
       }
     ],
-    "plan_comparison": "",
+    "plan_comparison": "任务书六段预算从危险、权限、短观、合作救援、残牌、被押依次推进。正文对余三斗所持送风签免责争议和阿禾开副栓自主选择增加了实写，并没有照计划让主角单用法印破门；原本想在清炉后补核的乙七线索实际只剩两片来源待查的残牌，原纸页损毁，证据更困难。情节高潮由阻断法印转为多人承担风险，读者体验是救出女孩但主角自身被押，而不是战力爽胜。",
     "reader": {
-      "mode": "pending",
-      "limitation": "",
+      "mode": "same_context_approximation",
+      "limitation": "本次审阅确实使用只含CH001、CH002已冻结全文与CH003候选的reader packet，并阅读了前述正文；但同一对话的作者背景不能彻底隔离，不能冒充独立读者实验或平台反馈，只提供可用原文核验的理解诊断。",
       "coverage": {
         "1": {
           "text_sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
@@ -240,49 +318,90 @@
           "mode": "full_text"
         }
       },
-      "understanding": "",
-      "information_load": "",
-      "promise_delivery": "",
+      "understanding": "从开头清炉梆和敲击开始能明确理解阿禾还活着但出不来；见隙只让锁杆短暂受阻，救人依赖余三斗合法停鼓、阿七从灰道入内、阿禾亲自托栓；章末两片不同木料不等于最终冤案真相，而主角被押给第四章新的生命风险。",
+      "information_load": "中段同时出现外锁、副栓、灰斗、风轮小柱和主鼓、止风杠，对第一次阅读的手机端读者有一定空间负担；不过动作顺序和权限冲突在对话与失败行动中有实际结果。建议第四章优先写人和署名冲突，避免连续机关术语。",
+      "promise_delivery": "CH002末阿禾被困与两块乙七核查约定均在本章有实体结果。阿禾从锁廊真实活着走出，未隐瞒烧伤；两片不同乙七残木明确分开保留、真实来源仍有疑点，属于对双牌去向的限定兑现，绝非宣称破案。",
       "evidence": [
         {
           "chapter": 3,
           "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-          "quote": ""
+          "quote": "阿禾先迈出了门。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+          "quote": "我不知道是不是原来那两块。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+          "quote": "江砚青被押着往前走"
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "severity": "suggestion",
+          "status": "open",
+          "reason": "风轮锁杆、主鼓、灰斗与双副栓的空间次序需要细读；作为阅读节奏风险留到CH004对照审查，不据此杜撰结构矛盾或跳过约定救援。",
+          "evidence": {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "它不是西廊门锁，也不是整个主鼓。拿它当门开，阿禾照样出不来。"
+          }
+        },
+        {
+          "severity": "suggestion",
+          "status": "open",
+          "reason": "第一章和第三章均使用见隙加机械结构争数息，虽本章有多人协作、保护妹妹及被押代价，后续至少一段应避开再用同种机关短观法破局。",
+          "evidence": {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "同一套印法完成起、承、落的一轮。"
+          }
+        }
+      ]
     },
     "character_causality": {
       "opposition": {
-        "status": "pending",
-        "conclusion": "",
+        "status": "reviewed",
+        "conclusion": "护矿人代表郑循坚持执行清炉和拘捕，不会因主角一语感动；余三斗先怕掉工位不愿给钥匙，看到签面例外和困者实证后才决定承担炭损停鼓，两个对手与帮助者都有可见成本。",
         "evidence": [
           {
             "chapter": 3,
             "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-            "quote": ""
+            "quote": "炭损算我这一班。"
+          },
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "江砚青被押着往前走"
           }
         ]
       },
       "dialogue": {
-        "status": "pending",
-        "conclusion": "",
+        "status": "reviewed",
+        "conclusion": "阿七以妹妹生命质疑手续而非配合主角查牌，余三斗从拒钥匙转为对签承担损失，阿禾明确称不知木牌原挂位置，江砚青拒替她把口供升级成客观事实；对话实际改变选择和可知范围。",
         "evidence": [
           {
             "chapter": 3,
             "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-            "quote": ""
+            "quote": "我不知道是不是原来那两块。"
           }
         ]
       },
       "aftermath": {
-        "status": "pending",
-        "conclusion": "",
+        "status": "reviewed",
+        "conclusion": "停风导致当班炭损由余三斗承担，女孩掌心起泡并呛咳、主角失刀且被押，木牌保留却原账被焚；事后没有人凭一句话消除伤损或宣告宗门认错。",
         "evidence": [
           {
             "chapter": 3,
             "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-            "quote": ""
+            "quote": "身上的短刀也丢在了坏掉的风轮旁"
+          },
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "纸角在盆里蜷成黑色"
           }
         ]
       }
@@ -295,11 +414,116 @@
         "郑循 矿车牌 乙七 陈九 证据",
         "孙婆 吴槐 余三斗 受理"
       ],
-      "comparisons": [],
+      "comparisons": [
+        {
+          "similarity": "与第一章均利用见隙诊断一套运功短暂回路、再借矿务工具争数息。",
+          "difference": "第一章利用铜铃架、矿尘与索具为主角逃生，丢三孔牌；第三章卡杆只暂缓送风，不足以救人，救援须余三斗停鼓、阿七与阿禾拆栓，并导致主角被押和失刀，后续不可反复同招。",
+          "source": {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "矿尘布囊已经用尽，半截三孔木牌落进了郑循袖中，没法再凭一双手抢回来。"
+          },
+          "current_evidence": {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "它不是西廊门锁，也不是整个主鼓。拿它当门开，阿禾照样出不来。"
+          }
+        },
+        {
+          "similarity": "与第二章均细辨乙七双号的不同登记来源、坚持不把口供直接认作证据。",
+          "difference": "第二章主要用记重板、炉口灰板和药材交易推进调查，留下旧板原地；第三章主要完成炉内实际营救，阿禾带出两块实体不同的残木却损失了原交接账页，发生的是救援和证据代价，而非新一轮单纯读板。",
+          "source": {
+            "chapter": 2,
+            "sha256": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
+            "quote": "吴槐把旧面翻进梁内，另取一段锁秤的短铁丝拧紧。"
+          },
+          "current_evidence": {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "两截断牌被分别包着"
+          }
+        }
+      ],
       "no_match_reason": ""
     },
-    "reader_updates": [],
-    "reader_update_note": "",
+    "reader_updates": [
+      {
+        "kind": "observed",
+        "statement": "阿禾活着走出第七炉西检修廊，掌心烫伤与烟呛客观可见，未得到正式治疗，也未离开宗门。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "阿禾先迈出了门。"
+          },
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "左手掌上鼓起几处浅泡"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "余三斗根据送风签例外承担炭损停鼓，仍面临郑循追责；护矿人随后押走主角。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "炭损算我这一班。"
+          },
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "江砚青被押着往前走"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "两片不同形制的乙七残木分别包存于阿七兄妹身边，原交接纸在主角眼前被烧。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "两截断牌被分别包着"
+          },
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "纸角在盆里蜷成黑色"
+          }
+        ]
+      },
+      {
+        "kind": "claim",
+        "statement": "阿禾说蒙面人要她烧掉木料，但她不知道拿到的是否原本挂在门上的两块，不能直接证明真实换车人。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "我不知道是不是原来那两块。"
+          }
+        ]
+      },
+      {
+        "kind": "uncertain",
+        "statement": "早清炉究竟由谁授权、残木是否故意布置的陷害、完整乙七后号和江砚青押往何处均未揭晓。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "今天清炉的钟，究竟是谁叫你们提前敲的？"
+          },
+          {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "一块能读出前号的木片，不等于它一定曾挂在那辆少了一百二十斤的矿车上。"
+          }
+        ]
+      }
+    ],
+    "reader_update_note": "按全文已显现的动作、保管、伤损、人物口述与未解疑点分别记录，不把阿禾的有限回忆当作权威验真。能力误差、郑循案权限及新证物去向继续受冻结事实约束；已提供限信息审读但未声称做过真实外部读者评测。",
     "surface_findings": []
   }
 }
