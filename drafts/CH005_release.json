@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "chapter": 5,
+  "base_revision": 7,
+  "task_id": "589abd13-bdef-42ae-a87f-c1806b440aca",
+  "repairs": 0,
+  "text_sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+  "record_sha256": "5a4234ecc0ec4ecc47685b8fccdd11b0bebb37ca66fa29a6618e637fec5f9e67",
+  "canon_sha256": "3da9f16026cf60bebeee90ac70450c69f0f4c4b6ca080e7a621ba5dec7e42195",
+  "roadmap_sha256": "71a7186407b9b83986267fa0e0bc3b1de92750e00046d2b67c37f3fe30efa082",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "f071b3e3d299d02785b713cefa073fb059db281598fa6a50f999eb63487dc4b2",
+  "decision": "pending",
+  "read_full_text": false,
+  "blocking_issues": [
+    "尚未实际阅读检查"
+  ],
+  "read_coverage": {
+    "2": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
+    "3": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+    "4": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+    "5": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a"
+  },
+  "reader_reason_to_continue": "",
+  "consequence": "",
+  "ending_runway": "",
+  "checks": {
+    "timeline": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+          "quote": ""
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+          "quote": ""
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+          "quote": ""
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+          "quote": ""
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+          "quote": ""
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+          "quote": ""
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+          "quote": ""
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+          "quote": ""
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "chapter": 2,
+      "sha256": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
+      "quote": "",
+      "difference": ""
+    },
+    {
+      "chapter": 3,
+      "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+      "quote": "",
+      "difference": ""
+    },
+    {
+      "chapter": 4,
+      "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+      "quote": "",
+      "difference": ""
+    }
+  ],
+  "future_window": [
+    {
+      "chapter": 6,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    },
+    {
+      "chapter": 7,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    },
+    {
+      "chapter": 8,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "P-AHE-RECHECK-005",
+      "action": "complete",
+      "deadline_chapter": 5,
+      "reason": "",
+      "evidence": {
+        "chapter": 5,
+        "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+        "quote": ""
+      }
+    },
+    {
+      "id": "P-AHE-WATCH-007",
+      "action": "set",
+      "deadline_chapter": null,
+      "reason": "",
+      "evidence": {
+        "chapter": 5,
+        "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+        "quote": ""
+      }
+    },
+    {
+      "id": "P-GATE-SHIFT-006",
+      "action": "keep",
+      "deadline_chapter": 6,
+      "reason": "",
+      "evidence": {
+        "chapter": 5,
+        "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+        "quote": ""
+      }
+    },
+    {
+      "id": "P-MINE-001",
+      "action": "keep",
+      "deadline_chapter": 10,
+      "reason": "",
+      "evidence": {
+        "chapter": 5,
+        "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+        "quote": ""
+      }
+    },
+    {
+      "id": "P-ORIGINAL-CHECK-007",
+      "action": "set",
+      "deadline_chapter": null,
+      "reason": "",
+      "evidence": {
+        "chapter": 5,
+        "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+        "quote": ""
+      }
+    }
+  ],
+  "incident_actions": [],
+  "checkpoint": {
+    "kind": "window",
+    "from": 1,
+    "to": 5,
+    "base_revision": 7,
+    "canon_sha256": "3da9f16026cf60bebeee90ac70450c69f0f4c4b6ca080e7a621ba5dec7e42195",
+    "read_mode": "pending",
+    "decision": "pending",
+    "coverage": {
+      "1": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+      "2": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
+      "3": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+      "4": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+      "5": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a"
+    },
+    "record_coverage": {
+      "1": "1a4284301bd2bb8f8973bc9290d9e213b333bf24a00d92bd24a6a08069c26bb8",
+      "2": "b06ade2094c0b4bae7325edaf723fd77dd81480a7a85a7072e6cc6b5fb9d320b",
+      "3": "d59e921d8330f725e166573d99e5903e6d51c9ab7d91ac92a6f8f94f1ff12a93",
+      "4": "e5f63a802c9716325a812a8526eea022bd44a03230743721893beeb27aa38333",
+      "5": "5a4234ecc0ec4ecc47685b8fccdd11b0bebb37ca66fa29a6618e637fec5f9e67"
+    },
+    "findings": [],
+    "conclusion": "",
+    "causal_progress": "",
+    "repetition_comparison": "",
+    "character_changes": "",
+    "promise_payoffs": "",
+    "ending_runway": "",
+    "next_action": ""
+  },
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "",
+        "choice": "",
+        "change": "",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": ""
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "",
+    "reader": {
+      "mode": "pending",
+      "limitation": "",
+      "coverage": {
+        "1": {
+          "text_sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+          "mode": "reader_recap",
+          "release_sha256": "40a23c203531c785c9f449222fdb1b55ab2e3f18c13372cd81d88ba6be03c908"
+        },
+        "2": {
+          "text_sha256": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
+          "mode": "full_text"
+        },
+        "3": {
+          "text_sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+          "mode": "full_text"
+        },
+        "4": {
+          "text_sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+          "mode": "full_text"
+        },
+        "5": {
+          "text_sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "",
+      "information_load": "",
+      "promise_delivery": "",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+          "quote": ""
+        }
+      ],
+      "issues": []
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": ""
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": ""
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": ""
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "977d1203278be735f59e08b2f212ac8cb3c1a5a346de8098783dd9c361a0683e",
+      "queries": [
+        "CH004 北关乙三十一 押解 转医 签收 陈九 阿禾",
+        "CH002 失踪名单 矿车乙七 旧矿账 十三人",
+        "CH001 断脉印 陈九 百二十斤 矿尘",
+        "CH003 余三斗 清炉 救援 押解 陈九"
+      ],
+      "comparisons": [],
+      "no_match_reason": ""
+    },
+    "reader_updates": [],
+    "reader_update_note": "",
+    "surface_findings": []
+  }
+}
