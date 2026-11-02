@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_ch003_direct_candidate_1793595948287",
-  "base_sha": "5e1d87903c95ba59bd36f4bef966588278f529f3",
+  "request_id": "xs4_ch003_direct_record_1793596128837",
+  "base_sha": "31f57e4515b4dd0ecdff36634689d15811392651",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "automation",
@@ -17,11 +17,11 @@
       "args": [
         "--root",
         "book",
-        "candidate",
-        "--chapter",
-        "3",
+        "check-record",
         "--text",
-        "drafts/CH003.txt"
+        "drafts/CH003.txt",
+        "--record",
+        "drafts/CH003_direct_record.json"
       ]
     },
     {
@@ -29,13 +29,13 @@
       "args": [
         "--root",
         "book",
-        "context",
-        "--profile",
-        "reader",
+        "release-request",
         "--text",
         "drafts/CH003.txt",
+        "--record",
+        "drafts/CH003_direct_record.json",
         "--out",
-        "drafts/CH003_direct_reader_packet.md"
+        "drafts/CH003_direct_release.json"
       ]
     }
   ]
