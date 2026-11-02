@@ -16,6 +16,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import uuid
 
 import daily_update as daily
 import novel_state as ns
@@ -130,7 +131,84 @@ def stopped_proof(active, proof):
             isinstance(proof.get("observed_at"), str) and bool(proof["observed_at"]))
 
 
+
+def manual_begin_owned(project, request):
+    """Manual next chapter, even after today's completed daily chapter. Never edit prior receipt."""
+    root = Path(project) / "book"
+    state = ns.load_state(root)
+    old = read_active(project)
+    owner = request["controller"]
+    if old and old.get("status") in ("running", "blocked"):
+        if owner_equal(old.get("controller"), owner):
+            return {"action": "continue_owned", "run_id": old["run_id"], "chapter": old["chapter"], "controller": owner}
+        return {"action": "recovery_required", "note": "另一控制者仍占锁，手动执行不得抢占。", "chapter": old.get("chapter")}
+    require(old is None or old.get("status") == "completed", "旧章节尚未完成，不能新开手动章节。")
+    if old:
+        last = state["chapters"].get(str(old.get("chapter")))
+        receipt_path = old.get("receipt_path")
+        require(last is not None and isinstance(receipt_path, str) and bool(receipt_path), "此前完成状态缺少正式章及回执，不得覆盖。")
+        receipt_file = ns.inside(root, receipt_path)
+        require(receipt_file.is_file(), "旧完成回执丢失，禁止开启手动新章。")
+        prior_receipt = ns.read_json(receipt_file)
+        require(prior_receipt.get("run_id") == old.get("run_id") and prior_receipt.get("chapter") == old.get("chapter") and
+                prior_receipt.get("body_sha256") == last["text_sha256"], "旧完成回执不匹配，不允许新写。")
+        archive = root / "manual" / "archived" / ("CH%03d_" % old["chapter"] + old["run_id"] + ".json")
+        archive.parent.mkdir(parents=True, exist_ok=True)
+        ns.immutable_text(archive, json.dumps(old, ensure_ascii=False, indent=2) + "\n")
+    target = len(state["chapters"]) + 1
+    stage = state["chapters"].get(str(target - 1), {}).get("stage", "S01")
+    ns.ensure_next_allowed(state, target, stage)
+    uid = uuid.uuid4().hex
+    when = now()
+    active = {"schema_version": 1, "type": "novel-manual-task-v1", "book_id": state["book_id"],
+              "run_id": uid, "work_id": state["book_id"] + ":manual:" + uid,
+              "started_at": when, "chapter": target, "status": "running",
+              "baseline_count": target - 1, "baseline_fingerprint": daily.prefix_fingerprint(state, target - 1),
+              "controller": copy.deepcopy(owner), "source": "author_manual_chapter"}
+    ns.atomic_json(root / "daily/active.json", active)
+    return {"action": "started", "run_id": uid, "chapter": target, "controller": owner, "manual": True}
+
+
+def manual_finish(project, active):
+    """Freeze via regular V4.3 gate but put receipt under manual/, never replace daily receipt."""
+    root = Path(project) / "book"
+    state = ns.load_state(root)
+    n = active["chapter"]
+    require(active.get("type") == "novel-manual-task-v1" and state["book_id"] == active["book_id"] and
+            len(state["chapters"]) == n and n == active["baseline_count"] + 1,
+            "手动收尾状态与新冻结章节不符。")
+    require(daily.prefix_fingerprint(state, n - 1) == active["baseline_fingerprint"],
+            "本轮冻结基线已变化。")
+    item, gate = daily.formal_evidence(root, state, n)
+    require(datetime.fromisoformat(item["adopted_at"]) >= datetime.fromisoformat(active["started_at"]),
+            "手动章节在开始前就已经采用，不能追认。")
+    rec = {"schema_version": 1, "type": "novel-manual-completion-v1", "status": "completed",
+           "book_id": state["book_id"], "run_id": active["run_id"], "work_id": active["work_id"],
+           "chapter": n, "started_at": active["started_at"], "completed_at": item["adopted_at"],
+           "body_path": item["text_path"], "body_sha256": item["text_sha256"],
+           "record_path": item["record_path"], "record_sha256": item["record_sha256"],
+           "release_path": gate["path"], "release_sha256": gate["sha256"],
+           "state_revision": state["revision"]}
+    relative = "manual/CH%03d_" % n + active["run_id"] + ".json"
+    dest = root / relative
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    ns.immutable_text(dest, json.dumps(rec, ensure_ascii=False, indent=2) + "\n")
+    ns.atomic_json(root / "daily/active.json",
+                   dict(active, status="completed", completed_at=item["adopted_at"], receipt_path=relative))
+    return dict(rec, receipt_path="book/" + relative)
+
+
+def block_owned(project, active, reason):
+    if active.get("type") == "novel-manual-task-v1":
+        update = dict(active, status="blocked", reason=str(reason)[:2000], blocked_at=now())
+        ns.atomic_json(Path(project) / "book/daily/active.json", update)
+        return update
+    return daily.block(project, active["run_id"], reason)
+
+
 def begin_owned(project, request):
+    if request["controller"].get("kind") == "manual":
+        return manual_begin_owned(project, request)
     claimed = operator_recovery.claim_ready(project, request["controller"])
     if claimed is not None:
         return claimed
@@ -260,18 +338,18 @@ def _run(project, request, result):
         paths = [safe_path(project, request.get(key)) for key in ("text", "record", "report")]
         ns.serial_module().check(root, *paths, ns.serial_api())
         ns.adopt(root, paths[0], paths[1])
-        receipt = daily.finish(project, request["run_id"])
+        receipt = manual_finish(project, active) if active.get("type") == "novel-manual-task-v1" else daily.finish(project, request["run_id"])
         workflow = online.load_workflow(project)
         online.write_workflow(project, workflow, phase="WAITING_NEXT",
                               detail=f"第{active['chapter']}章已采用并冻结；平台发布另凭真实回执登记。",
-                              next_action="读取正式状态后，由下一次日更处理下一章。")
+                              next_action="读取正式状态后，由作者手动发起下一章。" if active.get("type") == "novel-manual-task-v1" else "读取正式状态后，由下一次日更处理下一章。")
         workflow = online.load_workflow(project); workflow["chapter"] = active["chapter"] + 1
         ns.atomic_json(Path(project) / "book/workflow.json", workflow)
         result.update(business_status="chapter_completed", run_id=receipt["run_id"], chapter=receipt["chapter"],
-                      body_sha256=receipt["body_sha256"], receipt_path="book/daily/" + receipt["date"] + ".json")
+                      body_sha256=receipt["body_sha256"], receipt_path=receipt["receipt_path"] if receipt.get("receipt_path") else "book/daily/" + receipt["date"] + ".json")
     else:
         assert_owner(project, request)
-        daily.block(project, request["run_id"], request.get("reason", ""))
+        block_owned(project, assert_owner(project, request), request.get("reason", ""))
         result.update(business_status="blocked", run_id=request["run_id"])
     sync_index(project)
     active = read_active(project)
@@ -328,7 +406,7 @@ def apply_request(project, request, source_sha):
             result.update(executor_status="error", business_status="blocked", error=error)
             active = read_active(work)
             if active and active.get("run_id") == request.get("run_id") and owner_equal(active.get("controller"), request["controller"]) and active.get("status") != "completed":
-                daily.block(work, active["run_id"], error)
+                block_owned(work, active, error)
                 result["run_id"] = active["run_id"]
             sync_index(work)
             guard_after(work, before, "command")
