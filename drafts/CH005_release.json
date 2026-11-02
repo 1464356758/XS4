@@ -11,106 +11,104 @@
   "roadmap_sha256": "71a7186407b9b83986267fa0e0bc3b1de92750e00046d2b67c37f3fe30efa082",
   "narrative_review_version": 1,
   "writing_brief_sha256": "f071b3e3d299d02785b713cefa073fb059db281598fa6a50f999eb63487dc4b2",
-  "decision": "pending",
-  "read_full_text": false,
-  "blocking_issues": [
-    "尚未实际阅读检查"
-  ],
+  "decision": "release",
+  "read_full_text": true,
+  "blocking_issues": [],
   "read_coverage": {
     "2": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
     "3": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
     "4": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
     "5": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a"
   },
-  "reader_reason_to_continue": "",
-  "consequence": "",
-  "ending_runway": "",
+  "reader_reason_to_continue": "本章确认阿禾已经外门接诊但仍烟呛留观；罗嫂丈夫罗大满名列未落款的失踪簿抄本，而该院实际不曾接收其人。郑循断三班工食、阿七开始质疑追查代价；夜间只得到原检号柜位与人车两套检字的有限信息，赵韧起身再牵绳，形成第六章调查与人身风险双钩。",
+  "consequence": "阿禾和陈九伤未愈，治疗及留观有可记费用，主人公右腿眼臂伤与押解持续。阿七、陈九、吴槐工食实际被暂停，余三斗炭损待追；罗嫂被矿务发现，阿七和江砚青在调查与照护优先级上分歧，南坡病车错过，失踪簿正本和检字号均尚未取得。",
+  "ending_runway": "CH006《两张账不能都真》须对照原始人检、车检及乙七称重并对真正停工食作应对；CH007《逃道只容一人》在不忽略阿禾留观和原检字号缺口下处理救人与带物证冲突；CH008《押送的假口供》验证不同押解者出发地点和身份的矛盾，不能以传闻直接定罪。",
   "checks": {
     "timeline": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "CH004 629分钟后，山道至午初签收、申时断粮、黄昏病车离开及夜递往返，CH005末统一故事时间1330分钟；转医和查卷并未不计时瞬移。",
       "evidence": [
         {
           "chapter": 5,
           "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-          "quote": ""
+          "quote": "那辆车终于在暮色里出了院门。"
         }
       ]
     },
     "knowledge": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "梁只知道本人伤病房收人及无印抄页；罗嫂没有亲见丈夫上车，江砚青不知道原检字号与罗大满下落，夜递人所述人车双簿只是待核说法，不能冒充已证阴谋。",
       "evidence": [
         {
           "chapter": 5,
           "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-          "quote": ""
+          "quote": "落款处一片空白。"
         }
       ]
     },
     "props_resources": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "阿禾烟呛掌泡、陈九夹板和江砚青左眼重影/右腿旧伤/右臂烧伤继续留账；敷布、粥及医资有病房与欠工食来源，短刀、三孔原牌及灵石没有凭空恢复，三班粮食确实停发。",
       "evidence": [
         {
           "chapter": 5,
           "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-          "quote": ""
+          "quote": "换了新的清洁敷料"
         }
       ]
     },
     "causality": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "赵韧改押房的尝试被有权北关转医路线与阿禾实际喘息阻止；罗嫂寻夫触发实际医房缺接收的核对，无法验证原检号导致夜间正常退查；此举持续暴露班次、工食停发并错过黄昏病车。",
       "evidence": [
         {
           "chapter": 5,
           "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-          "quote": ""
+          "quote": "三人因离岗或账务待核，今起暂停领工食。"
         }
       ]
     },
     "power_rules": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "主角全章没有使用见隙隔墙窥物或制造完美诊断，仍被护矿人用绳看守，左眼重影无法靠强观直接取得账簿隐藏内容。",
       "evidence": [
         {
           "chapter": 5,
           "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-          "quote": ""
+          "quote": "他已经没有能力趁夜色翻墙"
         }
       ]
     },
     "promises": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "阿禾在CH005到期真实医房复诊并留观，P-AHE-RECHECK兑现但不等于痊愈；三班停粮已实发生而CH006必须应对，原检字号和乙七矿案仍需更可靠来源。",
       "evidence": [
         {
           "chapter": 5,
           "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-          "quote": ""
+          "quote": "三名伤者都确实到了。"
         }
       ]
     },
     "anti_repeat": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "CH001逃石台、CH002旧秤板、CH003热炉救人、CH004陈九本人签名、CH005罗嫂寻人与医房缺接收，事件核心和成本不同。但CH002/CH004/CH005程序资料密集，是真实的非阻断节奏风险，CH006应通过动作与反制改进。",
       "evidence": [
         {
           "chapter": 5,
           "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-          "quote": ""
+          "quote": "不是给那张失踪簿补落款。"
         }
       ]
     },
     "character_agency": {
-      "decision": "pending",
-      "conclusion": "",
+      "decision": "pass",
+      "conclusion": "阿七拒继续用妹妹命和明日工食换调查，唐叶坚持女孩留观、梁拒将无印抄页变成公文，罗嫂决定去南坡查，郑循主动实停工食；江砚青承认无法替旁人决定。",
       "evidence": [
         {
           "chapter": 5,
           "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-          "quote": ""
+          "quote": "你还想押什么？"
         }
       ]
     }
@@ -119,40 +117,40 @@
     {
       "chapter": 2,
       "sha256": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
-      "quote": "",
-      "difference": ""
+      "quote": "吴槐把旧面翻进梁内，另取一段锁秤的短铁丝拧紧。",
+      "difference": "CH002付残刀刀尖换伤药，通过吴槐板面核乙七六四零与七六零；CH005寻失踪者缺接收与无署名名单，梁仅证实本房未收及旧检柜位，阿七陈九吴槐实际断工食、错过转医车，非同一种取证与资源变化。"
     },
     {
       "chapter": 3,
       "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-      "quote": "",
-      "difference": ""
+      "quote": "阿禾先迈出了门。",
+      "difference": "CH003主轴为止炉、阿七和阿禾拆门实际救人，代价主角被押失刀；CH005落实医伤签收和留观、发现罗大满可能未转医的名单缺口，不是再救一次炉房。"
     },
     {
       "chapter": 4,
       "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
-      "quote": "",
-      "difference": ""
+      "quote": "陈九握住笔，左手在白纸上慢慢写下“陈九”两个字。",
+      "difference": "CH004本人有限亲见署名产生北关乙三十一，代价证人班次公开；CH005不让陈九再签一页证词，改向实际外门收治与来源不明失踪抄页核查，郑循回击落实三班停粮，亲见与未核抄本明确分层。"
     }
   ],
   "future_window": [
     {
       "chapter": 6,
-      "goal": "",
-      "change": "",
-      "ending_question": ""
+      "goal": "对原检房人账和车账及乙七重量进行可复核实物和班次交叉检查，并真实面对三班工食停发。",
+      "change": "至少找到一组可排除简单登记错误的矛盾与独立来源，角色付实际干粮/风险代价；不直接凭抄页破全案。",
+      "ending_question": "是谁有权把人检字和车检字真正配成同一笔？"
     },
     {
       "chapter": 7,
-      "goal": "",
-      "change": "",
-      "ending_question": ""
+      "goal": "在阿禾医伤需要与原始检字号仍待核情况下，让废矿逃道只容一人、伤者优先与重样本留置形成实际选择。",
+      "change": "人被带过危险狭口而重物证不可逆留在后方，保留证人伤情与材料缺口。",
+      "ending_question": "失去的矿石样本能否以第二来源再验？"
     },
     {
       "chapter": 8,
-      "goal": "",
-      "change": "",
-      "ending_question": ""
+      "goal": "郑循提出押送名义的口供，主角必须当面对比押送人各自说的起点、时间和人员。",
+      "change": "获得有限复核机会并记录差异，尚不能因此完全洗脱犯禁身份。",
+      "ending_question": "谁有权限确认押解的最初领人地点？"
     }
   ],
   "promise_reviews": [
@@ -160,55 +158,55 @@
       "id": "P-AHE-RECHECK-005",
       "action": "complete",
       "deadline_chapter": 5,
-      "reason": "",
+      "reason": "外门唐叶实际检查阿禾喉头烟呛和左掌浅泡，梁午初签章到诊；本章到期承诺已兑现，夜留观不是全部治愈。",
       "evidence": {
         "chapter": 5,
         "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-        "quote": ""
+        "quote": "三名伤者都确实到了。"
       }
     },
     {
       "id": "P-AHE-WATCH-007",
       "action": "set",
-      "deadline_chapter": null,
-      "reason": "",
+      "deadline_chapter": 7,
+      "reason": "初步复诊后阿禾仍需夜间观察，CH007前落实呼吸变化、随访与进一步医疗费用。",
       "evidence": {
         "chapter": 5,
         "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-        "quote": ""
+        "quote": "先留观。"
       }
     },
     {
       "id": "P-GATE-SHIFT-006",
       "action": "keep",
       "deadline_chapter": 6,
-      "reason": "",
+      "reason": "郑循已实际暂停阿七陈九吴槐工食，CH006仍须有应对或具体后果，不将部分兑现当关闭。",
       "evidence": {
         "chapter": 5,
         "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-        "quote": ""
+        "quote": "三人因离岗或账务待核，今起暂停领工食。"
       }
     },
     {
       "id": "P-MINE-001",
       "action": "keep",
       "deadline_chapter": 10,
-      "reason": "",
+      "reason": "罗大满本房未接收、无印抄页只能提供疑点，真实乙七换车和矿案原检仍以CH010期限追查。",
       "evidence": {
         "chapter": 5,
         "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-        "quote": ""
+        "quote": "落款处一片空白。"
       }
     },
     {
       "id": "P-ORIGINAL-CHECK-007",
       "action": "set",
-      "deadline_chapter": null,
-      "reason": "",
+      "deadline_chapter": 7,
+      "reason": "旧检房西架第三列封册为具体原检来源，但号码和有权人尚未到手，CH007前必须尝试核号并保留访问阻断。",
       "evidence": {
         "chapter": 5,
         "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-        "quote": ""
+        "quote": "旧检房，西架，第三列封册。"
       }
     }
   ],
@@ -219,8 +217,8 @@
     "to": 5,
     "base_revision": 7,
     "canon_sha256": "3da9f16026cf60bebeee90ac70450c69f0f4c4b6ca080e7a621ba5dec7e42195",
-    "read_mode": "pending",
-    "decision": "pending",
+    "read_mode": "full_text_batches",
+    "decision": "continue",
     "coverage": {
       "1": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
       "2": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
@@ -235,35 +233,124 @@
       "4": "e5f63a802c9716325a812a8526eea022bd44a03230743721893beeb27aa38333",
       "5": "5a4234ecc0ec4ecc47685b8fccdd11b0bebb37ca66fa29a6618e637fec5f9e67"
     },
-    "findings": [],
-    "conclusion": "",
-    "causal_progress": "",
-    "repetition_comparison": "",
-    "character_changes": "",
-    "promise_payoffs": "",
-    "ending_runway": "",
-    "next_action": ""
+    "findings": [
+      {
+        "severity": "suggestion",
+        "chapters": [
+          2,
+          4,
+          5
+        ],
+        "issue": "矿务纸证、签名与登记连续几章过密，虽每章机制和成本不同，读者可能感觉戏剧行动不足。",
+        "plan": "CH006以实际断粮冲突与实物两账比对带动行动，避免再整章只听文书说明。"
+      },
+      {
+        "severity": "risk",
+        "chapters": [
+          1,
+          3,
+          5
+        ],
+        "issue": "见隙能力于CH001、CH003付代价使用，CH004、CH005未触发，符合作品限制但主角题材辨识仍需在下一阶段有可验证能力场景。",
+        "plan": "未来安排一段安全条件下真实术法观察和错判，不能以全知弱点无成本解困。"
+      }
+    ],
+    "conclusion": "CH001—CH005全段实际回看：从断脉废根、救出陈九、矿车双号查账、热炉救阿禾、北关陈九具名，再到外门确实接诊和无印失踪簿与夜检柜位，目标、资源与风险逐章推进。仍存在明显程序戏密度风险，但没有可证据支持的剧情硬撞，选择continue并前向调整。",
+    "causal_progress": "CH001废根且失三孔木牌、陈九伤；CH002刀尖换药与吴槐留六四零/七六零板面；CH003多人冒责救出阿禾而江砚青被押失刀，两片乙七残木分别保存；CH004陈九亲笔有限见证促成北关伤者待核但公开轮班；CH005真实伤房签收及失踪抄页查缺、郑循实停粮、失去黄昏病车，原检字号尚无。",
+    "repetition_comparison": "逃石台的见隙/矿尘、重量旧板、炉门救人、陈九亲署名、外门病床接收与寻失踪者是五种不同的问题与不可逆状态；CH002、CH004、CH005都涉及案卷账册，重复阈值尚未构成同一套解法反复胜利，但CH006必须增添空间行动与反制。",
+    "character_changes": "江砚青从只保命到尊重陈九选择，救阿禾后愿背押解代价，CH005开始承认阿七护妹优先不必替自己赌命；阿七有真实担粮和医治分歧；阿禾能作自我医疗选择但仍虚弱；陈九从伤者到独立署名，失去藏处；郑循从直接伤人转向手续/粮食控制且有自主反制。",
+    "promise_payoffs": "CH001见隙真实出手且代价不消，CH002乙七多笔与药材交换已发生，CH003阿禾被救和双残木保留，CH004个人亲见与押解路线留下，CH005阿禾真正复诊与证人断工食已发生；P-AHE-RECHECK-005关闭但P-AHE-WATCH-007开放，P-GATE-SHIFT-006、P-ORIGINAL-CHECK-007、P-MINE-001有期限。",
+    "ending_runway": "CH006两套人/车检字独立比较并解决停粮迫害，CH007真正实现狭口让路、保人舍物证并继续原检号追查，CH008纠正假押送起点，CH009—CH010争外门正式复核与证人保护；绝不把已烧纸账恢复。",
+    "next_action": "正式release-check无阻断后冻结CH005。下一章只在用户手动说下一章时启动CH006，不启用XS4工作计划；先读全五章及截止承诺，优先减少连续纯手续对话。"
   },
   "narrative_review": {
     "schema_version": 1,
     "actual_scenes": [
       {
-        "event": "",
-        "choice": "",
-        "change": "",
+        "event": "山道阿禾呼吸发紧，赵韧欲改送北押房",
+        "choice": "阿七停下损坏的灰车，主角援引真实乙三十一签收目的地，赵韧考虑押送责任改走药房。",
+        "change": "阿禾得到安全进医房的机会，押解却未解除。",
         "evidence": [
           {
             "chapter": 5,
             "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-            "quote": ""
+            "quote": "北关乙三十一写的是外门伤病房。"
+          }
+        ]
+      },
+      {
+        "event": "唐叶看伤、梁为三人午初签收",
+        "choice": "唐叶坚持真实诊疗与付费留观，梁分别登记阿禾、陈九和受押主角，不虚报病人已痊愈。",
+        "change": "三位伤者确实到院、医伤有来源，后续留观与账债仍存在。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "三名伤者都确实到了。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "换了新的清洁敷料"
+          }
+        ]
+      },
+      {
+        "event": "罗嫂寻夫与无印失踪抄本",
+        "choice": "主角不把无印纸认作死亡证明，梁用自己的实际收治记录核缺额却拒为抄页补签。",
+        "change": "具体罗大满转医却本房未收的疑点形成，原始检字与经手人依然不明。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "落款处一片空白。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "不是给那张失踪簿补落款。"
+          }
+        ]
+      },
+      {
+        "event": "郑循停三班工食、阿七抗议调查代价",
+        "choice": "阿七为妹依医嘱留观不乘黄昏病车，主角承认伙伴不必为自己的调查无限付出。",
+        "change": "断粮、角色分歧和错过病车都是实际损失。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "三人因离岗或账务待核，今起暂停领工食。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "那辆车终于在暮色里出了院门。"
+          }
+        ]
+      },
+      {
+        "event": "夜间梁退查医耗差额并收到检验房库收条",
+        "choice": "江砚青等待有来源的原始检字线索，不用失踪抄页公开指认；夜递人只承认人车双轨传闻。",
+        "change": "得知旧检房西架第三列封册去处但未获原号，赵韧仍看守。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "旧检房，西架，第三列封册。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "一本跟人走，一本跟车走。"
           }
         ]
       }
     ],
-    "plan_comparison": "",
+    "plan_comparison": "任务书五场从山道改路、真实复诊、寻失踪家属、工食反制到夜间原检追查均落地。实际增加灰车受损、兄妹因医疗决定错过南坡车和罗嫂被报信；没有凭借无印抄页忽然破解宗门案，结尾仅找到柜位而非原检字。",
     "reader": {
-      "mode": "pending",
-      "limitation": "",
+      "mode": "same_context_approximation",
+      "limitation": "写作和读者复核均在同一对话，虽然以只含前四章冻结全文与第五章正文的reader资料约束审阅，无法与作者先验记忆完全隔离，也未做真实读者测试。",
       "coverage": {
         "1": {
           "text_sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
@@ -287,49 +374,85 @@
           "mode": "full_text"
         }
       },
-      "understanding": "",
-      "information_load": "",
-      "promise_delivery": "",
+      "understanding": "三人确有外门签收，主角仍受押；罗大满在矿务无印抄页被写转医而本房没有接收，并不能证明死亡或造假者。阿禾需夜间观察，郑循已经实停三班工食，所谓原检有柜位却尚无真正号码。",
+      "information_load": "先后三类记录是病人真实接收、失踪无印抄页和夜间检字差额库收条，权属边界清楚但叠加前章北关具名手续，可能让读者觉得书本主卖点见隙淡化。",
+      "promise_delivery": "上章阿禾必须真正入院复诊的期限已兑现，郑循停工食的危险转成事实，取得失踪抄本的有限来源及原检房查阅方向，仍保留身份与矿案未知。",
       "evidence": [
         {
           "chapter": 5,
           "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-          "quote": ""
+          "quote": "三名伤者都确实到了。"
+        },
+        {
+          "chapter": 5,
+          "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+          "quote": "三人因离岗或账务待核，今起暂停领工食。"
+        },
+        {
+          "chapter": 5,
+          "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+          "quote": "旧检房，西架，第三列封册。"
         }
       ],
-      "issues": []
+      "issues": [
+        {
+          "severity": "suggestion",
+          "status": "open",
+          "reason": "第五章接前两章，流程文书戏过密，当前人物冲突和车道改路提供一定动作结果但第六章需以实体对抗解决。",
+          "evidence": {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "不是给那张失踪簿补落款。"
+          }
+        }
+      ]
     },
     "character_causality": {
       "opposition": {
-        "status": "pending",
-        "conclusion": "",
+        "status": "reviewed",
+        "conclusion": "赵韧试改道并监视人，郑循按三班实停粮，梁医房只按自己的权限写接收，相关对立方均行动且限制存在。",
         "evidence": [
           {
             "chapter": 5,
             "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-            "quote": ""
+            "quote": "北关乙三十一写的是外门伤病房。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "三人因离岗或账务待核，今起暂停领工食。"
           }
         ]
       },
       "dialogue": {
-        "status": "pending",
-        "conclusion": "",
+        "status": "reviewed",
+        "conclusion": "罗嫂和主角对找人与证据等级的冲突、阿七对无限牺牲的质问以及唐叶让病人留观的专业选择均真实改变行动。",
         "evidence": [
           {
             "chapter": 5,
             "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-            "quote": ""
+            "quote": "你还想押什么？"
+          },
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "我只说我找丈夫。"
           }
         ]
       },
       "aftermath": {
-        "status": "pending",
-        "conclusion": "",
+        "status": "reviewed",
+        "conclusion": "旧伤仍在、黄昏病车已过、三班断粮并影响阿七与主角关系，书面退查只得柜位没有万能的原件，全章付出真实资源和时间。",
         "evidence": [
           {
             "chapter": 5,
             "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
-            "quote": ""
+            "quote": "那辆车终于在暮色里出了院门。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "赵韧还在。"
           }
         ]
       }
@@ -342,11 +465,160 @@
         "CH001 断脉印 陈九 百二十斤 矿尘",
         "CH003 余三斗 清炉 救援 押解 陈九"
       ],
-      "comparisons": [],
+      "comparisons": [
+        {
+          "similarity": "CH001主角废根逃矿与CH005都受郑循矿务控制。",
+          "difference": "第一章靠见隙与矿尘争一瞬逃命、丢三孔牌；第五章毫无能力捷径，靠医者和知情人的真实确认找一条原检路线，同时被停工食、继续押解。",
+          "source": {
+            "chapter": 1,
+            "sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+            "quote": "矿道尽头的铜铃响了三声。"
+          },
+          "current_evidence": {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "赵韧还在。"
+          }
+        },
+        {
+          "similarity": "CH002与CH005都有矿务登记不符的查证。",
+          "difference": "第二章实际查旧秤板双重量并付刀尖药资，第五章比较病房实收和无印失踪抄页，实际损害落在罗嫂与停粮矿工身上，无法据此立刻定罪。",
+          "source": {
+            "chapter": 2,
+            "sha256": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
+            "quote": "吴槐把旧面翻进梁内，另取一段锁秤的短铁丝拧紧。"
+          },
+          "current_evidence": {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "落款处一片空白。"
+          }
+        },
+        {
+          "similarity": "CH003与CH005都围绕阿禾生死风险。",
+          "difference": "第三章实际拆炉门从火里救出人，第五章是烟呛后果到外门复查与失去黄昏转运窗口，没有再用同样见隙机关。",
+          "source": {
+            "chapter": 3,
+            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+            "quote": "阿禾先迈出了门。"
+          },
+          "current_evidence": {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "三名伤者都确实到了。"
+          }
+        },
+        {
+          "similarity": "CH004和CH005都强调有权签收、证人来源。",
+          "difference": "第四章陈九自主左手署名取得有限北关待核路径，第五章转到真正病房实收与失踪抄页是否有经手人，新增郑循停三班工食和主角与阿七分歧，承认过程戏偏密的未来优化风险。",
+          "source": {
+            "chapter": 4,
+            "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+            "quote": "陈九握住笔，左手在白纸上慢慢写下“陈九”两个字。"
+          },
+          "current_evidence": {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "三人因离岗或账务待核，今起暂停领工食。"
+          }
+        }
+      ],
       "no_match_reason": ""
     },
-    "reader_updates": [],
-    "reader_update_note": "",
+    "reader_updates": [
+      {
+        "kind": "observed",
+        "statement": "阿禾、陈九和江砚青真实被外门伤病房接收；阿禾夜间留观、主人公仍被赵韧押着。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "三名伤者都确实到了。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "赵韧还在。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "梁医房持《失踪簿》无印抄页，罗大满写‘转医’但本房未见收治，不能替抄本补印。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "落款处一片空白。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "不是给那张失踪簿补落款。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "郑循已暂停阿七、陈九和吴槐工食，阿七与主角因妹妹安全发生真实争执，南坡黄昏病车不再等。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "三人因离岗或账务待核，今起暂停领工食。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "那辆车终于在暮色里出了院门。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "夜间旧检房库收条给出西架第三列柜位，还没有正式原始检字号。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "旧检房，西架，第三列封册。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "还没有。"
+          }
+        ]
+      },
+      {
+        "kind": "claim",
+        "statement": "夜递人自称原检字分人和车两套，尚未有原簿比对，只能作为下一章追查方向。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "一本跟人走，一本跟车走。"
+          }
+        ]
+      },
+      {
+        "kind": "uncertain",
+        "statement": "罗大满真实去向、无印抄页出处、谁比对人车两账及赵韧后续押往何处均未知。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "落款处一片空白。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+            "quote": "梁没答。"
+          }
+        ]
+      }
+    ],
+    "reader_update_note": "区分病房实际接收和有印库收、矿务无印抄页及夜递人口传，人名是否失踪、乙七真车号、两套检字关系均维持待证状态。",
     "surface_findings": []
   }
 }
