@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "type": "novel-daily-task-v1",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "run_id": "5e168e1445484744a5e1828363a5e585",
+  "work_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f:2026-11-02:3",
+  "start_date": "2026-11-02",
+  "started_at": "2026-11-01T20:35:05+00:00",
+  "chapter": 3,
+  "status": "completed",
+  "baseline_count": 2,
+  "baseline_fingerprint": "2c5adebb401dd36b6daa14f3b4008bf9f1ae6d87e8914911c4f602bf8a144ca0",
+  "attempts": [
+    {
+      "run_id": "ec2d137cbc4c4f81926a343adf67a9a5",
+      "status": "authorization_revoked",
+      "authorization_revoked_at": "2026-11-02T04:24:18+00:00",
+      "audit_path": "daily/recoveries/xs4_ch003_revoke_1793593409593.json"
+    },
+    {
+      "run_id": "ddbc30d26fe049cd9e89c8b917570318",
+      "status": "recovery_ready",
+      "claimed_at": "2026-11-02T04:59:17+00:00"
+    },
+    {
+      "run_id": "f7f08ab95a01462985312dce8a23532b",
+      "status": "running",
+      "reason": "",
+      "stopped_confirmed_at": "2026-11-02T05:02:09+00:00"
+    }
+  ],
+  "reason": "",
+  "blocked_at": "2026-11-01T20:35:40+00:00",
+  "operator_recovery": {
+    "status": "claimed",
+    "grant_path": ".automation/recoveries/xs4_ch003_revoke_1793593409593.json",
+    "grant_sha256": "d7b99fc49981254359167e2c6289263cc5b6ff04d979b26b894b20d154a360ed",
+    "audit_path": "daily/recoveries/xs4_ch003_revoke_1793593409593.json",
+    "audit_sha256": "fd588fbda1c507b7bbc57b41660eb1a532253f05f585c02d6bf85ef1723caac6",
+    "old_run_id": "ec2d137cbc4c4f81926a343adf67a9a5",
+    "ready_run_id": "ddbc30d26fe049cd9e89c8b917570318",
+    "expected_state_sha256": "ce79de6b6c8f3782620d2cd901318d67a855f336ea46ef8e4babb950785631e5",
+    "claimed_at": "2026-11-02T04:59:17+00:00",
+    "claimed_by": {
+      "kind": "automation",
+      "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
+      "session_id": "xs4_20261102_turn3_6a83c9e2",
+      "platform_run_id": "71657b67-4104-832c-9245-41548a911bff"
+    }
+  },
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
+    "session_id": "xs4_ch003_chat_direct_1793595712169",
+    "platform_run_id": null
+  },
+  "resumed_at": "2026-11-02T05:02:09+00:00",
+  "executor_checkpoint": {
+    "request_id": "xs4_ch003_direct_finalize_1793596372029",
+    "phase": "finalize",
+    "at": "2026-11-02T05:13:15+00:00",
+    "github_run_id": "41392710332"
+  },
+  "controller_history": [
+    {
+      "controller": {
+        "kind": "automation",
+        "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
+        "session_id": "xs4_20261102_turn3_6a83c9e2",
+        "platform_run_id": "71657b67-4104-832c-9245-41548a911bff"
+      },
+      "stopped_evidence": {
+        "source": "automation_run_lookup",
+        "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
+        "platform_run_id": "71657b67-4104-832c-9245-41548a911bff",
+        "run_id": "f7f08ab95a01462985312dce8a23532b",
+        "status": "completed",
+        "all_executor_jobs_terminal": true,
+        "observed_at": "2026-11-02T05:01:52.169Z"
+      }
+    }
+  ],
+  "completed_at": "2026-11-02T05:13:15+00:00",
+  "receipt_path": "daily/2026-11-02.json"
+}
