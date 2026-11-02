@@ -1,11 +1,24 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_CH004_manual_begin_1793597235197",
-  "base_sha": "363d89eac8988aec1e7c4e11d25db9d4c1d0d679",
+  "request_id": "xs4_CH004_briefrequest_1793597284732",
+  "base_sha": "6487de55f8136f5428494e8005e4294b91ef9a62",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "manual",
     "session_id": "xs4_CH004_manual_1793597191019"
   },
-  "phase": "begin"
+  "phase": "command",
+  "run_id": "26c96876599d48d9a1fe45163a272a94",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH004_brief_request.json"
+      ]
+    }
+  ]
 }
