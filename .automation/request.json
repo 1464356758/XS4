@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_CH005_briefrequest_1793610630532",
-  "base_sha": "642370e4d694770da11b95adfc87809c4d73fd6d",
+  "request_id": "xs4_CH005_briefcheck_1793610843538",
+  "base_sha": "ee8f97b98a863148d1d1c3fec4a449138d732329",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "manual",
@@ -15,9 +15,57 @@
       "args": [
         "--root",
         "book",
-        "brief-request",
-        "--out",
+        "brief-check",
+        "--file",
         "drafts/CH005_brief_request.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
+        "--out",
+        "drafts/CH005_writer_packet.md"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "乙七 陈九 失踪簿 医案",
+        "--limit",
+        "6"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "阿禾 烫伤 转医 押解 医工",
+        "--limit",
+        "6"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "郑循 工食 轮班 证人 受理",
+        "--limit",
+        "6"
       ]
     }
   ]
