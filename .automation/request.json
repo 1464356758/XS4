@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_ch003_direct_briefcheck_1793595826372",
-  "base_sha": "3dacf6b9a031042f3e7f74a6924599635892bf96",
+  "request_id": "xs4_ch003_direct_candidate_1793595948287",
+  "base_sha": "5e1d87903c95ba59bd36f4bef966588278f529f3",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "automation",
@@ -17,9 +17,11 @@
       "args": [
         "--root",
         "book",
-        "brief-check",
-        "--file",
-        "drafts/CH003_brief_request.json"
+        "candidate",
+        "--chapter",
+        "3",
+        "--text",
+        "drafts/CH003.txt"
       ]
     },
     {
@@ -29,33 +31,11 @@
         "book",
         "context",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/CH003.txt",
         "--out",
-        "drafts/CH003_direct_writer_packet.md"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "见隙 错息 矿尘 铜铃 救援",
-        "--limit",
-        "5"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "乙七 阿七 郑循 矿车牌 受理",
-        "--limit",
-        "5"
+        "drafts/CH003_direct_reader_packet.md"
       ]
     }
   ]
