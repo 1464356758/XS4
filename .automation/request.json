@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_ch003_direct_resume_1793595712169",
-  "base_sha": "f7eb231e6f1e356d222a2a0fda158f5f6ca97281",
+  "request_id": "xs4_ch003_direct_briefcheck_1793595826372",
+  "base_sha": "3dacf6b9a031042f3e7f74a6924599635892bf96",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "automation",
@@ -9,14 +9,54 @@
     "session_id": "xs4_ch003_chat_direct_1793595712169",
     "platform_run_id": null
   },
-  "phase": "begin",
-  "stopped_evidence": {
-    "source": "automation_run_lookup",
-    "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
-    "platform_run_id": "71657b67-4104-832c-9245-41548a911bff",
-    "run_id": "f7f08ab95a01462985312dce8a23532b",
-    "status": "completed",
-    "all_executor_jobs_terminal": true,
-    "observed_at": "2026-11-02T05:01:52.169Z"
-  }
+  "phase": "command",
+  "run_id": "5e168e1445484744a5e1828363a5e585",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-check",
+        "--file",
+        "drafts/CH003_brief_request.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
+        "--out",
+        "drafts/CH003_direct_writer_packet.md"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "见隙 错息 矿尘 铜铃 救援",
+        "--limit",
+        "5"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "乙七 阿七 郑循 矿车牌 受理",
+        "--limit",
+        "5"
+      ]
+    }
+  ]
 }
