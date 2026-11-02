@@ -2,24 +2,22 @@
   "schema_version": 1,
   "type": "novel-manual-task-v1",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
-  "run_id": "26c96876599d48d9a1fe45163a272a94",
-  "work_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f:manual:26c96876599d48d9a1fe45163a272a94",
-  "started_at": "2026-11-02T05:27:38+00:00",
-  "chapter": 4,
-  "status": "completed",
-  "baseline_count": 3,
-  "baseline_fingerprint": "e28bb71ab59f2e894457034e3f3b8075199f088fdac4b65918b26ee54a864907",
+  "run_id": "7ac598bc58f24d748ebe875258462624",
+  "work_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f:manual:7ac598bc58f24d748ebe875258462624",
+  "started_at": "2026-11-02T09:09:45+00:00",
+  "chapter": 5,
+  "status": "running",
+  "baseline_count": 4,
+  "baseline_fingerprint": "75b69132fa13cc75b9937b002ecedbdde9e7b6d1714f37c27d1533937257ed55",
   "controller": {
     "kind": "manual",
-    "session_id": "xs4_CH004_manual_1793597191019"
+    "session_id": "xs4_CH005_manual_1793610476027"
   },
   "source": "author_manual_chapter",
   "executor_checkpoint": {
-    "request_id": "xs4_CH004_manual_finalize_1793598572380",
-    "phase": "finalize",
-    "at": "2026-11-02T05:49:57+00:00",
-    "github_run_id": "41396283972"
-  },
-  "completed_at": "2026-11-02T05:49:57+00:00",
-  "receipt_path": "manual/CH004_26c96876599d48d9a1fe45163a272a94.json"
+    "request_id": "xs4_CH005_begin_1793610552034",
+    "phase": "begin",
+    "at": "2026-11-02T09:09:45+00:00",
+    "github_run_id": "41418383498"
+  }
 }
