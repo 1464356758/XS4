@@ -56,10 +56,10 @@
   },
   "resumed_at": "2026-11-02T05:02:09+00:00",
   "executor_checkpoint": {
-    "request_id": "xs4_ch003_direct_candidate_1793595948287",
+    "request_id": "xs4_ch003_direct_record_1793596128837",
     "phase": "command",
-    "at": "2026-11-02T05:06:17+00:00",
-    "github_run_id": "41392058198"
+    "at": "2026-11-02T05:09:09+00:00",
+    "github_run_id": "41392326056"
   },
   "controller_history": [
     {

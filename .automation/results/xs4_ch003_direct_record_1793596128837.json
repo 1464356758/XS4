@@ -1,0 +1,83 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs4_ch003_direct_record_1793596128837",
+  "request_sha256": "7f76012dc0d7c42b8c03dc925a10042d22a4090223da48aceb8bf188f314ff2e",
+  "source_sha": "21f177f79524c6576995b4e151490b2f0c2a1530",
+  "base_sha": "31f57e4515b4dd0ecdff36634689d15811392651",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
+    "session_id": "xs4_ch003_chat_direct_1793595712169",
+    "platform_run_id": null
+  },
+  "phase": "command",
+  "executed_at": "2026-11-02T05:09:09+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41392326056",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "check-record",
+        "--text",
+        "drafts/CH003.txt",
+        "--record",
+        "drafts/CH003_direct_record.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_ch003_direct_record_1793596128837/tool-01.stdout.txt",
+          "sha256": "ae3a21c066446692925fd3eb9dda71adc1a21ad370bb9c893d8669b850f1b79a",
+          "bytes": 110
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_ch003_direct_record_1793596128837/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "release-request",
+        "--text",
+        "drafts/CH003.txt",
+        "--record",
+        "drafts/CH003_direct_record.json",
+        "--out",
+        "drafts/CH003_direct_release.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_ch003_direct_record_1793596128837/tool-02.stdout.txt",
+          "sha256": "9f00a3b42d2ed4f2f706907ad725a256840ce4b43f0c284e1a8b2a6232ba8515",
+          "bytes": 196
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_ch003_direct_record_1793596128837/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "5e168e1445484744a5e1828363a5e585",
+  "changed_paths": [
+    ".automation/work/xs4_ch003_direct_record_1793596128837/tool-01.stderr.txt",
+    ".automation/work/xs4_ch003_direct_record_1793596128837/tool-01.stdout.txt",
+    ".automation/work/xs4_ch003_direct_record_1793596128837/tool-02.stderr.txt",
+    ".automation/work/xs4_ch003_direct_record_1793596128837/tool-02.stdout.txt",
+    "book/daily/active.json",
+    "drafts/CH003_direct_release.json",
+    "online/index.json"
+  ]
+}
