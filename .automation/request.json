@@ -1,26 +1,22 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_20261102_briefrequest_turn3_6a83c9e2",
-  "base_sha": "130468fddcc0e9bc649f03deaef726e5b86233c0",
+  "request_id": "xs4_ch003_direct_resume_1793595712169",
+  "base_sha": "f7eb231e6f1e356d222a2a0fda158f5f6ca97281",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "automation",
     "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
-    "session_id": "xs4_20261102_turn3_6a83c9e2",
-    "platform_run_id": "71657b67-4104-832c-9245-41548a911bff"
+    "session_id": "xs4_ch003_chat_direct_1793595712169",
+    "platform_run_id": null
   },
-  "phase": "command",
-  "run_id": "f7f08ab95a01462985312dce8a23532b",
-  "commands": [
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "brief-request",
-        "--out",
-        "drafts/CH003_brief_request.json"
-      ]
-    }
-  ]
+  "phase": "begin",
+  "stopped_evidence": {
+    "source": "automation_run_lookup",
+    "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
+    "platform_run_id": "71657b67-4104-832c-9245-41548a911bff",
+    "run_id": "f7f08ab95a01462985312dce8a23532b",
+    "status": "completed",
+    "all_executor_jobs_terminal": true,
+    "observed_at": "2026-11-02T05:01:52.169Z"
+  }
 }
