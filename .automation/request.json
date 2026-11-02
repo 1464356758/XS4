@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_CH004_briefcheck_1793597393464",
-  "base_sha": "c7fab3a9037e3f5bd0b4a0cb10bab92bd277f5cd",
+  "request_id": "xs4_CH004_candidate_1793597968663",
+  "base_sha": "068d8c1825fa1e425df451bb8cd9c10be40a663e",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "manual",
@@ -15,9 +15,11 @@
       "args": [
         "--root",
         "book",
-        "brief-check",
-        "--file",
-        "drafts/CH004_brief_request.json"
+        "candidate",
+        "--chapter",
+        "4",
+        "--text",
+        "drafts/CH004.txt"
       ]
     },
     {
@@ -27,33 +29,11 @@
         "book",
         "context",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/CH004.txt",
         "--out",
-        "drafts/CH004_writer_packet.md"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "陈九 伤臂 医药 自主署名",
-        "--limit",
-        "6"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "江砚青 乙七 郑循 班次 见证",
-        "--limit",
-        "6"
+        "drafts/CH004_reader_packet.md"
       ]
     }
   ]
