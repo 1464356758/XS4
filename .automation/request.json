@@ -1,11 +1,13 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_ch003_chat_preflight_1793585592370",
-  "base_sha": "5ce9ab69f1c293976e049ef6b5d757d32f2ca4e7",
+  "request_id": "xs4_ch003_chatauth_begin_1793585636900",
+  "base_sha": "c3b359c1521962ec91a32b723eb52214e9d30a62",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
-    "kind": "maintenance",
-    "session_id": "xs4_ch003_readonly_1793585592370"
+    "kind": "automation",
+    "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
+    "session_id": "xs4_ch003_chat_session_1793585636900",
+    "platform_run_id": null
   },
-  "phase": "preflight"
+  "phase": "begin"
 }
