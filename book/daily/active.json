@@ -2,7 +2,7 @@
   "schema_version": 1,
   "type": "novel-daily-task-v1",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
-  "run_id": "f7f08ab95a01462985312dce8a23532b",
+  "run_id": "5e168e1445484744a5e1828363a5e585",
   "work_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f:2026-11-02:3",
   "start_date": "2026-11-02",
   "started_at": "2026-11-01T20:35:05+00:00",
@@ -21,6 +21,12 @@
       "run_id": "ddbc30d26fe049cd9e89c8b917570318",
       "status": "recovery_ready",
       "claimed_at": "2026-11-02T04:59:17+00:00"
+    },
+    {
+      "run_id": "f7f08ab95a01462985312dce8a23532b",
+      "status": "running",
+      "reason": "",
+      "stopped_confirmed_at": "2026-11-02T05:02:09+00:00"
     }
   ],
   "reason": "",
@@ -45,14 +51,33 @@
   "controller": {
     "kind": "automation",
     "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
-    "session_id": "xs4_20261102_turn3_6a83c9e2",
-    "platform_run_id": "71657b67-4104-832c-9245-41548a911bff"
+    "session_id": "xs4_ch003_chat_direct_1793595712169",
+    "platform_run_id": null
   },
-  "resumed_at": "2026-11-02T04:59:17+00:00",
+  "resumed_at": "2026-11-02T05:02:09+00:00",
   "executor_checkpoint": {
-    "request_id": "xs4_20261102_briefrequest_turn3_6a83c9e2",
-    "phase": "command",
-    "at": "2026-11-02T04:59:51+00:00",
-    "github_run_id": "41391450502"
-  }
+    "request_id": "xs4_ch003_direct_resume_1793595712169",
+    "phase": "begin",
+    "at": "2026-11-02T05:02:09+00:00",
+    "github_run_id": "41391674932"
+  },
+  "controller_history": [
+    {
+      "controller": {
+        "kind": "automation",
+        "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
+        "session_id": "xs4_20261102_turn3_6a83c9e2",
+        "platform_run_id": "71657b67-4104-832c-9245-41548a911bff"
+      },
+      "stopped_evidence": {
+        "source": "automation_run_lookup",
+        "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
+        "platform_run_id": "71657b67-4104-832c-9245-41548a911bff",
+        "run_id": "f7f08ab95a01462985312dce8a23532b",
+        "status": "completed",
+        "all_executor_jobs_terminal": true,
+        "observed_at": "2026-11-02T05:01:52.169Z"
+      }
+    }
+  ]
 }
