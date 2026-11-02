@@ -1,0 +1,34 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs4_ch003_recovery_request_1793593437444",
+  "request_sha256": "ec92fd95cd87ada2caaa5a66fe0cc1d2b057c0aac8aff83f81b3c6c4306eaddb",
+  "source_sha": "52825cf799a692e0ccae07d19db7f96c9991b883",
+  "base_sha": "bba960de311d3d15844eed2be184c6ebce3eed6d",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "maintenance",
+    "session_id": "xs4_repair_session_1793593437444"
+  },
+  "phase": "recover",
+  "executed_at": "2026-11-02T04:24:16+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41388259010",
+  "business_status": "recovery_ready",
+  "chapter": 3,
+  "run_id": "ddbc30d26fe049cd9e89c8b917570318",
+  "revoked_run_id": "ec2d137cbc4c4f81926a343adf67a9a5",
+  "audit_path": "book/daily/recoveries/xs4_ch003_revoke_1793593409593.json",
+  "executor_check": {
+    "fresh_github_check": true,
+    "github_run_id": "41388259010",
+    "ignored_readonly_validation": [
+      41388213323
+    ],
+    "at": "2026-11-02T04:24:18+00:00"
+  },
+  "changed_paths": [
+    "book/daily/active.json",
+    "book/daily/recoveries/xs4_ch003_revoke_1793593409593.json",
+    "online/index.json"
+  ]
+}
