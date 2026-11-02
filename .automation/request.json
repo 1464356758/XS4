@@ -1,13 +1,12 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_ch003_chatauth_begin_1793585636900",
-  "base_sha": "c3b359c1521962ec91a32b723eb52214e9d30a62",
+  "request_id": "xs4_ch003_recovery_request_1793593437444",
+  "base_sha": "bba960de311d3d15844eed2be184c6ebce3eed6d",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
-    "kind": "automation",
-    "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
-    "session_id": "xs4_ch003_chat_session_1793585636900",
-    "platform_run_id": null
+    "kind": "maintenance",
+    "session_id": "xs4_repair_session_1793593437444"
   },
-  "phase": "begin"
+  "phase": "recover",
+  "recovery_grant": ".automation/recoveries/xs4_ch003_revoke_1793593409593.json"
 }
