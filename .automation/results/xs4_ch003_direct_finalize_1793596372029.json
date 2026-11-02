@@ -1,0 +1,32 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs4_ch003_direct_finalize_1793596372029",
+  "request_sha256": "6d088e8cd317af4d12c319ffa97cc673c009c5ffaac8dab7a51e32c501c3517a",
+  "source_sha": "fec74c6d4fd4d733f912008c2b75dcd3d52f4da5",
+  "base_sha": "6641adff40c6de1054e162701b3fc440070662d7",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
+    "session_id": "xs4_ch003_chat_direct_1793595712169",
+    "platform_run_id": null
+  },
+  "phase": "finalize",
+  "executed_at": "2026-11-02T05:13:14+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41392710332",
+  "business_status": "chapter_completed",
+  "run_id": "5e168e1445484744a5e1828363a5e585",
+  "chapter": 3,
+  "body_sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+  "receipt_path": "book/daily/2026-11-02.json",
+  "changed_paths": [
+    "book/chapters/CH003_3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb.txt",
+    "book/daily/2026-11-02.json",
+    "book/daily/active.json",
+    "book/records/CH003_d59e921d8330f725e166573d99e5903e6d51c9ab7d91ac92a6f8f94f1ff12a93.json",
+    "book/state.json",
+    "book/workflow.json",
+    "online/index.json"
+  ]
+}

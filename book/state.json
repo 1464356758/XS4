@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "title": "灵根被废那天，我看见了功法的破绽",
-  "revision": 5,
+  "revision": 6,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -41,6 +41,16 @@
       "record_sha256": "b06ade2094c0b4bae7325edaf723fd77dd81480a7a85a7072e6cc6b5fb9d320b",
       "han_count": 9859,
       "adopted_at": "2026-11-01T05:55:53+00:00"
+    },
+    "3": {
+      "title": "第七炉有人",
+      "stage": "S01",
+      "text_path": "chapters/CH003_3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb.txt",
+      "text_sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+      "record_path": "records/CH003_d59e921d8330f725e166573d99e5903e6d51c9ab7d91ac92a6f8f94f1ff12a93.json",
+      "record_sha256": "d59e921d8330f725e166573d99e5903e6d51c9ab7d91ac92a6f8f94f1ff12a93",
+      "han_count": 9578,
+      "adopted_at": "2026-11-02T05:13:15+00:00"
     }
   },
   "checkpoints": [],
@@ -110,7 +120,7 @@
       "task_id": "c35d0075-7c3a-4c88-a791-4fcb15dc318c",
       "chapter": 3,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 0,
       "history": [
         {
@@ -135,6 +145,10 @@
       "2": {
         "text_sha256": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
         "record_sha256": "b06ade2094c0b4bae7325edaf723fd77dd81480a7a85a7072e6cc6b5fb9d320b"
+      },
+      "3": {
+        "text_sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+        "record_sha256": "d59e921d8330f725e166573d99e5903e6d51c9ab7d91ac92a6f8f94f1ff12a93"
       }
     },
     "published": {},
@@ -152,7 +166,7 @@
       "3": {
         "path": "releases/CH003_85bd52530df8c6356edd5754954cd60aed634e86f51ccf4d0db33b1a1e3a8979.json",
         "sha256": "85bd52530df8c6356edd5754954cd60aed634e86f51ccf4d0db33b1a1e3a8979",
-        "used": false
+        "used": true
       }
     },
     "promises": {
@@ -169,11 +183,23 @@
               "quote": "我只知道晚班有两块牌都挂过‘乙七’。"
             },
             "chapter": 1
+          },
+          {
+            "id": "P-DOUBLE-004",
+            "action": "complete",
+            "deadline_chapter": 3,
+            "reason": "原约定CH003需取得双牌实际去向或可信独立核查：现场确有阿禾保留的两块独立形制乙七残木，阿七分开包存，证明实物并非一片轮流重复使用；但原挂车归属及完整后号不明，这部分继续由P-MINE核。",
+            "evidence": {
+              "chapter": 3,
+              "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+              "quote": "两截断牌被分别包着"
+            },
+            "chapter": 3
           }
         ],
         "deadline_chapter": 3,
-        "status": "open",
-        "last_reviewed_chapter": 2
+        "status": "closed",
+        "last_reviewed_chapter": 3
       },
       "P-FURNACE-003": {
         "history": [
@@ -188,11 +214,23 @@
               "quote": "我妹妹还在第七炉值夜"
             },
             "chapter": 1
+          },
+          {
+            "id": "P-FURNACE-003",
+            "action": "complete",
+            "deadline_chapter": 3,
+            "reason": "本章阿禾在阿七、余三斗与江砚青分别付代价后实际离开锁住的检修廊，约定救援兑现；后续医疗风险新立P-AHE-CARE。",
+            "evidence": {
+              "chapter": 3,
+              "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+              "quote": "阿禾先迈出了门。"
+            },
+            "chapter": 3
           }
         ],
         "deadline_chapter": 3,
-        "status": "open",
-        "last_reviewed_chapter": 2
+        "status": "closed",
+        "last_reviewed_chapter": 3
       },
       "P-MINE-001": {
         "history": [
@@ -211,7 +249,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 2
+        "last_reviewed_chapter": 3
       },
       "P-RESCUE-002": {
         "history": [
@@ -243,6 +281,44 @@
         "deadline_chapter": 2,
         "status": "closed",
         "last_reviewed_chapter": 2
+      },
+      "P-AHE-CARE-004": {
+        "history": [
+          {
+            "id": "P-AHE-CARE-004",
+            "action": "set",
+            "deadline_chapter": 4,
+            "reason": "阿禾从炉里出来并不代表治愈，左掌起泡及烟呛在CH004必须落实真实救护、物资来源与转运条件；不得无限延期。",
+            "evidence": {
+              "chapter": 3,
+              "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+              "quote": "左手掌上鼓起几处浅泡"
+            },
+            "chapter": 3
+          }
+        ],
+        "deadline_chapter": 4,
+        "status": "open",
+        "last_reviewed_chapter": 3
+      },
+      "P-CUSTODY-004": {
+        "history": [
+          {
+            "id": "P-CUSTODY-004",
+            "action": "set",
+            "deadline_chapter": 4,
+            "reason": "江砚青章末被护矿人押走，CH004必须按真实守卫、押解登记或证人授权解决此处境，不允许转场无解释恢复自由。",
+            "evidence": {
+              "chapter": 3,
+              "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+              "quote": "江砚青被押着往前走"
+            },
+            "chapter": 3
+          }
+        ],
+        "deadline_chapter": 4,
+        "status": "open",
+        "last_reviewed_chapter": 3
       }
     },
     "incidents": {}
