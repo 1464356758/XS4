@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_CH004_preflight_1793597191019",
-  "base_sha": "0cf68b11216370021fc66a450e8eac8a974321cb",
+  "request_id": "xs4_CH004_manual_begin_1793597235197",
+  "base_sha": "363d89eac8988aec1e7c4e11d25db9d4c1d0d679",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "manual",
     "session_id": "xs4_CH004_manual_1793597191019"
   },
-  "phase": "preflight"
+  "phase": "begin"
 }
