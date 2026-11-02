@@ -1,15 +1,11 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_20261102_block_c2f1e097",
-  "base_sha": "9141c7ca574bd1eb817848cd57da5db8ef41dead",
+  "request_id": "xs4_ch003_chat_preflight_1793585592370",
+  "base_sha": "5ce9ab69f1c293976e049ef6b5d757d32f2ca4e7",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
-    "kind": "automation",
-    "automation_id": "6ae5fd1ccc748191ab7e83be9ce21409",
-    "session_id": "xs4_20261102_a92f7c41",
-    "platform_run_id": null
+    "kind": "maintenance",
+    "session_id": "xs4_ch003_readonly_1793585592370"
   },
-  "phase": "block",
-  "run_id": "ec2d137cbc4c4f81926a343adf67a9a5",
-  "reason": "本轮preflight及begin已成功，唯一目标CH003；但本次执行未能完成8000—10000汉字正文、候选登记、限信息审读和八项审核，不能采用。保留已有CH001/CH002冻结文件及CH003目标，不伪称工具批次成功等于正文完成。此次未提交CH003正文草稿，实际新写字数0。"
+  "phase": "preflight"
 }
