@@ -268,16 +268,21 @@
       "chapter": 7,
       "mode": "write",
       "phase": "candidate",
-      "repairs": 0,
+      "repairs": 1,
       "history": [
         {
           "sha256": "813a5a3425be61e675b5f8f2c264726f8968e188690f37ffe43f9a343dce5cc2",
           "reason": "初稿",
           "repairs": 0
+        },
+        {
+          "sha256": "4596091bcccb776d01bcd7495c6a9115709463fb71ce2318745e6724a41b996c",
+          "reason": "明确顾医师只禁止旧灰道通车，徒步短担架须当天复诊与老庞现场探路共同确认，消除转医路线逻辑冲突。",
+          "repairs": 1
         }
       ],
-      "candidate_sha256": "813a5a3425be61e675b5f8f2c264726f8968e188690f37ffe43f9a343dce5cc2",
-      "candidate_path": "candidates/CH007_813a5a3425be61e675b5f8f2c264726f8968e188690f37ffe43f9a343dce5cc2.txt"
+      "candidate_sha256": "4596091bcccb776d01bcd7495c6a9115709463fb71ce2318745e6724a41b996c",
+      "candidate_path": "candidates/CH007_4596091bcccb776d01bcd7495c6a9115709463fb71ce2318745e6724a41b996c.txt"
     }
   },
   "completion": null,
