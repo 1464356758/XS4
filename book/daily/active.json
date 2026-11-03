@@ -6,7 +6,7 @@
   "work_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f:manual:ff5750e31abc4930bca942d451912aef",
   "started_at": "2026-11-03T04:27:39+00:00",
   "chapter": 6,
-  "status": "blocked",
+  "status": "completed",
   "baseline_count": 5,
   "baseline_fingerprint": "20f6f944e78731fd6ab3169875a57c2f3923141aa48cf3d8103843ad9096c0f0",
   "controller": {
@@ -15,11 +15,13 @@
   },
   "source": "author_manual_chapter",
   "executor_checkpoint": {
-    "request_id": "xs4_CH006_releasecheck2_20261103_1316z",
-    "phase": "command",
-    "at": "2026-11-03T04:50:26+00:00",
-    "github_run_id": "41580414329"
+    "request_id": "xs4_CH006_manual_finalize_20261103_1320z",
+    "phase": "finalize",
+    "at": "2026-11-03T04:50:54+00:00",
+    "github_run_id": "41580459602"
   },
   "reason": "工具第1步失败；完整输出保存在本轮work目录。",
-  "blocked_at": "2026-11-03T04:49:41+00:00"
+  "blocked_at": "2026-11-03T04:49:41+00:00",
+  "completed_at": "2026-11-03T04:50:54+00:00",
+  "receipt_path": "manual/CH006_ff5750e31abc4930bca942d451912aef.json"
 }

@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "title": "灵根被废那天，我看见了功法的破绽",
-  "revision": 8,
+  "revision": 9,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -71,6 +71,16 @@
       "record_sha256": "5a4234ecc0ec4ecc47685b8fccdd11b0bebb37ca66fa29a6618e637fec5f9e67",
       "han_count": 8852,
       "adopted_at": "2026-11-02T09:40:50+00:00"
+    },
+    "6": {
+      "title": "两张账不能都真",
+      "stage": "S01",
+      "text_path": "chapters/CH006_90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc.txt",
+      "text_sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+      "record_path": "records/CH006_dac68a71d37d8f1792271d07872c75969a2641db2154fa427eefbf98a144573d.json",
+      "record_sha256": "dac68a71d37d8f1792271d07872c75969a2641db2154fa427eefbf98a144573d",
+      "han_count": 9755,
+      "adopted_at": "2026-11-03T04:50:54+00:00"
     }
   },
   "checkpoints": [
@@ -241,7 +251,7 @@
       "task_id": "722ea812-2020-4f0d-be8e-1147a5b5b0ee",
       "chapter": 6,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 0,
       "history": [
         {
@@ -278,6 +288,10 @@
       "5": {
         "text_sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
         "record_sha256": "5a4234ecc0ec4ecc47685b8fccdd11b0bebb37ca66fa29a6618e637fec5f9e67"
+      },
+      "6": {
+        "text_sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+        "record_sha256": "dac68a71d37d8f1792271d07872c75969a2641db2154fa427eefbf98a144573d"
       }
     },
     "published": {},
@@ -310,7 +324,7 @@
       "6": {
         "path": "releases/CH006_c411d4aae8d1cc357ec0156033cb8e364e405ba884fdd7a7eceafb1dc4e568cb.json",
         "sha256": "c411d4aae8d1cc357ec0156033cb8e364e405ba884fdd7a7eceafb1dc4e568cb",
-        "used": false
+        "used": true
       }
     },
     "promises": {
@@ -393,7 +407,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 5
+        "last_reviewed_chapter": 6
       },
       "P-RESCUE-002": {
         "history": [
@@ -532,11 +546,23 @@
               "quote": "谁的工食就停。"
             },
             "chapter": 4
+          },
+          {
+            "id": "P-GATE-SHIFT-006",
+            "action": "complete",
+            "deadline_chapter": 6,
+            "reason": "三名被停工食的证人当日均获得来源可核的吃食或购粮通道，切实缓解郑循即时断粮胁迫；仍禁止声称原矿务停领令解除，长期状态另列P-WAGES-009。",
+            "evidence": {
+              "chapter": 6,
+              "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+              "quote": "至少今天，那三个人没有一个被迫去郑循门前求一碗饭。"
+            },
+            "chapter": 6
           }
         ],
         "deadline_chapter": 6,
-        "status": "open",
-        "last_reviewed_chapter": 5
+        "status": "closed",
+        "last_reviewed_chapter": 6
       },
       "P-AHE-WATCH-007": {
         "history": [
@@ -555,7 +581,7 @@
         ],
         "deadline_chapter": 7,
         "status": "open",
-        "last_reviewed_chapter": 5
+        "last_reviewed_chapter": 6
       },
       "P-ORIGINAL-CHECK-007": {
         "history": [
@@ -574,7 +600,45 @@
         ],
         "deadline_chapter": 7,
         "status": "open",
-        "last_reviewed_chapter": 5
+        "last_reviewed_chapter": 6
+      },
+      "P-GUO-FAMILY-007": {
+        "history": [
+          {
+            "id": "P-GUO-FAMILY-007",
+            "action": "set",
+            "deadline_chapter": 7,
+            "reason": "马差役识别郭渠母亲住址与医房门牌，短期修被工作阻止当面押走却未解决后续报复，CH007应安排实有条件的保护或转运。",
+            "evidence": {
+              "chapter": 6,
+              "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+              "quote": "他没走远，站到北坡路口，记下医房门牌与来人的模样。"
+            },
+            "chapter": 6
+          }
+        ],
+        "deadline_chapter": 7,
+        "status": "open",
+        "last_reviewed_chapter": 6
+      },
+      "P-WAGES-009": {
+        "history": [
+          {
+            "id": "P-WAGES-009",
+            "action": "set",
+            "deadline_chapter": 9,
+            "reason": "此章只解决当日吃食，矿务对阿七陈九吴槐的停工食不曾撤销；CH009前必须给稳定合法劳动/权益处置，不用一次修缮食券掩盖持续饥饿。",
+            "evidence": {
+              "chapter": 6,
+              "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+              "quote": "矿务的停领令仍挂在粮棚"
+            },
+            "chapter": 6
+          }
+        ],
+        "deadline_chapter": 9,
+        "status": "open",
+        "last_reviewed_chapter": 6
       }
     },
     "incidents": {}

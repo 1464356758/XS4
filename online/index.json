@@ -11,26 +11,26 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS4",
     "branch": "main",
-    "generated_at": "2026-11-03T04:50:26+00:00",
-    "state_revision": 8,
-    "workflow_revision": 13,
-    "state_sha256": "1c9ae8d84dfe8f02a6615179e377ca979723b6da1a58c32924eef8d2409dcd79",
-    "workflow_sha256": "b4f6e2189275f9164f7414a33716e52afc2154e0c316a58885e75d27df3e5631",
+    "generated_at": "2026-11-03T04:50:54+00:00",
+    "state_revision": 9,
+    "workflow_revision": 14,
+    "state_sha256": "5eca67a475d8f91304e9dda9240733757f67f7db20b8cc0abccee3661b664c4e",
+    "workflow_sha256": "5652fc19042389a839456ac24705a042227bd3f6e1a60641c35b4ab0d1a806b1",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
   "progress": {
     "target_chapters": 100,
-    "adopted_chapters": 5,
+    "adopted_chapters": 6,
     "target_han": 900000,
-    "actual_han": 47650,
+    "actual_han": 57405,
     "completed": false,
     "needs_revalidation": [],
     "reviewed_until": 5,
     "window_review_due": false,
     "unresolved_reviews": [],
     "serial_mode": true,
-    "frozen_chapters": 5,
+    "frozen_chapters": 6,
     "published_chapters": 0,
     "publication_status": "只统计真实回执；无回执不等于未发布",
     "open_incidents": 0,
@@ -40,10 +40,10 @@
   "task": {
     "phase": "WAITING_NEXT",
     "label": "等待下一章",
-    "chapter": 6,
-    "detail": "第5章已采用并冻结；平台发布另凭真实回执登记。",
+    "chapter": 7,
+    "detail": "第6章已采用并冻结；平台发布另凭真实回执登记。",
     "next_action": "读取正式状态后，由作者手动发起下一章。",
-    "updated_at": "2026-11-02T09:40:50+00:00"
+    "updated_at": "2026-11-03T04:50:54+00:00"
   },
   "chapters": [
     {
@@ -101,6 +101,18 @@
       "han_count": 8852,
       "text_path": "book/chapters/CH005_d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a.txt",
       "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+      "needs_revalidation": false,
+      "frozen": true,
+      "publication_status": "unreported",
+      "published_at": null
+    },
+    {
+      "number": 6,
+      "title": "两张账不能都真",
+      "stage": "S01",
+      "han_count": 9755,
+      "text_path": "book/chapters/CH006_90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc.txt",
+      "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
       "needs_revalidation": false,
       "frozen": true,
       "publication_status": "unreported",
@@ -576,6 +588,12 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "第5章已采用并冻结；平台发布另凭真实回执登记。"
+    },
+    {
+      "at": "2026-11-03T04:50:54+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第6章已采用并冻结；平台发布另凭真实回执登记。"
     }
   ]
 }
