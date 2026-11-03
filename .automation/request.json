@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_CH006_briefcheck_20261103_1232z",
-  "base_sha": "9778226a14a4341e0fe7dda9ae38a4a3a9c26719",
+  "request_id": "xs4_CH006_candidate_20261103_1242z",
+  "base_sha": "0bcec9419cf7208c2959f79946083896b5c6a597",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "manual",
@@ -15,21 +15,11 @@
       "args": [
         "--root",
         "book",
-        "history-search",
-        "--query",
-        "乙七 六四零 七六零 班次",
-        "--limit",
-        "8"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "brief-check",
-        "--file",
-        "drafts/CH006_brief_request.json"
+        "candidate",
+        "--chapter",
+        "6",
+        "--text",
+        "drafts/CH006.txt"
       ]
     },
     {
@@ -39,9 +29,27 @@
         "book",
         "context",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/CH006.txt",
+        "--history-from",
+        "3",
+        "--history-to",
+        "5",
         "--out",
-        "drafts/CH006_writer_packet.md"
+        "drafts/CH006_reader_packet.md"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "停工食 留观 矿车乙七",
+        "--limit",
+        "8"
       ]
     }
   ]
