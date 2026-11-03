@@ -1,0 +1,106 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs4_CH007_brief_20261104_0425",
+  "request_sha256": "c3f93d1b066dc5575cb9d38a7962e123d5cebb4146738aaf7073853155426021",
+  "source_sha": "9bfbf1e3998bc64ddbb4c9e558bbb34f4d01f6ba",
+  "base_sha": "408eea3fadbcff9814d81ffa2477670f7945695c",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "manual",
+    "session_id": "xs4_CH007_manual_20261104_0420"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-03T20:24:55+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41712322391",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "旧灰道 狭口 阿禾 转医 乙七",
+        "--limit",
+        "8"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH007_brief_20261104_0425/tool-01.stdout.txt",
+          "sha256": "9e967afeed6218bd5d3e3a53ecc571611bdd29c8d15bd53ccb0bf4822ff113dc",
+          "bytes": 18623
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH007_brief_20261104_0425/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-check",
+        "--file",
+        "drafts/CH007_brief_request.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH007_brief_20261104_0425/tool-02.stdout.txt",
+          "sha256": "5861203ecdc8d85e66876c47b1b6b560bd8385815b68feedb5aa6603c9a6adfc",
+          "bytes": 319
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH007_brief_20261104_0425/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
+        "--out",
+        "drafts/CH007_writer_packet.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH007_brief_20261104_0425/tool-03.stdout.txt",
+          "sha256": "c2198dfe60abfd2f183776f968998ae894ca3b4bb91b665dbbfc3df9c93d5782",
+          "bytes": 108
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH007_brief_20261104_0425/tool-03.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "12596f0ea58540b3aa03f2f04cbaf28d",
+  "changed_paths": [
+    ".automation/work/xs4_CH007_brief_20261104_0425/tool-01.stderr.txt",
+    ".automation/work/xs4_CH007_brief_20261104_0425/tool-01.stdout.txt",
+    ".automation/work/xs4_CH007_brief_20261104_0425/tool-02.stderr.txt",
+    ".automation/work/xs4_CH007_brief_20261104_0425/tool-02.stdout.txt",
+    ".automation/work/xs4_CH007_brief_20261104_0425/tool-03.stderr.txt",
+    ".automation/work/xs4_CH007_brief_20261104_0425/tool-03.stdout.txt",
+    "book/briefs/CH007_830cc510d6886313ace8ac2169264ca0c682065a4237b8f49e685ff31fb1e654.json",
+    "book/daily/active.json",
+    "book/state.json",
+    "drafts/CH007_writer_packet.md",
+    "online/index.json"
+  ]
+}

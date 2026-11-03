@@ -667,6 +667,10 @@
     "6": {
       "path": "briefs/CH006_979671a25d0cacc6887d0cdf578b3091ce121c7adf84508eb0b86196b4bdd140.json",
       "sha256": "979671a25d0cacc6887d0cdf578b3091ce121c7adf84508eb0b86196b4bdd140"
+    },
+    "7": {
+      "path": "briefs/CH007_830cc510d6886313ace8ac2169264ca0c682065a4237b8f49e685ff31fb1e654.json",
+      "sha256": "830cc510d6886313ace8ac2169264ca0c682065a4237b8f49e685ff31fb1e654"
     }
   }
 }
