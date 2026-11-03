@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "chapter": 6,
+  "base_revision": 8,
+  "task_id": "722ea812-2020-4f0d-be8e-1147a5b5b0ee",
+  "repairs": 0,
+  "text_sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+  "record_sha256": "dac68a71d37d8f1792271d07872c75969a2641db2154fa427eefbf98a144573d",
+  "canon_sha256": "3da9f16026cf60bebeee90ac70450c69f0f4c4b6ca080e7a621ba5dec7e42195",
+  "roadmap_sha256": "71a7186407b9b83986267fa0e0bc3b1de92750e00046d2b67c37f3fe30efa082",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "979671a25d0cacc6887d0cdf578b3091ce121c7adf84508eb0b86196b4bdd140",
+  "decision": "pending",
+  "read_full_text": false,
+  "blocking_issues": [
+    "尚未实际阅读检查"
+  ],
+  "read_coverage": {
+    "3": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+    "4": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+    "5": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+    "6": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc"
+  },
+  "reader_reason_to_continue": "",
+  "consequence": "",
+  "ending_runway": "",
+  "checks": {
+    "timeline": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+          "quote": ""
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+          "quote": ""
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+          "quote": ""
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+          "quote": ""
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+          "quote": ""
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+          "quote": ""
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+          "quote": ""
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pending",
+      "conclusion": "",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+          "quote": ""
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "chapter": 3,
+      "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+      "quote": "",
+      "difference": ""
+    },
+    {
+      "chapter": 4,
+      "sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+      "quote": "",
+      "difference": ""
+    },
+    {
+      "chapter": 5,
+      "sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+      "quote": "",
+      "difference": ""
+    }
+  ],
+  "future_window": [
+    {
+      "chapter": 7,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    },
+    {
+      "chapter": 8,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    },
+    {
+      "chapter": 9,
+      "goal": "",
+      "change": "",
+      "ending_question": ""
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "P-AHE-WATCH-007",
+      "action": "keep",
+      "deadline_chapter": 7,
+      "reason": "",
+      "evidence": {
+        "chapter": 6,
+        "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+        "quote": ""
+      }
+    },
+    {
+      "id": "P-GATE-SHIFT-006",
+      "action": "complete",
+      "deadline_chapter": 6,
+      "reason": "",
+      "evidence": {
+        "chapter": 6,
+        "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+        "quote": ""
+      }
+    },
+    {
+      "id": "P-GUO-FAMILY-007",
+      "action": "set",
+      "deadline_chapter": null,
+      "reason": "",
+      "evidence": {
+        "chapter": 6,
+        "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+        "quote": ""
+      }
+    },
+    {
+      "id": "P-MINE-001",
+      "action": "keep",
+      "deadline_chapter": 10,
+      "reason": "",
+      "evidence": {
+        "chapter": 6,
+        "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+        "quote": ""
+      }
+    },
+    {
+      "id": "P-ORIGINAL-CHECK-007",
+      "action": "keep",
+      "deadline_chapter": 7,
+      "reason": "",
+      "evidence": {
+        "chapter": 6,
+        "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+        "quote": ""
+      }
+    },
+    {
+      "id": "P-WAGES-009",
+      "action": "set",
+      "deadline_chapter": null,
+      "reason": "",
+      "evidence": {
+        "chapter": 6,
+        "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+        "quote": ""
+      }
+    }
+  ],
+  "incident_actions": [],
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "",
+        "choice": "",
+        "change": "",
+        "evidence": [
+          {
+            "chapter": 6,
+            "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+            "quote": ""
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "",
+    "reader": {
+      "mode": "pending",
+      "limitation": "",
+      "coverage": {
+        "1": {
+          "text_sha256": "c309b4f24be822359ac504be8fcfd2d8dbd1a732c0a3d96d4eeceb31973d5875",
+          "mode": "reader_recap",
+          "release_sha256": "40a23c203531c785c9f449222fdb1b55ab2e3f18c13372cd81d88ba6be03c908"
+        },
+        "2": {
+          "text_sha256": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
+          "mode": "reader_recap",
+          "release_sha256": "fd71e5ee200a7f3f29b892dafaf6550dfd5edb5949a40cbc05e2f4e073c29fa8"
+        },
+        "3": {
+          "text_sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
+          "mode": "full_text"
+        },
+        "4": {
+          "text_sha256": "818f0865d738f4c7e296769322874e198f38ea44c72f3155814e9173834ce676",
+          "mode": "full_text"
+        },
+        "5": {
+          "text_sha256": "d65a32d868b3c3047c4cddec177400dde35bc706763a91b8243b133c069e648a",
+          "mode": "full_text"
+        },
+        "6": {
+          "text_sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "",
+      "information_load": "",
+      "promise_delivery": "",
+      "evidence": [
+        {
+          "chapter": 6,
+          "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+          "quote": ""
+        }
+      ],
+      "issues": []
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 6,
+            "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+            "quote": ""
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 6,
+            "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+            "quote": ""
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "pending",
+        "conclusion": "",
+        "evidence": [
+          {
+            "chapter": 6,
+            "sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
+            "quote": ""
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "b9e3ba7706a15bfb09088f32c4ee0e3421fb1e87f53429b8807c19e6a5e8048d",
+      "queries": [
+        "CH002 吴槐 六四零 七六零 乙七 重量 木板",
+        "CH003 阿禾 两截乙七 残牌 炉房 烧毁 余三斗",
+        "CH004 北关乙三十一 押解 陈九",
+        "CH005 旧检房 西架第三列 人检 车检 三班断工食"
+      ],
+      "comparisons": [],
+      "no_match_reason": ""
+    },
+    "reader_updates": [],
+    "reader_update_note": "",
+    "surface_findings": []
+  }
+}
