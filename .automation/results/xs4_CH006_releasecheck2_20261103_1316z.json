@@ -1,0 +1,55 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs4_CH006_releasecheck2_20261103_1316z",
+  "request_sha256": "dc54869135415c82b3e425f20bbdde8c96b52a51d3d2c5975d4ad51d04ff4223",
+  "source_sha": "2f8a2a10076debca4422953438416c41f2d23c94",
+  "base_sha": "44757556f9cba60d6853804ec008963f54b03278",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "manual",
+    "session_id": "xs4_CH006_manual_20261103_1226z"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-03T04:50:26+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41580414329",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "release-check",
+        "--text",
+        "drafts/CH006.txt",
+        "--record",
+        "drafts/CH006_record.json",
+        "--report",
+        "drafts/CH006_release.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH006_releasecheck2_20261103_1316z/tool-01.stdout.txt",
+          "sha256": "a614e38ec05770f351ad75cdf169fb90487b6cc6dbea4ae4994c1d312236e0aa",
+          "bytes": 223
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH006_releasecheck2_20261103_1316z/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "ff5750e31abc4930bca942d451912aef",
+  "changed_paths": [
+    ".automation/work/xs4_CH006_releasecheck2_20261103_1316z/tool-01.stderr.txt",
+    ".automation/work/xs4_CH006_releasecheck2_20261103_1316z/tool-01.stdout.txt",
+    "book/daily/active.json",
+    "book/releases/CH006_c411d4aae8d1cc357ec0156033cb8e364e405ba884fdd7a7eceafb1dc4e568cb.json",
+    "book/state.json",
+    "online/index.json"
+  ]
+}

@@ -306,6 +306,11 @@
         "path": "releases/CH005_20b0b72a9517ae76ca07da320e9c890df3855afaa45022a779aec0efa98cdce0.json",
         "sha256": "20b0b72a9517ae76ca07da320e9c890df3855afaa45022a779aec0efa98cdce0",
         "used": true
+      },
+      "6": {
+        "path": "releases/CH006_c411d4aae8d1cc357ec0156033cb8e364e405ba884fdd7a7eceafb1dc4e568cb.json",
+        "sha256": "c411d4aae8d1cc357ec0156033cb8e364e405ba884fdd7a7eceafb1dc4e568cb",
+        "used": false
       }
     },
     "promises": {

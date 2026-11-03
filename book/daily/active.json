@@ -15,10 +15,10 @@
   },
   "source": "author_manual_chapter",
   "executor_checkpoint": {
-    "request_id": "xs4_CH006_recordrelease_20261103_1254z",
+    "request_id": "xs4_CH006_releasecheck2_20261103_1316z",
     "phase": "command",
-    "at": "2026-11-03T04:44:56+00:00",
-    "github_run_id": "41579881284"
+    "at": "2026-11-03T04:50:26+00:00",
+    "github_run_id": "41580414329"
   },
   "reason": "工具第1步失败；完整输出保存在本轮work目录。",
   "blocked_at": "2026-11-03T04:49:41+00:00"
