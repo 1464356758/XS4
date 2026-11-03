@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_CH007_candidate_20261104_0440",
-  "base_sha": "db5a2005b1a4bca385a92c9fb3e10c23b8866c42",
+  "request_id": "xs4_CH007_recordrelease_20261104_0450",
+  "base_sha": "946b29d6509d269d19c782ab1c74fcf0b2e89001",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "manual",
@@ -15,29 +15,11 @@
       "args": [
         "--root",
         "book",
-        "candidate",
-        "--chapter",
-        "7",
-        "--text",
-        "drafts/CH007.txt"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "context",
-        "--profile",
-        "reader",
+        "check-record",
         "--text",
         "drafts/CH007.txt",
-        "--history-from",
-        "4",
-        "--history-to",
-        "6",
-        "--out",
-        "drafts/CH007_reader_packet.md"
+        "--record",
+        "drafts/CH007_record.json"
       ]
     },
     {
@@ -45,11 +27,13 @@
       "args": [
         "--root",
         "book",
-        "history-search",
-        "--query",
-        "旧灰道 北坡 南坡 阿禾 赵韧",
-        "--limit",
-        "8"
+        "release-request",
+        "--text",
+        "drafts/CH007.txt",
+        "--record",
+        "drafts/CH007_record.json",
+        "--out",
+        "drafts/CH007_release_pending.json"
       ]
     }
   ]
