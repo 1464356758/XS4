@@ -1,0 +1,25 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs4_CH007_begin_20261104_0420",
+  "request_sha256": "d0f2f59a094e4552f82df5129977adf61d31d79439545384eb835146ce4a315e",
+  "source_sha": "478d690d1774f5661f37ce99f8f823b9106f0b4c",
+  "base_sha": "7ba56d4493b04539ad2d164c25892681090c7eb1",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "manual",
+    "session_id": "xs4_CH007_manual_20261104_0420"
+  },
+  "phase": "begin",
+  "executed_at": "2026-11-03T20:22:03+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41711831153",
+  "business_status": "started",
+  "daily_action": "started",
+  "run_id": "12596f0ea58540b3aa03f2f04cbaf28d",
+  "chapter": 7,
+  "changed_paths": [
+    "book/daily/active.json",
+    "book/manual/archived/CH006_ff5750e31abc4930bca942d451912aef.json",
+    "online/index.json"
+  ]
+}
