@@ -15,9 +15,9 @@
   },
   "source": "author_manual_chapter",
   "executor_checkpoint": {
-    "request_id": "xs4_CH007_releaseprep2_20261104_0500",
+    "request_id": "xs4_CH007_releasecheck_20261104_0520",
     "phase": "command",
-    "at": "2026-11-03T20:39:50+00:00",
-    "github_run_id": "41714592716"
+    "at": "2026-11-03T20:45:58+00:00",
+    "github_run_id": "41715530115"
   }
 }
