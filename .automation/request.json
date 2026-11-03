@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_CH006_releasecheck_20261103_1312z",
-  "base_sha": "78c868e880a50f73ed2fcf1d7ccb1bf86a8b75de",
+  "request_id": "xs4_CH006_releasecheck2_20261103_1316z",
+  "base_sha": "44757556f9cba60d6853804ec008963f54b03278",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "manual",
