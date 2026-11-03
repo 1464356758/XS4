@@ -1,0 +1,114 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs4_CH007_candidate_20261104_0440",
+  "request_sha256": "b466825fd01297ad001f361e1519384bf7272722f82c9c5b5ffa26804590b8f9",
+  "source_sha": "efa9334fe9559d97360717a6df1b041d73ca21c3",
+  "base_sha": "db5a2005b1a4bca385a92c9fb3e10c23b8866c42",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "manual",
+    "session_id": "xs4_CH007_manual_20261104_0420"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-03T20:34:41+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41713832654",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "candidate",
+        "--chapter",
+        "7",
+        "--text",
+        "drafts/CH007.txt"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH007_candidate_20261104_0440/tool-01.stdout.txt",
+          "sha256": "24d1b667e17b8ec67c97966df5272572f95564cf6636e9d2d3eec0946b1ea4d2",
+          "bytes": 491
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH007_candidate_20261104_0440/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH007.txt",
+        "--history-from",
+        "4",
+        "--history-to",
+        "6",
+        "--out",
+        "drafts/CH007_reader_packet.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH007_candidate_20261104_0440/tool-02.stdout.txt",
+          "sha256": "af887ff0f179f990e485211a6ea95ccd226ebd654da37c6b100b5868de5236e1",
+          "bytes": 108
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH007_candidate_20261104_0440/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "旧灰道 北坡 南坡 阿禾 赵韧",
+        "--limit",
+        "8"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH007_candidate_20261104_0440/tool-03.stdout.txt",
+          "sha256": "d314725d80084a262177e283a943f4669f711018307655d2e2ef2f545fd96417",
+          "bytes": 18587
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH007_candidate_20261104_0440/tool-03.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "12596f0ea58540b3aa03f2f04cbaf28d",
+  "changed_paths": [
+    ".automation/work/xs4_CH007_candidate_20261104_0440/tool-01.stderr.txt",
+    ".automation/work/xs4_CH007_candidate_20261104_0440/tool-01.stdout.txt",
+    ".automation/work/xs4_CH007_candidate_20261104_0440/tool-02.stderr.txt",
+    ".automation/work/xs4_CH007_candidate_20261104_0440/tool-02.stdout.txt",
+    ".automation/work/xs4_CH007_candidate_20261104_0440/tool-03.stderr.txt",
+    ".automation/work/xs4_CH007_candidate_20261104_0440/tool-03.stdout.txt",
+    "book/candidates/CH007_813a5a3425be61e675b5f8f2c264726f8968e188690f37ffe43f9a343dce5cc2.txt",
+    "book/daily/active.json",
+    "book/state.json",
+    "drafts/CH007_reader_packet.md",
+    "online/index.json"
+  ]
+}
