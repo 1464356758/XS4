@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "type": "novel-manual-task-v1",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "run_id": "7ac598bc58f24d748ebe875258462624",
+  "work_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f:manual:7ac598bc58f24d748ebe875258462624",
+  "started_at": "2026-11-02T09:09:45+00:00",
+  "chapter": 5,
+  "status": "completed",
+  "baseline_count": 4,
+  "baseline_fingerprint": "75b69132fa13cc75b9937b002ecedbdde9e7b6d1714f37c27d1533937257ed55",
+  "controller": {
+    "kind": "manual",
+    "session_id": "xs4_CH005_manual_1793610476027"
+  },
+  "source": "author_manual_chapter",
+  "executor_checkpoint": {
+    "request_id": "xs4_CH005_manual_finalize_1793612407559",
+    "phase": "finalize",
+    "at": "2026-11-02T09:40:50+00:00",
+    "github_run_id": "41422610774"
+  },
+  "completed_at": "2026-11-02T09:40:50+00:00",
+  "receipt_path": "manual/CH005_7ac598bc58f24d748ebe875258462624.json"
+}
