@@ -1,11 +1,48 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_CH007_begin_20261104_0420",
-  "base_sha": "7ba56d4493b04539ad2d164c25892681090c7eb1",
+  "request_id": "xs4_CH007_brief_20261104_0425",
+  "base_sha": "408eea3fadbcff9814d81ffa2477670f7945695c",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "manual",
     "session_id": "xs4_CH007_manual_20261104_0420"
   },
-  "phase": "begin"
+  "phase": "command",
+  "run_id": "12596f0ea58540b3aa03f2f04cbaf28d",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "旧灰道 狭口 阿禾 转医 乙七",
+        "--limit",
+        "8"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-check",
+        "--file",
+        "drafts/CH007_brief_request.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
+        "--out",
+        "drafts/CH007_writer_packet.md"
+      ]
+    }
+  ]
 }
