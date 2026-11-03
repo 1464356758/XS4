@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "type": "novel-manual-completion-v1",
+  "status": "completed",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "run_id": "12596f0ea58540b3aa03f2f04cbaf28d",
+  "work_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f:manual:12596f0ea58540b3aa03f2f04cbaf28d",
+  "chapter": 7,
+  "started_at": "2026-11-03T20:22:03+00:00",
+  "completed_at": "2026-11-03T20:46:45+00:00",
+  "body_path": "chapters/CH007_4596091bcccb776d01bcd7495c6a9115709463fb71ce2318745e6724a41b996c.txt",
+  "body_sha256": "4596091bcccb776d01bcd7495c6a9115709463fb71ce2318745e6724a41b996c",
+  "record_path": "records/CH007_d14f2cf565ebfe8e96591725de3674b64c129406feda6fa695013d9af03daad4.json",
+  "record_sha256": "d14f2cf565ebfe8e96591725de3674b64c129406feda6fa695013d9af03daad4",
+  "release_path": "releases/CH007_43e1894c6d248930748acaeeb688fb51ad5737414dd68be51f04c6719e062b9e.json",
+  "release_sha256": "43e1894c6d248930748acaeeb688fb51ad5737414dd68be51f04c6719e062b9e",
+  "state_revision": 10
+}

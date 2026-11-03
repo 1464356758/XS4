@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "title": "灵根被废那天，我看见了功法的破绽",
-  "revision": 9,
+  "revision": 10,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -81,6 +81,16 @@
       "record_sha256": "dac68a71d37d8f1792271d07872c75969a2641db2154fa427eefbf98a144573d",
       "han_count": 9755,
       "adopted_at": "2026-11-03T04:50:54+00:00"
+    },
+    "7": {
+      "title": "逃道只容一人",
+      "stage": "S01",
+      "text_path": "chapters/CH007_4596091bcccb776d01bcd7495c6a9115709463fb71ce2318745e6724a41b996c.txt",
+      "text_sha256": "4596091bcccb776d01bcd7495c6a9115709463fb71ce2318745e6724a41b996c",
+      "record_path": "records/CH007_d14f2cf565ebfe8e96591725de3674b64c129406feda6fa695013d9af03daad4.json",
+      "record_sha256": "d14f2cf565ebfe8e96591725de3674b64c129406feda6fa695013d9af03daad4",
+      "han_count": 9688,
+      "adopted_at": "2026-11-03T20:46:45+00:00"
     }
   },
   "checkpoints": [
@@ -267,7 +277,7 @@
       "task_id": "2bda957d-ff97-4ac6-bb8b-211ace851d91",
       "chapter": 7,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 1,
       "history": [
         {
@@ -313,6 +323,10 @@
       "6": {
         "text_sha256": "90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc",
         "record_sha256": "dac68a71d37d8f1792271d07872c75969a2641db2154fa427eefbf98a144573d"
+      },
+      "7": {
+        "text_sha256": "4596091bcccb776d01bcd7495c6a9115709463fb71ce2318745e6724a41b996c",
+        "record_sha256": "d14f2cf565ebfe8e96591725de3674b64c129406feda6fa695013d9af03daad4"
       }
     },
     "published": {},
@@ -350,7 +364,7 @@
       "7": {
         "path": "releases/CH007_43e1894c6d248930748acaeeb688fb51ad5737414dd68be51f04c6719e062b9e.json",
         "sha256": "43e1894c6d248930748acaeeb688fb51ad5737414dd68be51f04c6719e062b9e",
-        "used": false
+        "used": true
       }
     },
     "promises": {
@@ -433,7 +447,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 6
+        "last_reviewed_chapter": 7
       },
       "P-RESCUE-002": {
         "history": [
@@ -603,11 +617,23 @@
               "quote": "先留观。"
             },
             "chapter": 5
+          },
+          {
+            "id": "P-AHE-WATCH-007",
+            "action": "complete",
+            "deadline_chapter": 7,
+            "reason": "夜里顾医师和翌晨医生实际复看，带条件许可医工同行转南坡，齐医工实际接收继续观察，完成本阶段CH007承诺而不宣告痊愈。",
+            "evidence": {
+              "chapter": 7,
+              "sha256": "4596091bcccb776d01bcd7495c6a9115709463fb71ce2318745e6724a41b996c",
+              "quote": "阿禾被抬进去时"
+            },
+            "chapter": 7
           }
         ],
         "deadline_chapter": 7,
-        "status": "open",
-        "last_reviewed_chapter": 6
+        "status": "closed",
+        "last_reviewed_chapter": 7
       },
       "P-ORIGINAL-CHECK-007": {
         "history": [
@@ -622,11 +648,23 @@
               "quote": "旧检房，西架，第三列封册。"
             },
             "chapter": 5
+          },
+          {
+            "id": "P-ORIGINAL-CHECK-007",
+            "action": "complete",
+            "deadline_chapter": 7,
+            "reason": "邢检员与值守核原封外脊和目录实获旧检甲三六一并对应合验十六，兑现定位号而不冒充完整卷内容。",
+            "evidence": {
+              "chapter": 7,
+              "sha256": "4596091bcccb776d01bcd7495c6a9115709463fb71ce2318745e6724a41b996c",
+              "quote": "旧检甲三六一。附合验十六。"
+            },
+            "chapter": 7
           }
         ],
         "deadline_chapter": 7,
-        "status": "open",
-        "last_reviewed_chapter": 6
+        "status": "closed",
+        "last_reviewed_chapter": 7
       },
       "P-GUO-FAMILY-007": {
         "history": [
@@ -641,11 +679,23 @@
               "quote": "他没走远，站到北坡路口，记下医房门牌与来人的模样。"
             },
             "chapter": 6
+          },
+          {
+            "id": "P-GUO-FAMILY-007",
+            "action": "complete",
+            "deadline_chapter": 7,
+            "reason": "郭渠母亲及女孩实际过灰喉并在南坡通过补被验工取得两日试工及卧铺，郭渠自己仍旧检房，完整安全未得。",
+            "evidence": {
+              "chapter": 7,
+              "sha256": "4596091bcccb776d01bcd7495c6a9115709463fb71ce2318745e6724a41b996c",
+              "quote": "给母女一间与病人隔开的杂工小卧铺"
+            },
+            "chapter": 7
           }
         ],
         "deadline_chapter": 7,
-        "status": "open",
-        "last_reviewed_chapter": 6
+        "status": "closed",
+        "last_reviewed_chapter": 7
       },
       "P-WAGES-009": {
         "history": [
@@ -664,7 +714,83 @@
         ],
         "deadline_chapter": 9,
         "status": "open",
-        "last_reviewed_chapter": 6
+        "last_reviewed_chapter": 7
+      },
+      "P-AHE-SOUTH-009": {
+        "history": [
+          {
+            "id": "P-AHE-SOUTH-009",
+            "action": "set",
+            "deadline_chapter": 9,
+            "reason": "南坡齐医工虽实际接诊，烟呛与掌泡仍需复看，CH009前清楚记录病程、费用和医疗结果。",
+            "evidence": {
+              "chapter": 7,
+              "sha256": "4596091bcccb776d01bcd7495c6a9115709463fb71ce2318745e6724a41b996c",
+              "quote": "齐医工没把她的病牌改成“痊愈”。"
+            },
+            "chapter": 7
+          }
+        ],
+        "deadline_chapter": 9,
+        "status": "open",
+        "last_reviewed_chapter": 7
+      },
+      "P-ESCORT-008": {
+        "history": [
+          {
+            "id": "P-ESCORT-008",
+            "action": "set",
+            "deadline_chapter": 8,
+            "reason": "南坡补押口供称南坡旧灰道起押与赵韧真实从北关牵押不符，CH008须实核原口供、签印、收件源。",
+            "evidence": {
+              "chapter": 7,
+              "sha256": "4596091bcccb776d01bcd7495c6a9115709463fb71ce2318745e6724a41b996c",
+              "quote": "我不是在南坡抓的他。"
+            },
+            "chapter": 7
+          }
+        ],
+        "deadline_chapter": 8,
+        "status": "open",
+        "last_reviewed_chapter": 7
+      },
+      "P-LOST-SAMPLE-010": {
+        "history": [
+          {
+            "id": "P-LOST-SAMPLE-010",
+            "action": "set",
+            "deadline_chapter": 10,
+            "reason": "四十三斤事故重样箱跌深沟不可当前回收，不能凭空冒充独立复秤；CH010前需找不同来源的车检物证或如实保留缺口。",
+            "evidence": {
+              "chapter": 7,
+              "sha256": "4596091bcccb776d01bcd7495c6a9115709463fb71ce2318745e6724a41b996c",
+              "quote": "沉重的石样连同铁钉箱落入下方浑浊的深沟"
+            },
+            "chapter": 7
+          }
+        ],
+        "deadline_chapter": 10,
+        "status": "open",
+        "last_reviewed_chapter": 7
+      },
+      "P-ORIGINAL-CONTENT-010": {
+        "history": [
+          {
+            "id": "P-ORIGINAL-CONTENT-010",
+            "action": "set",
+            "deadline_chapter": 10,
+            "reason": "旧检甲三六一的内容与可能换挂记载未公开，CH010前尝试由有权人核卷内页、受阻须有实证。",
+            "evidence": {
+              "chapter": 7,
+              "sha256": "4596091bcccb776d01bcd7495c6a9115709463fb71ce2318745e6724a41b996c",
+              "quote": "没有掀开内页，也没有替谁确认人已送达何处。"
+            },
+            "chapter": 7
+          }
+        ],
+        "deadline_chapter": 10,
+        "status": "open",
+        "last_reviewed_chapter": 7
       }
     },
     "incidents": {}

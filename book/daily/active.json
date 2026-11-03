@@ -6,7 +6,7 @@
   "work_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f:manual:12596f0ea58540b3aa03f2f04cbaf28d",
   "started_at": "2026-11-03T20:22:03+00:00",
   "chapter": 7,
-  "status": "running",
+  "status": "completed",
   "baseline_count": 6,
   "baseline_fingerprint": "8dacdf072bd55e23a945c9118ca2437600485f217668cfc7a5c20a08bd90d27d",
   "controller": {
@@ -15,9 +15,11 @@
   },
   "source": "author_manual_chapter",
   "executor_checkpoint": {
-    "request_id": "xs4_CH007_releasecheck_20261104_0520",
-    "phase": "command",
-    "at": "2026-11-03T20:45:58+00:00",
-    "github_run_id": "41715530115"
-  }
+    "request_id": "xs4_CH007_finalize_20261104_0525",
+    "phase": "finalize",
+    "at": "2026-11-03T20:46:45+00:00",
+    "github_run_id": "41715638348"
+  },
+  "completed_at": "2026-11-03T20:46:45+00:00",
+  "receipt_path": "manual/CH007_12596f0ea58540b3aa03f2f04cbaf28d.json"
 }
