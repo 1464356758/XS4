@@ -481,9 +481,9 @@
           "similarity": "CH002和CH006都查乙七矿车的异常记录。",
           "difference": "CH002亲见吴槐旧秤板六四零与七六零重量，未拿走原板；CH006取得有限权限下同签左右复核状态冲突，不把不同车号/重量硬拼为同笔，也未定罪。",
           "source": {
-            "chapter": 3,
-            "sha256": "3fff53f8f6b0a2344bbad268df937f73044f0d5e6fb57a64f1ca4500d76515cb",
-            "quote": "两截断牌被分别包着"
+            "chapter": 2,
+            "sha256": "eee745ea98b955e4928044e5c15ff0e555742a9ec3a29608fd0241e6b78575b1",
+            "quote": "吴槐把旧面翻进梁内，另取一段锁秤的短铁丝拧紧。"
           },
           "current_evidence": {
             "chapter": 6,
