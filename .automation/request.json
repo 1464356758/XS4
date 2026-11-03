@@ -1,11 +1,48 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_CH006_manual_begin_20261103_1226z",
-  "base_sha": "6ce68226c4b267ea298698f94fbea2cda0b7af8c",
+  "request_id": "xs4_CH006_briefcheck_20261103_1232z",
+  "base_sha": "9778226a14a4341e0fe7dda9ae38a4a3a9c26719",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "manual",
     "session_id": "xs4_CH006_manual_20261103_1226z"
   },
-  "phase": "begin"
+  "phase": "command",
+  "run_id": "ff5750e31abc4930bca942d451912aef",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "乙七 六四零 七六零 班次",
+        "--limit",
+        "8"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-check",
+        "--file",
+        "drafts/CH006_brief_request.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
+        "--out",
+        "drafts/CH006_writer_packet.md"
+      ]
+    }
+  ]
 }
