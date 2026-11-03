@@ -1,15 +1,11 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_CH006_manual_finalize_20261103_1320z",
-  "base_sha": "88fc55eca9ec5c56fe9f7191c1c72c80c0f904ef",
+  "request_id": "xs4_CH007_begin_20261104_0420",
+  "base_sha": "7ba56d4493b04539ad2d164c25892681090c7eb1",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "manual",
-    "session_id": "xs4_CH006_manual_20261103_1226z"
+    "session_id": "xs4_CH007_manual_20261104_0420"
   },
-  "phase": "finalize",
-  "run_id": "ff5750e31abc4930bca942d451912aef",
-  "text": "drafts/CH006.txt",
-  "record": "drafts/CH006_record.json",
-  "report": "drafts/CH006_release.json"
+  "phase": "begin"
 }
