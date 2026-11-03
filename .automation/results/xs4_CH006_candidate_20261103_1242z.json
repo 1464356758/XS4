@@ -1,0 +1,114 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs4_CH006_candidate_20261103_1242z",
+  "request_sha256": "fd985ad3fcdc426e78d3f261930f314ed0317474415d69aef0a556c24bb1838f",
+  "source_sha": "4212f5c0eefbe8f54febe0df45f280ed99347c70",
+  "base_sha": "0bcec9419cf7208c2959f79946083896b5c6a597",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "manual",
+    "session_id": "xs4_CH006_manual_20261103_1226z"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-03T04:42:05+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41579628527",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "candidate",
+        "--chapter",
+        "6",
+        "--text",
+        "drafts/CH006.txt"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH006_candidate_20261103_1242z/tool-01.stdout.txt",
+          "sha256": "98384fadd39baa88aa767d3ae5913a66ec780e174126d954bd2e8ea19a19aa27",
+          "bytes": 491
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH006_candidate_20261103_1242z/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/CH006.txt",
+        "--history-from",
+        "3",
+        "--history-to",
+        "5",
+        "--out",
+        "drafts/CH006_reader_packet.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH006_candidate_20261103_1242z/tool-02.stdout.txt",
+          "sha256": "8123d1aff08fbf00cf2085b2e6a2f70d7bc5b8d8ecd84067b1d9ba1a5a5c2e2b",
+          "bytes": 108
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH006_candidate_20261103_1242z/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "停工食 留观 矿车乙七",
+        "--limit",
+        "8"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH006_candidate_20261103_1242z/tool-03.stdout.txt",
+          "sha256": "86dfac45a28fe16ec268fef1e45f59b5813bc22c913c94421442acdd6108cc39",
+          "bytes": 3930
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH006_candidate_20261103_1242z/tool-03.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "ff5750e31abc4930bca942d451912aef",
+  "changed_paths": [
+    ".automation/work/xs4_CH006_candidate_20261103_1242z/tool-01.stderr.txt",
+    ".automation/work/xs4_CH006_candidate_20261103_1242z/tool-01.stdout.txt",
+    ".automation/work/xs4_CH006_candidate_20261103_1242z/tool-02.stderr.txt",
+    ".automation/work/xs4_CH006_candidate_20261103_1242z/tool-02.stdout.txt",
+    ".automation/work/xs4_CH006_candidate_20261103_1242z/tool-03.stderr.txt",
+    ".automation/work/xs4_CH006_candidate_20261103_1242z/tool-03.stdout.txt",
+    "book/candidates/CH006_90fa5e1a234d175fd3121fa2a49b8da1188b22e906374ea8c994bf267153e7cc.txt",
+    "book/daily/active.json",
+    "book/state.json",
+    "drafts/CH006_reader_packet.md",
+    "online/index.json"
+  ]
+}
