@@ -1,0 +1,81 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs4_CH007_releaseprep2_20261104_0500",
+  "request_sha256": "332511f732cb490d2f0bca3d6b3a844d837bc2225d6734ada20566f58906f7e6",
+  "source_sha": "3b93c49c4b19130b65b40566246041fb01b78b45",
+  "base_sha": "c1519e47532d77a7ba8d0ab076055d5cb8be7d10",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "manual",
+    "session_id": "xs4_CH007_manual_20261104_0420"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-03T20:39:49+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41714592716",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "check-record",
+        "--text",
+        "drafts/CH007_v2.txt",
+        "--record",
+        "drafts/CH007_record.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH007_releaseprep2_20261104_0500/tool-01.stdout.txt",
+          "sha256": "efc671d4a4c56342b4baa67696c7225a2b181c0a58b923a1b55a897f14831ec1",
+          "bytes": 110
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH007_releaseprep2_20261104_0500/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "release-request",
+        "--text",
+        "drafts/CH007_v2.txt",
+        "--record",
+        "drafts/CH007_record.json",
+        "--out",
+        "drafts/CH007_release_pending_v2.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH007_releaseprep2_20261104_0500/tool-02.stdout.txt",
+          "sha256": "1de256337ca0716d6c795f50f3a75c268f758dd8c694625070ab3830920bc2ad",
+          "bytes": 200
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH007_releaseprep2_20261104_0500/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "12596f0ea58540b3aa03f2f04cbaf28d",
+  "changed_paths": [
+    ".automation/work/xs4_CH007_releaseprep2_20261104_0500/tool-01.stderr.txt",
+    ".automation/work/xs4_CH007_releaseprep2_20261104_0500/tool-01.stdout.txt",
+    ".automation/work/xs4_CH007_releaseprep2_20261104_0500/tool-02.stderr.txt",
+    ".automation/work/xs4_CH007_releaseprep2_20261104_0500/tool-02.stdout.txt",
+    "book/daily/active.json",
+    "drafts/CH007_release_pending_v2.json",
+    "online/index.json"
+  ]
+}
