@@ -1,0 +1,4 @@
+{
+  "path": "/tmp/novel-tool-batch-5v1rc04d/project/drafts/CH006_writer_packet.md",
+  "characters": 12836
+}

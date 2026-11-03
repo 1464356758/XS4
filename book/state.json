@@ -578,6 +578,10 @@
     "5": {
       "path": "briefs/CH005_f071b3e3d299d02785b713cefa073fb059db281598fa6a50f999eb63487dc4b2.json",
       "sha256": "f071b3e3d299d02785b713cefa073fb059db281598fa6a50f999eb63487dc4b2"
+    },
+    "6": {
+      "path": "briefs/CH006_979671a25d0cacc6887d0cdf578b3091ce121c7adf84508eb0b86196b4bdd140.json",
+      "sha256": "979671a25d0cacc6887d0cdf578b3091ce121c7adf84508eb0b86196b4bdd140"
     }
   }
 }

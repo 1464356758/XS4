@@ -1,0 +1,106 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs4_CH006_briefcheck_20261103_1232z",
+  "request_sha256": "8b1e0b0bffa0006641a905b1c77d32f919656df7d219de7b5c78cf84fb29d01a",
+  "source_sha": "a8e86f6fb1cfb54a0e9cb0c0b6d629ffa1e036c9",
+  "base_sha": "9778226a14a4341e0fe7dda9ae38a4a3a9c26719",
+  "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
+  "controller": {
+    "kind": "manual",
+    "session_id": "xs4_CH006_manual_20261103_1226z"
+  },
+  "phase": "command",
+  "executed_at": "2026-11-03T04:30:35+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41578518743",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "乙七 六四零 七六零 班次",
+        "--limit",
+        "8"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH006_briefcheck_20261103_1232z/tool-01.stdout.txt",
+          "sha256": "1f7fe50e9975c1fc82066a563dbf9580aa33d9ef3b7f725f8a94bb1c23607e1c",
+          "bytes": 14944
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH006_briefcheck_20261103_1232z/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-check",
+        "--file",
+        "drafts/CH006_brief_request.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH006_briefcheck_20261103_1232z/tool-02.stdout.txt",
+          "sha256": "4af05310f8b6761b849b649c89d26cb6556439a86ce61a74aafad0cecc3a9eda",
+          "bytes": 319
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH006_briefcheck_20261103_1232z/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
+        "--out",
+        "drafts/CH006_writer_packet.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs4_CH006_briefcheck_20261103_1232z/tool-03.stdout.txt",
+          "sha256": "ff3f4eb883df2abb21460a47e93b319c8574f9c2cf148e788c9db8fc2fe1e009",
+          "bytes": 108
+        },
+        "stderr": {
+          "path": ".automation/work/xs4_CH006_briefcheck_20261103_1232z/tool-03.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "ff5750e31abc4930bca942d451912aef",
+  "changed_paths": [
+    ".automation/work/xs4_CH006_briefcheck_20261103_1232z/tool-01.stderr.txt",
+    ".automation/work/xs4_CH006_briefcheck_20261103_1232z/tool-01.stdout.txt",
+    ".automation/work/xs4_CH006_briefcheck_20261103_1232z/tool-02.stderr.txt",
+    ".automation/work/xs4_CH006_briefcheck_20261103_1232z/tool-02.stdout.txt",
+    ".automation/work/xs4_CH006_briefcheck_20261103_1232z/tool-03.stderr.txt",
+    ".automation/work/xs4_CH006_briefcheck_20261103_1232z/tool-03.stdout.txt",
+    "book/briefs/CH006_979671a25d0cacc6887d0cdf578b3091ce121c7adf84508eb0b86196b4bdd140.json",
+    "book/daily/active.json",
+    "book/state.json",
+    "drafts/CH006_writer_packet.md",
+    "online/index.json"
+  ]
+}
