@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs4_CH007_repair1_20261104_0455",
-  "base_sha": "cddc7c709c242468ac87ae8d5ce0f21cb3faf3e7",
+  "request_id": "xs4_CH007_releaseprep2_20261104_0500",
+  "base_sha": "c1519e47532d77a7ba8d0ab076055d5cb8be7d10",
   "book_id": "2efe58d0-5d2d-44f2-ba03-9d39032a808f",
   "controller": {
     "kind": "manual",
@@ -15,13 +15,25 @@
       "args": [
         "--root",
         "book",
-        "repair",
-        "--chapter",
-        "7",
+        "check-record",
         "--text",
         "drafts/CH007_v2.txt",
-        "--reason",
-        "明确顾医师只禁止旧灰道通车，徒步短担架须当天复诊与老庞现场探路共同确认，消除转医路线逻辑冲突。"
+        "--record",
+        "drafts/CH007_record.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "release-request",
+        "--text",
+        "drafts/CH007_v2.txt",
+        "--record",
+        "drafts/CH007_record.json",
+        "--out",
+        "drafts/CH007_release_pending_v2.json"
       ]
     }
   ]
